@@ -1,7 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "fn 4/17/2018 11:18",
-		"testIncrement" : "fn 4/17/2018 11:19",
-		"testReset" : "fn 4/17/2018 12:19" } }
