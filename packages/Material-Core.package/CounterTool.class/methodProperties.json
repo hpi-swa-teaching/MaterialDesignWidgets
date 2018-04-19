@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"open" : "fn 4/17/2018 11:21" },
+	"instance" : {
+		"actionIncrement" : "fn 4/17/2018 11:41",
+		"actionReset" : "fn 4/17/2018 11:41",
+		"buildButtonBarWith:" : "fn 4/17/2018 11:38",
+		"buildContentsWith:" : "fn 4/17/2018 11:32",
+		"buildWith:" : "fn 4/17/2018 11:35",
+		"counterValue" : "fn 4/17/2018 11:33",
+		"initialize" : "fn 4/17/2018 11:32",
+		"labelString" : "fn 4/17/2018 11:40" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Material-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"currentValue" ],
+	"name" : "Material",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

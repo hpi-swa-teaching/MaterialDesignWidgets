@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfMaterial",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfMaterial",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
