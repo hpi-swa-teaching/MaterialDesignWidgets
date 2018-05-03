@@ -1,5 +1,8 @@
-properties
+as yet unclassified
 backgroundColor: aValue
-
-	self setProperty: #backgroundColor to: (self hexToColor: aValue).
-	self color: self backgroundColor
+	
+	| color |
+	color:= Color fromString: aValue.
+	self setProperty: #backgroundColor to: color.
+	
+	^ color
