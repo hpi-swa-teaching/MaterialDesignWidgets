@@ -1,4 +1,4 @@
 as yet unclassified
 backgroundColor
 
-	^ self properties at: #backgroundColor ifAbsent: [ ^ self backgroundColor: '#F44336' ]
+	^ self properties at: #backgroundColor ifAbsent: [ ^ self backgroundColor: self class defaultBackgroundColor ]

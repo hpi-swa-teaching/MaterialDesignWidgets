@@ -1,12 +1,12 @@
-drawing
-startRippleAnimation
+animation
+startAnimation
 	
 	AnimPropertyAnimation new
-		duration: self rippleDuration;
+		duration: self duration;
 		target: self;
-		property: #updateRippleSize;
+		property: #updateScaleFactor;
 		startValue: 0;
 		endValue: 1;
 		start: #deleteWhenFinished; "Automatic registry clean-up. No need to unregister."
-		finishBlock: [self rippleAnimationFinished];
+		finishBlock: [self finishedAnimation];
 		register. "Add to animation registry."

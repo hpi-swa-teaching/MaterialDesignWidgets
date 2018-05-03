@@ -2,5 +2,7 @@ event handling
 mouseUp: anEvent
 
 	self isMouseDown: false.
-	self isRippleAnimationRunning ifFalse: [ self showRipple: false ].
+	(self ripples last isAnimationRunning not)
+		ifTrue: [
+			self deleteRipple: self ripples last ].
 	self changed

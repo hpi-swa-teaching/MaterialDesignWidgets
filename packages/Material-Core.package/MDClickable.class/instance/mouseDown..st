@@ -1,10 +1,5 @@
 event handling
 mouseDown: anEvent
-
+	
 	self isMouseDown: true.
-	self rippleCenter: anEvent position.
-	
-	self showRipple: true.
-	self isRippleAnimationRunning: true.
-	
-	self startRippleAnimation
+	self startRippleAt: anEvent position - self position
