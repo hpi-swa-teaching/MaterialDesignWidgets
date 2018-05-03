@@ -1,14 +1,14 @@
 {
-	"category" : "Material-Core",
+	"category" : "Material-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"properties" ],
-	"name" : "MDWidget",
+		 ],
+	"name" : "MDColorTest",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "TestCase",
 	"type" : "normal" }
