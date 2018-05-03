@@ -1,5 +1,5 @@
 {
-	"category" : "Material-Tests",
+	"category" : "Material-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MDColorTest",
+	"name" : "MDButton",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "MDClickable",
 	"type" : "normal" }

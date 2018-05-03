@@ -6,7 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"rippleSize",
+		"rippleCenter",
+		"rippleDuration",
+		"isMouseDown",
+		"isRippleAnimationRunning",
+		"showRipple" ],
 	"name" : "MDClickable",
 	"pools" : [
 		 ],
