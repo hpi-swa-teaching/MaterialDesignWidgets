@@ -3,4 +3,6 @@ newWithCenter: aPoint on: aMorph
 
 	^ MDRipple new
 		center: aPoint;
-		clickableMorph: aMorph
+		clickableMorph: aMorph;
+		startAnimation;
+		yourself

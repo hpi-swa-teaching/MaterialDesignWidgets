@@ -1,5 +1,9 @@
 drawing
 drawOn: aCanvas
 	
-	aCanvas fillRoundRect: (self bounds) radius: self borderRadius fillStyle: (SolidFillStyle new color: self backgroundColor).
+	MDRenderer 
+		drawRectangleOn: aCanvas 
+		withBounds: self bounds 
+		color: self backgroundColor 
+		radius: self borderRadius.
 	super drawRipplesOn: aCanvas

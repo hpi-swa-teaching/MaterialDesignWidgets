@@ -1,5 +1,5 @@
 drawing
-calculateSize
+calculateMaxSize
 
 	| w h diagonal center size |
 	center := self clickableMorph position + self center.
@@ -8,4 +8,4 @@ calculateSize
 	diagonal := (w squared + h squared) sqrt.
 	size := (diagonal squared * 2) sqrt * 2.
 	
-	^ self scaleFactor * size
+	^ size
