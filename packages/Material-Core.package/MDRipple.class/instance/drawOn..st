@@ -3,9 +3,7 @@ drawOn: aCanvas
 	| size center position corner radius |
 	center := self clickableMorph position + self center.
 	
-	self scaleFactor < 0.2
-		ifTrue: [size := (self scaleFactor / 0.2 * self calculateMaxSize) @ (self scaleFactor / 0.2 * self calculateMaxSize)]
-		ifFalse: [size := 0].
+	size := (self scaleFactor / 0.2 * self calculateMaxSize) @ (self scaleFactor / 0.2 * self calculateMaxSize).
 	
 	position := center - (0.5 * size).
 	position x < self clickableMorph position x
@@ -19,7 +17,7 @@ drawOn: aCanvas
 	corner y >= self clickableMorph bounds corner y
 		ifTrue: [corner := corner x @ self clickableMorph bounds corner y].
 		
-	radius := self calculateRadiusFromSize: corner - position.
+	radius := self calculateRadiusFromRippleSize: (position corner: corner).
 	
 	MDRenderer
 		drawRectangleOn: aCanvas

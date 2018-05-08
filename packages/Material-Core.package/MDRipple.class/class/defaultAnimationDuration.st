@@ -1,4 +1,4 @@
 as yet unclassified
 defaultAnimationDuration
 
-	^ 5000
+	^ 3000
