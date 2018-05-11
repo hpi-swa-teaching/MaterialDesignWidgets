@@ -1,26 +1,25 @@
 drawing
 drawOn: aCanvas 
-	| size center position corner radius |
-	center := self clickableMorph position + self center.
+	| corner position size center ripple rectangleNegated |
 	
-	size := (self scaleFactor / 0.2 * self calculateMaxSize) @ (self scaleFactor / 0.2 * self calculateMaxSize).
+	center := self center.
+	size := self calculateSize.
 	
 	position := center - (0.5 * size).
-	position x < self clickableMorph position x
-		ifTrue: [position := self clickableMorph position x @ position y].
-	position y < self clickableMorph position y
-		ifTrue: [position := position x @ self clickableMorph position y].
-		
 	corner := position + size.
-	corner x >= self clickableMorph bounds corner x
-		ifTrue: [corner := self clickableMorph bounds corner x @ corner y].
-	corner y >= self clickableMorph bounds corner y
-		ifTrue: [corner := corner x @ self clickableMorph bounds corner y].
-		
-	radius := self calculateRadiusFromRippleSize: (position corner: corner).
 	
-	MDRenderer
-		drawRectangleOn: aCanvas
-		withBounds: (position corner: corner)
-		color: (Color white alpha: self colorAlpha)
-		radius: radius
+	ripple := Form extent: self clickableMorph width @ self clickableMorph height depth: 32.
+	(ripple getCanvas) fillOval: (position corner: corner) color: (Color white).
+	
+	rectangleNegated := self clickableMorph negatedShapeCache.
+	
+	0 to: (self clickableMorph width) do: [ :x | 
+		0 to: (self clickableMorph height) do: [ :y | 
+			(rectangleNegated colorAt: x @ y) = Color black
+				ifTrue: [ ripple colorAt: x @ y put: Color transparent. ]
+				ifFalse: [ 
+					((ripple colorAt: x @ y) = Color white) ifTrue: [ ripple colorAt: x @ y put: (Color white alpha: 0.6) ] ]
+				].
+		].
+	
+	aCanvas translucentImage: ripple at: self clickableMorph position.

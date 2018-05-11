@@ -2,6 +2,7 @@ as yet unclassified
 roundRectShapeBounds: aRectangle radius: radius borderWidth: width
 
 	| circle points |
+	
 	circle := radius scaleBy: 0.5522847.
 	points := OrderedCollection new.
 	
