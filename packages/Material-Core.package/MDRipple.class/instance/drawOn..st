@@ -1,12 +1,25 @@
 drawing
-drawOn: aCanvas
+drawOn: aCanvas 
+	| corner position size center ripple rectangleNegated |
 	
-	| corner position size center |
-	center := self clickableMorph position + self center.
+	center := self center.
 	size := self calculateSize.
 	
 	position := center - (0.5 * size).
 	corner := position + size.
-			
-	aCanvas fillOval: (position corner: corner) color: (Color white alpha: self colorAlpha)
 	
+	ripple := Form extent: self clickableMorph width @ self clickableMorph height depth: 32.
+	(ripple getCanvas) fillOval: (position corner: corner) color: (Color white).
+	
+	rectangleNegated := self clickableMorph negatedShapeCache.
+	
+	0 to: (self clickableMorph width) do: [ :x | 
+		0 to: (self clickableMorph height) do: [ :y | 
+			(rectangleNegated colorAt: x @ y) = Color black
+				ifTrue: [ ripple colorAt: x @ y put: Color transparent. ]
+				ifFalse: [ 
+					((ripple colorAt: x @ y) = Color white) ifTrue: [ ripple colorAt: x @ y put: (Color white alpha: 0.6) ] ]
+				].
+		].
+	
+	aCanvas translucentImage: ripple at: self clickableMorph position.

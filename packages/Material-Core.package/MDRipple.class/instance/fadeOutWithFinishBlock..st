@@ -8,4 +8,5 @@ fadeOutWithFinishBlock: aClosure
    		startValue: self colorAlpha;
    		endValue: 0;
    		start: #deleteWhenFinished; "Automatic registry clean-up. No need to unregister."
+		finishBlock: aClosure;
    		register. "Add to animation registry."
