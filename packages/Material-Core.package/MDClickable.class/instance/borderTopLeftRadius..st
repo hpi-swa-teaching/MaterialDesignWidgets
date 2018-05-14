@@ -3,6 +3,6 @@ borderTopLeftRadius: aValue
 
 	| borderRadius |
 	borderRadius := super borderTopLeftRadius: aValue.
-	self negatedShapeCache: self negatedShape.
+	self updateCache.
 	
 	^ borderRadius

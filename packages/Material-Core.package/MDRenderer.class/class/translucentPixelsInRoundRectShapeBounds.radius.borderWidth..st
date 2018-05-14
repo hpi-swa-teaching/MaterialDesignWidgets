@@ -1,7 +1,9 @@
 as yet unclassified
-translucentPixelsInRoundRectShapeBounds: aRectangle radius: radius borderWidth: width
+translucentPixelsInRoundRectShapeBounds: aRectangle radius: aRadius borderWidth: width
 
-	| circle points |
+	| circle points radius |
+	
+	radius := self keepBorderRadius: aRadius inRectangle: aRectangle.
 	
 	circle := radius scaleBy: 0.5522847.
 	points := OrderedCollection new.
