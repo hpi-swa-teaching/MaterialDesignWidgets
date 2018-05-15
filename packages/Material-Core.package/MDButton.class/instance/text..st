@@ -1,4 +1,8 @@
 accessing
 text: aString
-
-	^ self setProperty: #text to: aString
+	
+	| text |
+	text := self setProperty: #text to: aString.
+	self updateStringMorphCache.
+	
+	^ text

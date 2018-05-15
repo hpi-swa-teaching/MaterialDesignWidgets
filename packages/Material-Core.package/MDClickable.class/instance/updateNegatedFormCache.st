@@ -1,4 +1,4 @@
 border
-updateCache
+updateNegatedFormCache
 
 	self negatedShapeCache: self negatedShape

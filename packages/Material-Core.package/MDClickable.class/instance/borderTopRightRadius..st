@@ -3,6 +3,6 @@ borderTopRightRadius: aValue
 
 	| borderRadius |
 	borderRadius := super borderTopRightRadius: aValue.
-	self updateCache.
+	self updateNegatedFormCache.
 	
 	^ borderRadius
