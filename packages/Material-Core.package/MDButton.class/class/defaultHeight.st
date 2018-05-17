@@ -1,4 +1,4 @@
 default properties
-defaultHeight
+defaultHeight 
 
-	^ 92
+	^ 36

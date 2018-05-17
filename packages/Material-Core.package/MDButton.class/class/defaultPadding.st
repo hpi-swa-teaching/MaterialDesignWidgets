@@ -1,4 +1,4 @@
 default properties
-defaultWidth
+defaultPadding
 
-	^ 32
+	^ 16

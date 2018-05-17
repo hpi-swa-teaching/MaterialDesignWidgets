@@ -1,4 +1,4 @@
-click handling
+event handling
 elevate
 
 	self increaseSize.

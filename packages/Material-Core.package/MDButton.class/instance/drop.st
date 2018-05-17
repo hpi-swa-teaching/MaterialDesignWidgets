@@ -1,4 +1,4 @@
-click handling
+event handling
 drop
 	
 	self decreaseSize.

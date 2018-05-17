@@ -1,5 +1,8 @@
 {
 	"class" : {
-		"defaultText" : "mats 5/15/2018 12:08" },
+		"defaultText" : "JW 5/17/2018 13:06" },
 	"instance" : {
-		 } }
+		"decreaseSize" : "JW 5/17/2018 12:56",
+		"defaultShadow" : "JW 5/17/2018 12:56",
+		"increaseShadow" : "JW 5/17/2018 12:56",
+		"increaseSize" : "JW 5/17/2018 12:56" } }
