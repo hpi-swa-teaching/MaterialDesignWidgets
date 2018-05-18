@@ -1,6 +1,4 @@
 accessing
 textColor: aValue
 
-	| color |
-	color := Color fromString: aValue.
-	^ self setProperty: #textColor to: color
+	^ self setProperty: #textColor to: (self colorFrom: aValue)

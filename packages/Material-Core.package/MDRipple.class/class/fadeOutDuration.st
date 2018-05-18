@@ -1,4 +1,4 @@
 as yet unclassified
 fadeOutDuration
 
-	^ 800
+	^ 200
