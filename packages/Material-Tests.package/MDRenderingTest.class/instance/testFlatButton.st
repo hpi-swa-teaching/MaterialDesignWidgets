@@ -3,6 +3,7 @@ testFlatButton
 
 	| flatButton |
 	flatButton := MDFlatButton new.
+	flatButton textColor: '#FFFFFF'.
 	
 	flatButton text: 'FLAT'.
 	self assert: (self render: flatButton) = self flatButtonMockObject_default.
