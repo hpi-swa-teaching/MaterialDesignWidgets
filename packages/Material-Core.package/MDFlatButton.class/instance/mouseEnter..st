@@ -1,4 +1,4 @@
 event handling
 mouseEnter: anEvent
 
-	self backgroundColor: self backgroundColorHover
+	self backgroundColor: self backgroundColorHover.
