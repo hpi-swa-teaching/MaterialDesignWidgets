@@ -5,7 +5,6 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec
-				
 				package: 'Material-Core';
 				package: 'Material-Tests' with: [spec requires: #('Material-Core')];
 				yourself.
