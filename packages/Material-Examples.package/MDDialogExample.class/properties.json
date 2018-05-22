@@ -1,0 +1,14 @@
+{
+	"category" : "Material-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"buttons" ],
+	"name" : "MDDialogExample",
+	"pools" : [
+		 ],
+	"super" : "MDExample",
+	"type" : "normal" }
