@@ -2,7 +2,7 @@ tests
 testRaisedButtonMouseEvents
 
 	| button |
-	button := MDRaisedButton new.
+	button := MDContainedButton new.
 	
 	self assert: (self class raisedButtonMockObject_mouseEnter = self class raisedButtonMockObject_default) not.
 	

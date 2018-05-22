@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "Max 5/17/2018 10:38",
+	"commentStamp" : "Max 5/20/2018 10:20",
 	"instvars" : [
 		 ],
-	"name" : "MDRaisedButton",
+	"name" : "MDTextButton",
 	"pools" : [
 		 ],
 	"super" : "MDButton",
