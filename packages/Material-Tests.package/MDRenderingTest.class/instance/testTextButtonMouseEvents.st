@@ -1,5 +1,5 @@
 tests
-testFlatButtonMouseEvents
+testTextButtonMouseEvents
 
 	| button |
 	button := MDTextButton new.

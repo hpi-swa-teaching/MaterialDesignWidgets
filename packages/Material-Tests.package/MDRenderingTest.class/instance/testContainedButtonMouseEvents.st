@@ -1,5 +1,5 @@
 tests
-testRaisedButtonMouseEvents
+testContainedButtonMouseEvents
 
 	| button |
 	button := MDContainedButton new.
