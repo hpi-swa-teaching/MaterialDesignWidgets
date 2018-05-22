@@ -2,9 +2,9 @@ as yet unclassified
 addFlatButtons
 
 	| button |
-	self addWidget: MDFlatButton new.
+	self addWidget: MDTextButton new.
 	
-	button := MDFlatButton new.
+	button := MDTextButton new.
 	button
 		text: 'Button Text';
 		textColor: '#F44336'.

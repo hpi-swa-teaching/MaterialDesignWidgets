@@ -2,9 +2,9 @@ as yet unclassified
 addRaisedButtons
 
 	| button |
-	self addWidget: MDRaisedButton new.
+	self addWidget: MDContainedButton new.
 	
-	button := MDRaisedButton new.
+	button := MDContainedButton new.
 	button
 		text: 'Button Text'.
 	self addWidget: button
