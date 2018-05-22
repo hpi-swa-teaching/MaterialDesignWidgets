@@ -5,4 +5,5 @@ text: aString
 	text := self setProperty: #text to: (aString asUppercase).
 	self updateStringMorphCache.
 	self updateBounds.
+	
 	^ text
