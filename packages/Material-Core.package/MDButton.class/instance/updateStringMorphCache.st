@@ -3,7 +3,7 @@ updateStringMorphCache
 
 	| stringMorph font style |
 	
-	TextConstants at: #Robotoasdfawer
+	TextConstants at: #Roboto
 		ifPresent: [ :textStyle | font := textStyle addNewFontSize: 14]
 		ifAbsent: [
 			style := TextConstants at: #DefaultTextStyle.
