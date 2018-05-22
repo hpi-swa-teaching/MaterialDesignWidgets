@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 updatePositions
 
 	self titleMorphCache position: self titleMorphCache position - self lastPosition + self position.

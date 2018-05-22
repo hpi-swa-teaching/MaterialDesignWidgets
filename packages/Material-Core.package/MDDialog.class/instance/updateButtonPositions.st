@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 updateButtonPositions
 
 	self buttonPositive ifNotNil: [

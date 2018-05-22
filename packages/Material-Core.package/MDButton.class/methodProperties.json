@@ -1,12 +1,10 @@
 {
 	"class" : {
 		"defaultBorderRadius" : "LS 5/14/2018 10:01",
-		"defaultBottomShadow" : "JW 5/17/2018 12:52",
 		"defaultElevatedSizeDifference" : "mats 5/22/2018 11:09",
 		"defaultHeight" : "JW 5/17/2018 13:01",
 		"defaultPadding" : "JW 5/17/2018 13:08",
 		"defaultShadowScaler" : "JW 5/17/2018 12:52",
-		"defaultSideShadow" : "JW 5/17/2018 12:52",
 		"defaultText" : "JW 5/17/2018 14:12",
 		"defaultTextColor" : "mats 5/21/2018 14:51",
 		"minWidth" : "JW 5/17/2018 13:01" },
@@ -14,8 +12,7 @@
 		"calculateWidth" : "JW 5/17/2018 14:09",
 		"calculateWidthByText" : "JW 5/17/2018 14:08",
 		"decreaseSize" : "mats 5/22/2018 11:06",
-		"defaultShadow" : "mats 5/22/2018 11:06",
-		"drawOn:" : "JW 5/17/2018 14:18",
+		"drawOn:" : "mats 5/22/2018 21:17",
 		"drop" : "LS 5/7/2018 20:23",
 		"elevate" : "LS 5/7/2018 20:22",
 		"elevatedSizeDifference" : "LS 5/14/2018 09:57",

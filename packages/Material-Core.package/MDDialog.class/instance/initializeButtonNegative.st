@@ -3,8 +3,11 @@ initializeButtonNegative
 
 	| button |
 	button := MDTextButton new.
-	button text: 'Cancel'.
-
+	button 
+		text: 'Cancel';
+		target: [ self close ];
+		actionSelector: #value.
+	
 	self 
 		buttonNegative: button;
 		addMorph: self buttonNegative
