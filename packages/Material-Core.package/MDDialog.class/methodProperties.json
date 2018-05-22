@@ -4,6 +4,7 @@
 		"containerPadding" : "mats 5/22/2018 18:04",
 		"containerTextColor" : "mats 5/22/2018 18:10",
 		"containerTextSize" : "mats 5/22/2018 18:06",
+		"minWidth" : "mats 5/22/2018 22:25",
 		"padding" : "mats 5/22/2018 17:18",
 		"titleTextColor" : "mats 5/22/2018 18:08",
 		"titleTextSize" : "mats 5/22/2018 18:06" },
@@ -19,7 +20,7 @@
 		"close" : "mats 5/22/2018 21:09",
 		"drawOn:" : "mats 5/22/2018 20:56",
 		"initialize" : "mats 5/22/2018 20:58",
-		"initializeBackground" : "mats 5/22/2018 21:23",
+		"initializeBackground" : "mats 5/22/2018 22:23",
 		"initializeButtonNegative" : "mats 5/22/2018 20:33",
 		"initializeButtonPositive" : "mats 5/22/2018 17:00",
 		"initializeButtons" : "mats 5/20/2018 23:57",
@@ -38,4 +39,4 @@
 		"updateButtonPositions" : "mats 5/22/2018 17:20",
 		"updatePosition" : "mats 5/22/2018 20:50",
 		"updatePositions" : "mats 5/22/2018 17:55",
-		"updateWidth" : "mats 5/22/2018 20:50" } }
+		"updateWidth" : "mats 5/22/2018 22:24" } }
