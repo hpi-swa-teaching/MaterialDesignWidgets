@@ -1,13 +1,14 @@
 {
 	"class" : {
-		"defaultNumItemsPerRow" : "mats 5/21/2018 16:37",
+		"defaultNumItemsPerRow" : "mats 5/22/2018 11:28",
 		"padding" : "mats 5/21/2018 16:53",
 		"widgetPadding" : "mats 5/21/2018 16:41" },
 	"instance" : {
-		"addWidget:" : "mats 5/21/2018 16:24",
-		"drawOn:" : "mats 5/21/2018 16:55",
+		"addWidget:" : "mats 5/22/2018 11:32",
 		"initialize" : "mats 5/21/2018 16:29",
 		"itemsPerRow" : "mats 5/21/2018 16:37",
 		"itemsPerRow:" : "mats 5/21/2018 16:36",
+		"maxHeight" : "mats 5/22/2018 11:21",
+		"maxHeight:" : "mats 5/22/2018 11:16",
 		"widgets" : "mats 5/21/2018 16:25",
 		"widgets:" : "mats 5/21/2018 16:24" } }

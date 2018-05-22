@@ -1,4 +1,5 @@
 elevation
-decreaseSize
+decreaseSize 
 
-	^ self subclassResponsibility
+	self bounds: ((self bounds origin + self elevatedSizeDifference) corner:
+				  (self bounds corner - self elevatedSizeDifference))

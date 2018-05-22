@@ -10,4 +10,4 @@ initialize
 		addFlatButtons;
 		addRaisedButtons.
 	
-	self openInHand.
+	self openInHand
