@@ -1,4 +1,4 @@
-drawing
+as yet unclassified
 roundRectShapeBounds: aRectangle radius: aRadius borderWidth: width
 
 	| circle points radius |

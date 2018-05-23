@@ -1,4 +1,4 @@
-default properties
+as yet unclassified
 defaultText
 
 	^ 'TEXT'

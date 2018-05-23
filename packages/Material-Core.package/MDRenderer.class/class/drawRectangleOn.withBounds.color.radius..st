@@ -1,4 +1,4 @@
-drawing
+as yet unclassified
 drawRectangleOn: aCanvas withBounds: aRectangle color: aColor radius: aCollection
 	
 	aCanvas asBalloonCanvas
