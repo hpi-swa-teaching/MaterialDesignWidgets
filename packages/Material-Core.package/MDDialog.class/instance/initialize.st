@@ -5,8 +5,7 @@ initialize
 	
 	self
 		beSticky;
-		height: 150;
-		borderRadius: 5;
+		borderRadius: self class borderRadius;
 		backgroundColor: '#FFFFFF';
 		initializeButtons;
 		initializeBackground;
