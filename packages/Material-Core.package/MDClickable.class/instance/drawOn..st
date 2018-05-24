@@ -1,4 +1,4 @@
-ripple management
+drawing
 drawOn: aCanvas
 
 	MDRenderer
@@ -6,5 +6,6 @@ drawOn: aCanvas
 		withBounds: self bounds 
 		color: self calculateColor
 		radius: self borderRadius.
-	self wantsRipples ifTrue: [ self drawRipplesOn: aCanvas ]
+	(self wantsRipples and: ((self state = #disabled) not))
+		ifTrue: [ self drawRipplesOn: aCanvas ]
 	

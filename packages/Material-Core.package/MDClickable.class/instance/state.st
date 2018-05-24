@@ -1,4 +1,4 @@
-border
+accessing
 state
 
-	^ self properties at: #state ifAbsent: [ ^ self state: 'Enabled' ]
+	^ self properties at: #state ifAbsent: [ ^ self state: #enabled ]

@@ -1,4 +1,4 @@
-ripple management
+as yet unclassified
 calculateColor
 	
 	| overlay |

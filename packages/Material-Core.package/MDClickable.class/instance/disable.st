@@ -1,4 +1,4 @@
-border
+as yet unclassified
 disable 
 
-	^ self setProperty: #state to: 'Disabled'
+	^ self setProperty: #state to: #disabled

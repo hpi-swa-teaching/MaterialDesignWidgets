@@ -1,4 +1,4 @@
-border
-state: aString
+accessing
+state: aSymbol
 	
-	^ self setProperty: #state to: aString
+	^ self setProperty: #state to: aSymbol
