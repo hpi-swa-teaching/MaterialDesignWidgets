@@ -3,5 +3,5 @@ testOutlinedButtonMouseEvents
 
 	self
 		testButton: MDOutlinedButton new
-		mockDefault: self class textButtonMockObject_default
-		mockEnter: self class textButtonMockObject_mouseEnter 
+		mockDefault: self class outlinedButtonMockObject_default
+		mockEnter: self class outlinedButtonMockObject_mouseEnter 
