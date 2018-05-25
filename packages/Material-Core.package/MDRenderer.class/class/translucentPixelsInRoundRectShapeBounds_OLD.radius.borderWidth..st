@@ -1,11 +1,11 @@
 drawing
-translucentPixelsInRoundRectShapeBounds: aRectangle radius: aRadius borderWidth: width
+translucentPixelsInRoundRectShapeBounds_OLD: aRectangle radius: aRadius borderWidth: width
 
-	| circle points radius  |
+	| circle points radius |
 
 	radius := self keepBorderRadius: aRadius inRectangle: aRectangle.
 
-	circle := radius.
+	circle := radius scaleBy: 0.42. "0.552228474."
 	points := OrderedCollection new.
 
 	" top left corner "
@@ -17,13 +17,13 @@ translucentPixelsInRoundRectShapeBounds: aRectangle radius: aRadius borderWidth:
 				add: 0 @ 0;
 				add: 0 @ radius top;
 				add: 0 @ radius top;
-				add: 0 @ (circle top * 0.48);
-				add: (circle top * 0.42) @ -1;
-				add: radius top @ -1;
-				add: radius top @ -1;
-				add: 0 @ -1;
-				add: radius top @ -1;
-				add: 0 @ -1].
+				add: 0 @ circle top;
+				add: circle top @ 0;
+				add: radius top @ 0;
+				add: radius top @ 0;
+				add: 0 @ 0;
+				add: radius top @ 0;
+				add: 0 @ 0].
 
 
 	" top right corner "
@@ -34,10 +34,10 @@ translucentPixelsInRoundRectShapeBounds: aRectangle radius: aRadius borderWidth:
 				add: aRectangle width - radius right @ 0;
 				add: aRectangle width @ 0;
 				add: aRectangle width - radius right @ 0;
-				add: aRectangle width - radius right @ -1;
-				add: aRectangle width - (circle right * 0.48) @ -1;
-				add: aRectangle width + 1 @ (circle right * 0.42);
-				add: aRectangle width + 1 @ radius right;
+				add: aRectangle width - radius right @ 0;
+				add: aRectangle width - circle right @ 0;
+				add: aRectangle width @ circle right;
+				add: aRectangle width @ radius right;
 				add: aRectangle width @ radius right;
 				add: aRectangle width @ 0;
 				add: aRectangle width @ radius right;
@@ -52,10 +52,10 @@ translucentPixelsInRoundRectShapeBounds: aRectangle radius: aRadius borderWidth:
 				add: aRectangle width @ (aRectangle height - radius bottom);
 				add: aRectangle width @ aRectangle height;
 				add: aRectangle width @ (aRectangle height - radius bottom);
-				add: aRectangle width + 1 @ (aRectangle height - radius bottom);
-				add: aRectangle width + 1 @ (aRectangle height - (circle bottom * 0.48));
-				add: aRectangle width + 1 - (circle bottom * 0.42) @ aRectangle height;
-				add: aRectangle width + 1 - radius bottom @ aRectangle height;
+				add: aRectangle width @ (aRectangle height - radius bottom);
+				add: aRectangle width @ (aRectangle height - circle bottom);
+				add: aRectangle width - circle bottom @ aRectangle height;
+				add: aRectangle width - radius bottom @ aRectangle height;
 				add: aRectangle width - radius bottom @ aRectangle height;
 				add: aRectangle width @ aRectangle height;
 				add: aRectangle width - radius bottom @ aRectangle height;
@@ -72,8 +72,8 @@ translucentPixelsInRoundRectShapeBounds: aRectangle radius: aRadius borderWidth:
 				add: 0 @ aRectangle height;
 				add: radius left @ aRectangle height;
 				add: radius left @ aRectangle height;
-				add: (circle left * 0.42) @ aRectangle height;
-				add: 0 @ (aRectangle height - (circle left * 0.48));
+				add: circle left @ aRectangle height;
+				add: 0 @ (aRectangle height - circle left);
 				add: 0 @ (aRectangle height - radius left);
 				add: 0 @ (aRectangle height - radius left);
 				add: 0 @ aRectangle height;
