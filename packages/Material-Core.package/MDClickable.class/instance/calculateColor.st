@@ -11,6 +11,6 @@ calculateColor
 				ifTrue: [ color := self backgroundColorDisabled ]
 				ifFalse: [ 
 					overlay := self class stateToOverlay at: self state ifAbsent: [ 0 ].
-					color := color + (self textColor * overlay) ] ].
+					color := color + (self backgroundColor * overlay) ] ].
 		
 	^ self currentBackgroundColor: color
