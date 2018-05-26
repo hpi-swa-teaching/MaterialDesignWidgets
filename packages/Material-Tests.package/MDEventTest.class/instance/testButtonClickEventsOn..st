@@ -4,7 +4,7 @@ testButtonClickEventsOn: aMDClickable
 	| mouseEvent |
 	
 	mouseEvent := MouseEvent new 
-		position: aMDClickable bounds center;
+		setPosition: (aMDClickable bounds center);
 		yourself.
 
 	self tmp: #notclicked.
