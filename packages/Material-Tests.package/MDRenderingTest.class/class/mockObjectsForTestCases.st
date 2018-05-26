@@ -1,34 +1,33 @@
 utils
 mockObjectsForTestCases
 
-	^ { 
-		#default -> {
-			MDTextButton -> self textButtonMockObject_default.
-			MDContainedButton -> self containedButtonMockObject_default.
-			MDOutlinedButton -> self outlinedButtonMockObject_default.
-		} asDictionary.
+	^ Dictionary new
+		at: #default put: (Dictionary new
+			at: MDTextButton put: self textButtonMockObject_default;
+			at: MDContainedButton put: self containedButtonMockObject_default;
+			at: MDOutlinedButton put: self outlinedButtonMockObject_default;
+			yourself);
 		
-		#alternativeText -> {
-			MDTextButton -> self textButtonMockObject_alternativeText.
-			MDContainedButton -> self containedButtonMockObject_alternativeText.
-			MDOutlinedButton -> self outlinedButtonMockObject_alternativeText.
-		} asDictionary.
+		at: #alternativeText put: (Dictionary new
+			at: MDTextButton put: self textButtonMockObject_alternativeText;
+			at: MDContainedButton put: self containedButtonMockObject_alternativeText;
+			at: MDOutlinedButton put: self outlinedButtonMockObject_alternativeText;
+			yourself);
 		
-		#alternativeBackgroundColor -> {
-			MDContainedButton -> self containedButtonMockObject_alternativeBackgroundColor.
-		} asDictionary.
+		at: #alternativeBackgroundColor put: (Dictionary new
+			at: MDContainedButton put: self containedButtonMockObject_alternativeBackgroundColor;
+			yourself);
 		
-		#mouseEnter -> {
-			MDTextButton -> self textButtonMockObject_mouseEnter.
-			MDContainedButton -> self containedButtonMockObject_mouseEnter.
-			MDOutlinedButton -> self outlinedButtonMockObject_mouseEnter.
-		} asDictionary.
+		at: #mouseEnter put: (Dictionary new
+			at: MDTextButton put: self textButtonMockObject_mouseEnter;
+			at: MDContainedButton put: self containedButtonMockObject_mouseEnter;
+			at: MDOutlinedButton put: self outlinedButtonMockObject_mouseEnter;
+			yourself);
 		
-		#disabled -> {
-			MDTextButton -> self textButtonMockObject_disbaled.
-			MDContainedButton -> self containedButtonMockObject_disbaled.
-			MDOutlinedButton -> self outlinedButtonMockObject_disbaled.
-		} asDictionary.
-		
-		
-	} asDictionary
+		at: #disabled put: (Dictionary new
+			at: MDTextButton put: self textButtonMockObject_disbaled;
+			at: MDContainedButton put: self containedButtonMockObject_disbaled;
+			at: MDOutlinedButton put: self outlinedButtonMockObject_disbaled;
+			yourself);
+			
+		yourself
