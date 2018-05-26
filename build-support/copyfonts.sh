@@ -1,3 +1,9 @@
-mkdir -p /home/travis/smalltalkCI-master/_builds/Scamper/fonts
-cp -R $TRAVIS_BUILD_DIR/build-support/fonts/* /home/travis/smalltalkCI-master/_builds/Scamper/fonts
-chmod -R 777 /home/travis/smalltalkCI-master/_builds/Scamper/fonts/*
+IMAGE_PATH="/home/travis/smalltalkCI-master/_builds/Roboto/"
+
+if [ "$TRAVIS_OS_NAME" == "osx" ];
+  then IMAGE_PATH="/Users/travis/smalltalkCI-master/_builds/Roboto/";
+fi;
+
+mkdir -p $IMAGE_PATH
+cp -R $TRAVIS_BUILD_DIR/build-support/fonts/* $IMAGE_PATH
+chmod -R 777 $IMAGE_PATH
