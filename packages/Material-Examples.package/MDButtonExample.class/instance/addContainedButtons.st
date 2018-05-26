@@ -6,8 +6,10 @@ addContainedButtons
 	button := MDContainedButton new.
 	button text: 'Click here'.
 	
-	buttonDisabled := MDContainedButton new.
-	buttonDisabled disable.
+	buttonDisabled :=	MDContainedButton new.
+	buttonDisabled
+		text: 'Disabled';
+		disable.
 	
 	self
 		addWidget: MDContainedButton new; 

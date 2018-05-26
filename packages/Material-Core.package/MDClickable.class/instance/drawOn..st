@@ -4,7 +4,7 @@ drawOn: aCanvas
 	MDRenderer
 		drawRectangleOn: aCanvas 
 		withBounds: self bounds 
-		color: self calculateColor
+		color: self currentBackgroundColor
 		radius: self borderRadius
 		borderWidth: self borderWidth
 		borderColor: Color black.

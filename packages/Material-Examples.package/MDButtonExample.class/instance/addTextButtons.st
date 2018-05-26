@@ -9,7 +9,9 @@ addTextButtons
 		textColor: '#F44336'.
 	
 	buttonDisabled := MDTextButton new.
-	buttonDisabled disable.
+	buttonDisabled
+		text: 'Disabled';
+		disable.
 	
 	self
 		addWidget: MDTextButton new; 

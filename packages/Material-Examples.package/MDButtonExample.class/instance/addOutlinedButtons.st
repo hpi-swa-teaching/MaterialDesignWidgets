@@ -9,7 +9,9 @@ addOutlinedButtons
 		textColor: '#F44336'.
 	
 	buttonDisabled := MDOutlinedButton new.
-	buttonDisabled disable.
+	buttonDisabled
+		text: 'Disabled';
+		disable.
 	
 	self
 		addWidget: MDOutlinedButton new; 

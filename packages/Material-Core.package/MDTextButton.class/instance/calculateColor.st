@@ -5,4 +5,4 @@ calculateColor
 	
 	overlay := self class stateToOverlay at: self state ifAbsent: [ 0 ].
 	
-	^ self backgroundColor: (self textColor alpha: overlay)
+	^ self currentBackgroundColor: (self textColor alpha: overlay)

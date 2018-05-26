@@ -1,4 +1,7 @@
 accessing
 state: aSymbol
 	
-	^ self setProperty: #state to: aSymbol
+	| value |
+	value := self setProperty: #state to: aSymbol.
+	self calculateColor.
+	^ value
