@@ -1,7 +1,7 @@
 states
 stateToOverlay
 
-	^ {
-		#enabled -> 0 .
-		#hover -> 0.08
-	} asDictionary
+	^ Dictionary new
+		at: #enabled put: 0;
+		at: #hover put: 0.08;
+		yourself
