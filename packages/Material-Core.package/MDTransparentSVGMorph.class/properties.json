@@ -1,0 +1,14 @@
+{
+	"category" : "Material-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MDTransparentSVGMorph",
+	"pools" : [
+		 ],
+	"super" : "SVGMorph",
+	"type" : "normal" }

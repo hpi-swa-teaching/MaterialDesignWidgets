@@ -1,0 +1,4 @@
+caching
+clearCache
+
+	SVGCache := nil

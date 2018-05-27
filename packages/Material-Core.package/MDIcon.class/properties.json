@@ -1,0 +1,17 @@
+{
+	"category" : "Material-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"SVGCache" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"svg",
+		"cachedForm",
+		"svgColor",
+		"iconName" ],
+	"name" : "MDIcon",
+	"pools" : [
+		 ],
+	"super" : "MDWidget",
+	"type" : "normal" }
