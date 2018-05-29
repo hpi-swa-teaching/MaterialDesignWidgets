@@ -28,6 +28,7 @@
 		"disableTestWith:" : "mats 5/27/2018 13:24",
 		"mouseEventTestWith:" : "mats 5/27/2018 13:26",
 		"render:" : "mats 5/25/2018 16:02",
+		"render:times:" : "mats 5/29/2018 16:24",
 		"testAlternativeBackgroundColorRendering" : "mats 5/27/2018 13:23",
 		"testAlternativeTextRendering" : "mats 5/27/2018 13:26",
 		"testDefaultRendering" : "mats 5/27/2018 13:26",

@@ -1,6 +1,8 @@
 drawing
 drawOn: aCanvas
 
-	aCanvas fillOval: self bounds color: self currentBackgroundColor.
+	aCanvas asBalloonCanvas
+		aaLevel: 4;
+		fillOval: self bounds color: self currentBackgroundColor.
 	self updateContents: aCanvas. 
 	self drawRipplesOn: aCanvas.
