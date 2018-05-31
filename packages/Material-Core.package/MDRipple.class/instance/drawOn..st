@@ -12,4 +12,4 @@ drawOn: aCanvas
 				ifFalse: [ ((ripple colorAt: x @ y) = Color white) 
 					ifTrue: [ ripple colorAt: x @ y put: (self clickableMorph textColor alpha: self colorAlpha) ]]]].
 	
-	aCanvas translucentImage: ripple at: self clickableMorph position.
+	aCanvas translucentImage: ripple at: self clickableMorph position
