@@ -7,7 +7,9 @@ SmalltalkCISpec {
       #load : [ 'tests' ]
     }
   ],
-  #coverage : {
-    #packages : [ 'Material.*' ]
+  #testing : {
+    #coverage : {
+      #packages : [ 'Material.*' ]
+    }
   }
 }
