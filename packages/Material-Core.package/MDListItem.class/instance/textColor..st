@@ -1,5 +1,7 @@
 accessing
 textColor: aValue
 
-	super textColor: aValue.
-	self updateFormCache
+	| value |
+	value := super textColor: aValue.
+	self updateFormCache.
+	^ value
