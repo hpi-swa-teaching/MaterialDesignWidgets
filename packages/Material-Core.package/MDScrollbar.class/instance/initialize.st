@@ -9,5 +9,4 @@ initialize
 		height: 20;
 		backgroundColor: self class defaultBackgroundColor;
 		borderRadius: 5;
-		position: -10 @ 0;
-		openInWorld
+		position: -10 @ 0
