@@ -1,4 +1,7 @@
 accessing
 icon: aMDIcon
-
-	^ self setProperty: #icon to: aMDIcon
+	
+	self addIcon: aMDIcon.
+	self setProperty: #icon to: aMDIcon.
+	self updateBounds.
+	^ aMDIcon
