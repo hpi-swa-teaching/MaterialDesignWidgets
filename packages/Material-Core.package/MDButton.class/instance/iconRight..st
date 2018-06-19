@@ -1,7 +1,12 @@
 accessing
-iconRight: aMDIcon
+iconRight: aMDIconOrSymbol
 	
-	self addIcon: aMDIcon.
-	self setProperty: #iconRight to: aMDIcon.
+	| icon |
+	aMDIconOrSymbol isSymbol
+		ifTrue: [icon := MDIcon perform: aMDIconOrSymbol]
+		ifFalse: [icon := aMDIconOrSymbol].
+	self addIconRight: icon.
+	self setProperty: #iconRight to: icon.
 	self updateBounds.
-	^ aMDIcon
+	
+	^ icon

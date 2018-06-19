@@ -1,6 +1,6 @@
 class initialization
-iconRight: anIconNameSymbol
+iconRight: aMDIconOrSymbol
 	
 	^ self new
-		iconRight: (MDIcon perform: anIconNameSymbol);
+		iconRight: aMDIconOrSymbol;
 		yourself

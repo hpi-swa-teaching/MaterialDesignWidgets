@@ -1,7 +1,7 @@
 class initialization
-icon: anIconNameSymbol
+icon: aMDIconOrSymbol
 	
 	^ self new
-		icon: (MDIcon perform: anIconNameSymbol);
+		icon: aMDIconOrSymbol;
 		updateBounds;
 		yourself
