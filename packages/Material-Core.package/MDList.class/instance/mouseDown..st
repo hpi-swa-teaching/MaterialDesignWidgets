@@ -10,4 +10,5 @@ mouseDown: evt
 			mouseEvent := evt position: mouseEvtPos.
 	
 			self listItems size >= item
-				ifTrue: [(self listItems at: item) mouseDown: mouseEvent]]
+				ifTrue: [(self listItems at: item) mouseDown: mouseEvent.
+						self newSelectedItem: (self listItems at: item)]]
