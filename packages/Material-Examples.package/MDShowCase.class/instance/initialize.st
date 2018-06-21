@@ -9,14 +9,10 @@ initialize
 		backgroundColor: '#e0e0e0';
 		beSticky;
 		foreNameFirst: true.
-	self initializeNewContact.
+	
 	self initializeHeadline.
 	self initializeList.
 	self initializeMenu.
-	self initializeTextField.
-	self initializeTextFieldSurname.
-	self initializeTextFieldPhoneNumber.
-	self initializeContactButtonAdd.
 	"self initializeContactButtonDelete."
 	self initializeBasicDialog.
 	self initializeInfoDialog.

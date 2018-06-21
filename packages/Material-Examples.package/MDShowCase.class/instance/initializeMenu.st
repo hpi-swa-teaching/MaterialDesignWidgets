@@ -10,7 +10,7 @@ initializeMenu
 		menuWidth: 180;
 		updateBounds.
 	self menu
-		add: 'Add Contact' icon: #ic_person_add target: [self newContact openInWorld];
+		add: 'Add Contact' icon: #ic_person_add target: [self newContact ifNotNil: [self newContact delete]. self initializeNewContact. self newContact openInWorld];
 		addCascade: 'Sort by' menu: settings;
 		menuWidth: 180;
 		updateBounds.
