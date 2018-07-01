@@ -5,4 +5,4 @@ removeListItem: aMDWidget
 	self listItems remove: aMDWidget.
 	self 
 		resetFilteredListItems;
-		changed.
+		changed

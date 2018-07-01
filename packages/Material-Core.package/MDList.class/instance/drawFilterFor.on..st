@@ -10,4 +10,4 @@ drawFilterFor: anIndex on: aCanvas
 		radius: 3
 		fillStyle: (SolidFillStyle color: self filterColor)
 		borderWidth: 0
-		borderColor: Color black.
+		borderColor: Color black

@@ -1,4 +1,4 @@
 testing
 objectToTest
 
-	^ MDBasicListExample new.
+	^ MDBasicListExample new

@@ -11,5 +11,5 @@ drawItem: anIndex on: aCanvas
 	
 	self drawFilterFor: anIndex on: aCanvas.
 	(self showDividers and: (self dividersDrawable: row)) 
-		ifTrue: [ self drawDividersAt: pos on: aCanvas ].
+		ifTrue: [ self drawDividersAt: pos on: aCanvas].
 	
