@@ -21,7 +21,7 @@
 		"getListSizeSelector",
 		"keystrokePreviewSelector",
 		"potentialDropRow",
-    "wantsDropSelector",
+		"wantsDropSelector",
 		"lastKeystrokeTime",
 		"priorSelection",
 		"keystrokeActionSelector",
