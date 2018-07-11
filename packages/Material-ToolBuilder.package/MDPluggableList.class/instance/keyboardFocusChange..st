@@ -5,9 +5,9 @@ keyboardFocusChange: aBoolean
 	In this case, all we need to do is to redraw border feedback"
 	aBoolean ifFalse: [
 		self clearFilterAutomatically ifTrue:
-			[ self hasFilter ifTrue:
-				[ self
+			[self hasFilter ifTrue:
+				[self
 					 removeFilter;
-					 updateList ] ] ].
+					 updateList]]].
 		
-	super keyboardFocusChange: aBoolean.
+	super keyboardFocusChange: aBoolean

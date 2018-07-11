@@ -1,5 +1,6 @@
 as yet unclassified
 on: model list: getListSelector selected: index changeSelected: setIndex menu: menu keystroke: keyPress
+	
 	| newItem |
 	newItem := self new.
 	newItem
@@ -9,4 +10,5 @@ on: model list: getListSelector selected: index changeSelected: setIndex menu: m
 		changeSelected: setIndex;
 		menu: menu;
 		keystroke: keyPress.
+		
 	^ newItem

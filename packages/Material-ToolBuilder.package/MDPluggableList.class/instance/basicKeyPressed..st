@@ -1,13 +1,14 @@
 as yet unclassified
 basicKeyPressed: aChar 
+
 	| milliseconds slowKeyStroke listSize newSelectionIndex oldSelectionIndex |
 	oldSelectionIndex := newSelectionIndex := self getCurrentSelectionIndex.
 	listSize := self getListSize.
-	listSize = 0 ifTrue: [ ^self flash ].
+	listSize = 0 ifTrue: [^self flash].
 	milliseconds := Time millisecondClockValue.
 	slowKeyStroke := (Time
 		milliseconds: milliseconds
-		since: self lastKeystrokeTime) > (self filterableList ifTrue: [500] ifFalse: [ 300 ]).
+		since: self lastKeystrokeTime) > (self filterableList ifTrue: [500] ifFalse: [300]).
 	self lastKeystrokeTime: milliseconds.
 	slowKeyStroke
 		ifTrue:
@@ -20,6 +21,6 @@ basicKeyPressed: aChar
 			self lastKeystrokes: self lastKeystrokes , aChar asLowercase asString.
 			newSelectionIndex := newSelectionIndex max: 1 ].
 	"No change if model is locked"
-	self model okToChange ifFalse: [ ^ self ].
+	self model okToChange ifFalse: [^ self].
 	
 	self filterList: self lastKeystrokes

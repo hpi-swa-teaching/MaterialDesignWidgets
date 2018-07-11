@@ -1,5 +1,6 @@
 as yet unclassified
 modifierKeyPressed: aChar 
+
 	| args |
 	self keystrokeActionSelector isNil ifTrue: [^nil].
 	args := self keystrokeActionSelector numArgs.
@@ -10,4 +11,5 @@ modifierKeyPressed: aChar
 				perform: self keystrokeActionSelector
 				with: aChar
 				with: self].
+			
 	^self error: 'keystrokeActionSelector must be a 1- or 2-keyword symbol'
