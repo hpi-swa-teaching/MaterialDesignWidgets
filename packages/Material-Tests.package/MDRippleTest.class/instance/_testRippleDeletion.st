@@ -3,7 +3,7 @@ _testRippleDeletion
 
 	| ripple |
 	ripple := MDRipple new
-				center: 0@0;
+				center: 0 @ 0;
 				clickableMorph: self widget;
 				duration: 0;
 				fadeOutDuration: 0;

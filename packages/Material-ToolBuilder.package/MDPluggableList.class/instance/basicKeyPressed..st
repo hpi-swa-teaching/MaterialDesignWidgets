@@ -12,7 +12,7 @@ basicKeyPressed: aChar
 	self lastKeystrokeTime: milliseconds.
 	slowKeyStroke
 		ifTrue:
-			[ self filterableList ifTrue: [ self flag: #TODO."self hasFilter ifFalse: [ self priorSelection: (self modelIndexFor: self selectionIndex)]" ].
+			[ self filterableList ifTrue: ["self hasFilter ifFalse: [ self priorSelection: (self modelIndexFor: self selectionIndex)]" ].
 			"forget previous keystrokes and search in following elements"
 			self lastKeystrokes: aChar asLowercase asString.
 			newSelectionIndex := newSelectionIndex \\ listSize + 1.

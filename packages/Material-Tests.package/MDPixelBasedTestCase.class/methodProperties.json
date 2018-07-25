@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"classToTest" : "LS 7/19/2018 16:34",
-		"compareForm:toForm:" : "mats 6/19/2018 12:28",
+		"compareForm:toForm:" : "CG 7/25/2018 20:21",
 		"compareWidget:toForm:" : "JW 6/16/2018 13:58",
 		"convertToForm:" : "mats 6/13/2018 09:34",
 		"formComparisonColorActualValue" : "mats 6/19/2018 12:27",
@@ -17,7 +17,7 @@
 		"updateEnabledMockObject" : "mats 7/25/2018 14:16",
 		"updateMouseEnterMockObject" : "mats 7/25/2018 14:16",
 		"updateRippleMockObjectForScaleFactor:" : "mats 7/25/2018 14:16",
-		"updateRippleMockObjects" : "mats 7/11/2018 19:42",
+		"updateRippleMockObjects" : "CG 7/25/2018 20:12",
 		"updateSubclassesMockObjects" : "LS 7/19/2018 14:54",
 		"updateToggleOnMockObject" : "mats 7/25/2018 14:16" },
 	"instance" : {
@@ -35,7 +35,7 @@
 		"_testToggleOnAndOff" : "LS 7/19/2018 14:29",
 		"classToTest" : "mats 6/13/2018 10:18",
 		"initialize" : "LS 7/19/2018 13:45",
-		"performRippleSimulationOn:withScaleFactor:" : "mats 7/11/2018 18:20",
+		"performRippleSimulationOn:withScaleFactor:" : "CG 7/25/2018 20:19",
 		"renderOnFormString:" : "mats 6/19/2018 15:12",
 		"resetWidget" : "mats 7/11/2018 19:00",
 		"testEquality:with:" : "LS 6/28/2018 17:42",

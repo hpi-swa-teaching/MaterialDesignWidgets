@@ -5,4 +5,4 @@ performMouseUp: aMouseEvent On: aMDClickable
 	
 	mouseEvent := aMouseEvent setType: #mouseUp.
 	aMDClickable mouseUp: mouseEvent.
-	self assert: self tmp = #clicked.
+	self assert: self tmp = #clicked

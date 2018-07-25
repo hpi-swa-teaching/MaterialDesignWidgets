@@ -7,5 +7,5 @@ filterList: aString
 	self 
 		filterList;
 		changed.
-	self flag: #incomplete
+
 	"self changeModelSelection: (list ifEmpty: [0] ifNotEmpty: [self modelIndexFor: 1])."

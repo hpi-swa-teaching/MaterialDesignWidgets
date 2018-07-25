@@ -3,7 +3,7 @@ performRippleSimulationOn: aMDWidget withScaleFactor: aNumber
 
 	| ripple |
 	ripple := MDRipple new
-				center: 0@0;
+				center: 0 @ 0;
 				clickableMorph: aMDWidget;
 				yourself.
 	aMDWidget ripples add: ripple.

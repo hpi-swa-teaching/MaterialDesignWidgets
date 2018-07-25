@@ -3,7 +3,6 @@ popUpAdjacentTo: rightOrLeftPoint forHand: hand from: sourceItem
 	"Copied from MorphicMenu."
 	
 	| tryToPlace selectedOffset rightPoint leftPoint |
-	self flag: #refactor.
 	hand world startSteppingSubmorphsOf: self.
 	self 
 		deleteAllRipples;

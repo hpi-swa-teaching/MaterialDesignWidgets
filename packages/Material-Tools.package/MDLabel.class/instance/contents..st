@@ -6,4 +6,4 @@ contents: aString
 		(self alwaysUppercase)
 			ifTrue: [ newContents := aString asUppercase]
 			ifFalse: [ newContents := aString].
-		super contents: newContents ]
+		super contents: newContents]

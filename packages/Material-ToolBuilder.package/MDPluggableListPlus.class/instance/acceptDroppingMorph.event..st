@@ -14,4 +14,4 @@ acceptDroppingMorph: aTransferMorph event: evt
 			
 	self resetPotentialDropRow.
 	evt hand releaseMouseFocus: self.
-	Cursor normal show.
+	Cursor normal show

@@ -49,5 +49,4 @@ specialKeyPressed: asciiValue
 	"No change if model is locked"
 	oldSelection = nextSelection ifTrue: [^ self flash].
 	
-	self flag: #FinishHereCheckPluggableList.
 	^ self

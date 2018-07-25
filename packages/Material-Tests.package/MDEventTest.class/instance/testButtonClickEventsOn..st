@@ -14,4 +14,4 @@ testButtonClickEventsOn: aMDClickable
 	
 	self performMouseEnter: mouseEvent On: aMDClickable.
 	self performMouseDown: mouseEvent On: aMDClickable.
-	self performMouseUp: mouseEvent On: aMDClickable.
+	self performMouseUp: mouseEvent On: aMDClickable
