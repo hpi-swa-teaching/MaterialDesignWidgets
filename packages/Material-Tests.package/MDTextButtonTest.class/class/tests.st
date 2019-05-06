@@ -7,5 +7,6 @@ tests
 		at: #alternativeText 				put: true;
 		at: #alternativeBackgroundColor 	put: true;
 		at: #mouseEnter 					put: true;
+		at: #toggleOn						put: true;
 		at: #ripples 						put: true;
 		yourself
