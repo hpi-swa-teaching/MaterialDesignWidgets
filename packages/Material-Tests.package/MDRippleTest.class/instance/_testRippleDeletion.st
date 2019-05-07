@@ -1,20 +1,12 @@
 tests
 _testRippleDeletion
 
-	| ripple |
-	ripple := MDRipple new
-				center: 0 @ 0;
-				clickableMorph: self widget;
-				duration: 0;
-				fadeOutDuration: 0;
-				yourself.
-	
-	self widget removeAllRipples.
-	self widget ripples add: ripple.
-	
-	ripple
-		startAnimation;
-		finishedAnimation.
+	| animationTime |
+	animationTime := MDRipple defaultAnimationDuration + MDRipple defaultFadeOutDuration.
 
-	(Delay forMilliseconds: 500) wait. "ensure that deletion of ripple was scheduled"
-	self assert: self widget ripples isEmpty
+	self widget removeAllRipples.
+	self widget startRippleAt: 0@0.
+
+	"wait for ripple deletion in different process"
+	[(Delay forMilliseconds: animationTime + 50) wait.
+	self assert: self widget ripples isEmpty] fork
