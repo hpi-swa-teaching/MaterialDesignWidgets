@@ -1,0 +1,4 @@
+accessing
+queueFadeOut
+
+	isFadeOutQueued := true

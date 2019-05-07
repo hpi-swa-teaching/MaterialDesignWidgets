@@ -1,6 +1,7 @@
 animation
-fadeOutWithFinishBlock: aClosure
+startFadeOut
 
+	self isAnimationRunning: true.
 	AnimPropertyAnimation new
    		duration: self fadeOutDuration;
    		target: self;
@@ -8,5 +9,5 @@ fadeOutWithFinishBlock: aClosure
    		startValue: self colorAlpha;
    		endValue: 0;
    		start: #deleteWhenFinished; "Automatic registry clean-up. No need to unregister."
-		finishBlock: aClosure;
+		finishBlock: [self clickableMorph ripples remove: self];
    		register. "Add to animation registry."

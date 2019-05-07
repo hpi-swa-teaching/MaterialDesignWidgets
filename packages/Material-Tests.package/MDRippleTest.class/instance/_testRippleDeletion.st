@@ -4,7 +4,7 @@ _testRippleDeletion
 	| animationTime |
 	animationTime := MDRipple defaultAnimationDuration + MDRipple defaultFadeOutDuration.
 
-	self widget removeAllRipples.
+	self widget removeRipples.
 	self widget startRippleAt: 0@0.
 
 	"wait for ripple deletion in different process"
