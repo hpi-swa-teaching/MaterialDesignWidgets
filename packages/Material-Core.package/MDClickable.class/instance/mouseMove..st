@@ -1,4 +1,4 @@
 event handling
-mouseMove: evt
+mouseMove: anEvent
 	
-	(self containsPoint: evt cursorPoint) ifFalse: [self deleteRipples]
+	(self containsPoint: anEvent cursorPoint) ifFalse: [self deleteRipples]
