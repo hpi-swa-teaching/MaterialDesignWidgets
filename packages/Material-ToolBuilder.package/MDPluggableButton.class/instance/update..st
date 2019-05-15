@@ -2,7 +2,7 @@ updating
 update: anObject
 
 	self getLabelSelector ifNotNil: [:sel |
-		anObject == sel ifTrue: [self label: (model perform: sel)]].
+		anObject == sel ifTrue: [self labelContents: (model perform: sel)]].
 
 	self getStateSelector ifNotNil: [:sel |
 		anObject == sel ifTrue: [self enable]].

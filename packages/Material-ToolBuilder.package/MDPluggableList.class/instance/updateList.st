@@ -3,13 +3,13 @@ updateList
 
 	self listItems removeAll.
 	1 to: self listCollection size do: [:num | 
-		| text icon listItem |
-		text := self listCollection at: num.
+		| printableObject icon listItem |
+		printableObject := self listCollection at: num.
 		self getIconSelector 
 			ifNotNil: [icon := self getMaterialIconFrom: (self model perform: self getIconSelector with: num)].
 		
 		listItem := (MDListItem newOnList: self)
-				text: text;
+				text: printableObject;
 				denseLayout: self hasDenseLayout;
 				target: [
 					((self model perform: self selected) = 0)
