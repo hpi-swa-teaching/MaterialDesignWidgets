@@ -11,5 +11,4 @@ selectListItem: evt
 			
 	self ifInBounds: index do: [:listItem |
 		listItem mouseDown: mouseEvent.
-		listItem select.
 		self newSelectedItem: listItem].
