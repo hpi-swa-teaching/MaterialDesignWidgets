@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"defaultPrimaryColor" : "LP 6/3/2019 16:44",
+		"defaultPrimaryColorString" : "LP 6/3/2019 16:43",
+		"defaultSecondaryColor" : "LP 6/3/2019 16:44",
+		"defaultSecondaryColorString" : "LP 6/3/2019 16:44",
+		"numberOfShades" : "LP 6/3/2019 16:55" },
+	"instance" : {
+		"calculateDarkVariants:" : "LP 6/3/2019 16:55",
+		"calculateLightVariants:" : "LP 6/3/2019 16:55",
+		"calculatePrimaryVariants" : "LP 6/3/2019 17:00",
+		"calculateSecondaryVariants" : "LP 6/3/2019 17:01",
+		"initialize" : "LP 6/3/2019 16:58",
+		"primaryColor" : "LP 6/3/2019 16:58",
+		"primaryColor:" : "LP 6/3/2019 16:48",
+		"primaryColorDarkVariants" : "LP 6/3/2019 16:59",
+		"primaryColorDarkVariants:" : "LP 6/3/2019 17:01",
+		"primaryColorLightVariants" : "LP 6/3/2019 16:59",
+		"primaryColorLightVariants:" : "LP 6/3/2019 17:01",
+		"secondaryColor" : "LP 6/3/2019 16:58",
+		"secondaryColor:" : "LP 6/3/2019 16:43",
+		"secondaryColorDarkVariants" : "LP 6/3/2019 16:59",
+		"secondaryColorDarkVariants:" : "LP 6/3/2019 17:01",
+		"secondaryColorLightVariants" : "LP 6/3/2019 16:59",
+		"secondaryColorLightVariants:" : "LP 6/3/2019 17:01" } }
