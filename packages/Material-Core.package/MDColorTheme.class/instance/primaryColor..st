@@ -1,5 +1,5 @@
 accessing
-primaryColor: anObject
+primaryColor: aColor
 
-	primaryColor := anObject.
+	primaryColor := aColor.
 	self calculatePrimaryVariants

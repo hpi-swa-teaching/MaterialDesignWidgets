@@ -1,4 +1,5 @@
 accessing
-secondaryColor: anObject
+secondaryColor: aColor
 
-	secondaryColor := anObject
+	secondaryColor := aColor.
+	self calculateSecondaryVariants

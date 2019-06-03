@@ -1,4 +1,4 @@
 accessing
-primaryColorDarkVariants: anObject
+primaryColorDarkVariants: aColorCollection
 
-	primaryColorDarkVariants := anObject
+	primaryColorDarkVariants := aColorCollection

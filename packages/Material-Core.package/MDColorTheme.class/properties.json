@@ -11,7 +11,10 @@
 		"primaryColorDarkVariants",
 		"primaryColorLightVariants",
 		"secondaryColorDarkVariants",
-		"secondaryColorLightVariants" ],
+		"secondaryColorLightVariants",
+		"backgroundColor",
+		"surfaceColor",
+		"errorColor" ],
 	"name" : "MDColorTheme",
 	"pools" : [
 		 ],
