@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"roundedWindowCorners" : "RW 6/3/2019 11:32" },
+	"instance" : {
+		"addLabelArea" : "RW 6/4/2019 16:18",
+		"defaultColor" : "RW 6/4/2019 15:58",
+		"initialize" : "RW 6/4/2019 12:16",
+		"setFramesForLabelArea" : "RW 6/4/2019 13:50",
+		"setStripeColorsFrom:" : "RW 6/4/2019 15:54" } }
