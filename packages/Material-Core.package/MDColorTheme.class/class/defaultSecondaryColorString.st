@@ -1,4 +1,4 @@
-as yet unclassified
+defaults
 defaultSecondaryColorString
 
 	^ '03dac5'

@@ -1,4 +1,4 @@
-as yet unclassified
+defaults
 defaultPrimaryColor
 
 	^ Color fromString: self defaultPrimaryColorString

@@ -1,4 +1,4 @@
-as yet unclassified
+defaults
 defaultPrimaryColorString
 
 	^ '6200ee'

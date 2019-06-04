@@ -1,4 +1,4 @@
-as yet unclassified
+defaults
 defaultErrorColor
 
 	^ Color fromString: self defaultErrorColorString
