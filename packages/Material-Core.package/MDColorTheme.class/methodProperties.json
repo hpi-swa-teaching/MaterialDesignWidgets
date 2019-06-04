@@ -1,7 +1,9 @@
 {
 	"class" : {
+		"currentTheme" : "lp 6/4/2019 17:02",
+		"currentTheme:" : "lp 6/4/2019 17:01",
 		"defaultBackgroundColor" : "lp 6/3/2019 17:53",
-		"defaultBackgroundColorString" : "lp 6/3/2019 17:53",
+		"defaultBackgroundColorString" : "lp 6/4/2019 17:15",
 		"defaultErrorColor" : "lp 6/3/2019 17:55",
 		"defaultErrorColorString" : "lp 6/3/2019 17:56",
 		"defaultPrimaryColor" : "LP 6/3/2019 16:44",
@@ -37,6 +39,7 @@
 		"secondaryColorDarkVariants:" : "lp 6/3/2019 17:58",
 		"secondaryColorLightVariants" : "LP 6/3/2019 16:59",
 		"secondaryColorLightVariants:" : "lp 6/3/2019 17:58",
+		"showColors" : "lp 6/4/2019 17:16",
 		"surfaceColor" : "lp 6/3/2019 17:59",
 		"surfaceColor:" : "lp 6/3/2019 17:59",
 		"textColorOn:" : "lp 6/4/2019 16:02",

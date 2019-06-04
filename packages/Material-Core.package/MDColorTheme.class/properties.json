@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"CurrentTheme" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"primaryColor",

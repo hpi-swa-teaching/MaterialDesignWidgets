@@ -1,4 +1,4 @@
 defaults
 defaultBackgroundColorString
 
-	^ 'fafafa'
+	^ 'f5f5f5'
