@@ -14,7 +14,8 @@
 		"secondaryColorLightVariants",
 		"backgroundColor",
 		"surfaceColor",
-		"errorColor" ],
+		"errorColor",
+		"textColorOptions" ],
 	"name" : "MDColorTheme",
 	"pools" : [
 		 ],

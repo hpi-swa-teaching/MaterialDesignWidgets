@@ -1,4 +1,14 @@
 color-calculating
 textColorOn: aBackgroundColor
 
-	"Calculate contrast to blac and white and choose according to the higher value."
+	| maxContrast currentContrast bestTextColor |
+
+	maxContrast := 0.
+	
+	self textColorOptions do: [:color | 
+		currentContrast := self calculateContrastOf: aBackgroundColor and: color.
+		(currentContrast > maxContrast) ifTrue: [maxContrast := currentContrast.
+			bestTextColor := color]].
+	
+	^ bestTextColor
+	
