@@ -1,4 +1,4 @@
-accessing
+utils
 showColors
 
 	| allVariants |
@@ -10,6 +10,8 @@ showColors
 	allVariants add: self secondaryColor.
 	self secondaryColorLightVariants reverseDo: [:each | allVariants add: each].
 	allVariants add: errorColor.
+	allVariants add: disabledColor.
+	allVariants add: dividerColor.
 	allVariants add: surfaceColor.
 	allVariants add: backgroundColor.
 	self textColorOptions reverseDo: [:each | allVariants add: each].

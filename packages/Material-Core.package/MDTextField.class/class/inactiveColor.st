@@ -1,4 +1,4 @@
 default properties
 inactiveColor 
 
-	^ Color black alpha: 0.6
+	^ self defaultTextColor alpha: 0.6

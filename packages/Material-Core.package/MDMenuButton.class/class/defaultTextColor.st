@@ -1,4 +1,4 @@
 default properties
 defaultTextColor
 
-	^ Color black
+	^ MDColorTheme currentTheme textColorOn: MDColorTheme currentTheme primaryColor

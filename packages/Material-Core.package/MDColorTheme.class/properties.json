@@ -15,7 +15,9 @@
 		"backgroundColor",
 		"surfaceColor",
 		"errorColor",
-		"textColorOptions" ],
+		"textColorOptions",
+		"disabledColor",
+		"dividerColor" ],
 	"name" : "MDColorTheme",
 	"pools" : [
 		 ],

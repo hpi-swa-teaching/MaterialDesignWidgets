@@ -1,4 +1,4 @@
 default properties
 defaultBorderRadius
 
-	^ 28
+	^ 0

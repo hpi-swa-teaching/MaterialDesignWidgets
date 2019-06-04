@@ -1,0 +1,4 @@
+default properties
+defaultBackgroundColorToggled
+
+	^ MDColorTheme currentTheme secondaryColorDarkest

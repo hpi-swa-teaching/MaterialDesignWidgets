@@ -1,0 +1,4 @@
+defaults
+defaultDisabledColor
+
+	^ Color gray
