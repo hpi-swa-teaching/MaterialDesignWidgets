@@ -1,4 +1,4 @@
-as yet unclassified
+colors
 setStripeColorsFrom: paneColor
 
 	labelArea ifNotNil: [labelArea color: Color black].

@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 addLabelArea
 
 	labelArea ifNotNil: [labelArea abandon].

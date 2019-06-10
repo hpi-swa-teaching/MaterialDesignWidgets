@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 model: anObject
 
 	super model: anObject.
