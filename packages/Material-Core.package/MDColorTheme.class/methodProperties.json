@@ -16,8 +16,8 @@
 		"backgroundColor:" : "lp 6/3/2019 17:57",
 		"calculateChannelWeightFor:" : "lp 6/4/2019 15:31",
 		"calculateContrastOf:and:" : "lp 6/4/2019 15:40",
-		"calculateDarkVariants:" : "lp 6/3/2019 17:35",
-		"calculateLightVariants:" : "lp 6/3/2019 17:35",
+		"calculateDarkVariants:" : "lp 6/10/2019 13:23",
+		"calculateLightVariants:" : "lp 6/10/2019 13:23",
 		"calculateLuminance:" : "lp 6/4/2019 15:35",
 		"calculatePrimaryVariants" : "LP 6/3/2019 17:00",
 		"calculateSecondaryVariants" : "LP 6/3/2019 17:01",
@@ -51,6 +51,6 @@
 		"showColors" : "lp 6/10/2019 12:45",
 		"surfaceColor" : "lp 6/3/2019 17:59",
 		"surfaceColor:" : "lp 6/3/2019 17:59",
-		"textColorOn:" : "lp 6/4/2019 16:02",
+		"textColorOn:" : "lp 6/10/2019 13:25",
 		"textColorOptions" : "lp 6/4/2019 15:44",
 		"textColorOptions:" : "lp 6/4/2019 15:45" } }

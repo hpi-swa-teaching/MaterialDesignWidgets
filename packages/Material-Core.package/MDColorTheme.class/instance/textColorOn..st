@@ -7,7 +7,8 @@ textColorOn: aBackgroundColor
 	
 	self textColorOptions do: [:color | 
 		currentContrast := self calculateContrastOf: aBackgroundColor and: color.
-		(currentContrast > maxContrast) ifTrue: [maxContrast := currentContrast.
+		(currentContrast > maxContrast) ifTrue: [
+			maxContrast := currentContrast.
 			bestTextColor := color]].
 	
 	^ bestTextColor
