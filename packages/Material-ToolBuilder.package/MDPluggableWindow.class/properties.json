@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "CG 7/22/2018 23:10",
 	"instvars" : [
-		 ],
+		"getLabelSelector",
+		"getChildrenSelector",
+		"children",
+		"closeWindowSelector" ],
 	"name" : "MDPluggableWindow",
 	"pools" : [
 		 ],
-	"super" : "PluggableSystemWindow",
+	"super" : "MDSystemWindow",
 	"type" : "normal" }

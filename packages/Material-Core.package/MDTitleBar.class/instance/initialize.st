@@ -4,4 +4,5 @@ initialize
 	super initialize.
 	self
 		vResizing: #spaceFill;
-		addDropShadow
+		addDropShadow;
+		backgroundColor: self class defaultBackgroundColor
