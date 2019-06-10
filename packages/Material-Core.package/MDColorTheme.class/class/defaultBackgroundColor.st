@@ -1,4 +1,4 @@
 defaults
 defaultBackgroundColor
 
-	^ Color fromString: self defaultBackgroundColorString
+	^ Color fromString: 'f5f5f5'

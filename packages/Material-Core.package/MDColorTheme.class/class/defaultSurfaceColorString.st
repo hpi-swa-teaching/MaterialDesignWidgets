@@ -1,4 +1,0 @@
-defaults
-defaultSurfaceColorString
-
-	^ 'ffffff'

@@ -1,4 +1,4 @@
 defaults
 defaultSurfaceColor
 
-	^ Color fromString: self defaultSurfaceColorString
+	^ Color fromString: 'ffffff'

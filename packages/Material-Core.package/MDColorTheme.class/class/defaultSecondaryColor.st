@@ -1,4 +1,4 @@
 defaults
 defaultSecondaryColor
 
-	^ Color fromString: self defaultSecondaryColorString
+	^ Color fromString: '03dac5'

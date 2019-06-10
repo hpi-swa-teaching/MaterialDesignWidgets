@@ -1,4 +1,4 @@
 defaults
 defaultPrimaryColor
 
-	^ Color fromString: self defaultPrimaryColorString
+	^ Color fromString: '6200ee'
