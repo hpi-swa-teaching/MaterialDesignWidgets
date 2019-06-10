@@ -1,4 +1,4 @@
 default properties
 defaultTextColor
 
-	^  '#673AB7'
+	^  MDColorTheme currentTheme secondaryColor

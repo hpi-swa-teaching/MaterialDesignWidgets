@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"alwaysUppercase" : "JW 6/8/2018 16:04",
-		"backgroundColorToggled" : "JW 6/15/2018 12:56",
+		"defaultBackgroundColor" : "lp 6/4/2019 17:55",
+		"defaultBackgroundColorToggled" : "lp 6/4/2019 18:50",
 		"defaultBorderRadius" : "LS 5/14/2018 10:01",
 		"defaultElevatedSizeDifference" : "mats 5/22/2018 11:09",
 		"defaultHeight" : "JW 5/17/2018 13:01",
@@ -11,7 +12,8 @@
 		"defaultPadding" : "JW 5/17/2018 13:08",
 		"defaultShadowScaler" : "JW 5/17/2018 12:52",
 		"defaultText" : "JW 5/17/2018 14:12",
-		"defaultTextColor" : "mats 5/21/2018 14:51",
+		"defaultTextColor" : "lp 6/4/2019 17:36",
+		"defaultTextColorToggled" : "lp 6/4/2019 18:50",
 		"icon:" : "JW 6/19/2018 10:20",
 		"iconRight:" : "JW 6/19/2018 10:20",
 		"minWidth" : "JW 5/17/2018 13:01",
@@ -22,7 +24,7 @@
 		"calculateTextColor" : "CG 7/1/2018 11:14",
 		"calculateWidth" : "JW 5/27/2018 11:47",
 		"calculateWidthByText" : "Max 7/25/2018 10:59",
-		"checkToggled" : "mats 7/3/2018 13:09",
+		"checkToggled" : "lp 6/10/2019 13:20",
 		"decreaseSize" : "mats 5/22/2018 11:06",
 		"defaultHeight" : "mats 7/10/2018 12:45",
 		"disable" : "CG 7/1/2018 11:11",

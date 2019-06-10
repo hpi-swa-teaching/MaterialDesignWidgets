@@ -1,0 +1,4 @@
+default properties
+defaultBackgroundColorSelected
+
+	^ MDColorTheme currentTheme secondaryColorDark

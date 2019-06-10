@@ -1,0 +1,4 @@
+accessing
+secondaryColorLightVariants: aColorCollection
+
+	secondaryColorLightVariants := aColorCollection

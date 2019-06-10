@@ -1,12 +1,9 @@
 {
 	"class" : {
-		"backgroundColorToggled" : "mats 7/25/2018 11:21",
-		"defaultText" : "mats 5/22/2018 19:11",
-		"defaultTextColor" : "LS 5/24/2018 15:51" },
+		"defaultText" : "mats 5/22/2018 19:11" },
 	"instance" : {
 		"disable" : "CG 7/1/2018 11:38",
 		"enable" : "CG 7/1/2018 11:38",
 		"initialize" : "CG 7/1/2018 11:38",
 		"mouseEnter:" : "LS 6/21/2018 20:30",
-		"mouseLeave:" : "LS 5/28/2018 21:59",
-		"textColor" : "CG 7/1/2018 11:38" } }
+		"mouseLeave:" : "LS 5/28/2018 21:59" } }
