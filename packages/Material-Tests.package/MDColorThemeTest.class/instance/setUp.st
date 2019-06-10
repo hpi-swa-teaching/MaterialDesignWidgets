@@ -3,4 +3,4 @@ setUp
 
 	super setUp.
 	
-	theme := MDColorTheme new.
+	theme := MDColorTheme new

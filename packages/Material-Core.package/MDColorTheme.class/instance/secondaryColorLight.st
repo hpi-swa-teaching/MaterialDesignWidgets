@@ -1,4 +1,4 @@
 accessing
 secondaryColorLight
 
-	^ self secondaryColorLightVariants last.
+	^ self secondaryColorLightVariants last

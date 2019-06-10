@@ -16,4 +16,4 @@ showColors
 	allVariants add: backgroundColor.
 	self textColorOptions reverseDo: [:each | allVariants add: each].
 
-	Color showColors: allVariants.
+	Color showColors: allVariants

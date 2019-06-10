@@ -1,4 +1,4 @@
 accessing
 currentTheme
 
-	^ CurrentTheme ifNil: [CurrentTheme := MDColorTheme new].
+	^ CurrentTheme ifNil: [CurrentTheme := MDColorTheme new]

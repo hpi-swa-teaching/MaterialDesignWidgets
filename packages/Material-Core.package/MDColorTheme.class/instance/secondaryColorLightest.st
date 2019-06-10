@@ -1,4 +1,4 @@
 accessing
 secondaryColorLightest
 
-	^ self secondaryColorLightVariants first.
+	^ self secondaryColorLightVariants first

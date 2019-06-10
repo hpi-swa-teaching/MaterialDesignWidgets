@@ -1,4 +1,4 @@
 accessing
 primaryColorDarkest
 
-	^ self primaryColorDarkVariants first.
+	^ self primaryColorDarkVariants first
