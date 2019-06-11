@@ -1,4 +1,4 @@
 default properties
-backgroundColor
+defaultOverlayColor
 
 	^ Color black alpha: 0.3

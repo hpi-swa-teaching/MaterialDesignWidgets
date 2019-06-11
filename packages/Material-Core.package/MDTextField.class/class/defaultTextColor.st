@@ -1,4 +1,4 @@
 default properties
 defaultTextColor
 
-	^ Color black alpha: 0.87
+	^ MDColorTheme currentTheme textColorOn: MDColorTheme currentTheme surfaceColor

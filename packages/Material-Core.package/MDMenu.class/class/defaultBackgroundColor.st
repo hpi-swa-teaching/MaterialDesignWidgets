@@ -1,4 +1,4 @@
 default properties
 defaultBackgroundColor 
 
-	^ Color white
+	^ MDColorTheme currentTheme surfaceColor

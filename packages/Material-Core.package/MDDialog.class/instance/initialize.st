@@ -6,7 +6,7 @@ initialize
 	self
 		beSticky;
 		borderRadius: self class borderRadius;
-		backgroundColor: '#FFFFFF';
+		backgroundColor: self class defaultBackgroundColor;
 		initializeButtons;
 		initializeBackground;
 		hasADropShadow: true.

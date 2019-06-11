@@ -5,7 +5,7 @@ initializeBackground
 		beSticky;
 		wantsRipples: false;
 		wantsStates: false;
-		backgroundColor: self class backgroundColor;
+		backgroundColor: self class defaultOverlayColor;
 		bounds: World fullBounds;
 		target: [self dismissOnBackgroundClick ifTrue: [self close]];
 		actionSelector: #value;

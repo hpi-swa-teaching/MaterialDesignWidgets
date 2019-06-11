@@ -1,4 +1,0 @@
-properties
-textColor
-
-	^ Color white

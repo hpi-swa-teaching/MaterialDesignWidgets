@@ -1,4 +1,4 @@
 default properties
 titleTextColor
 
-	^ Color black
+	^ MDColorTheme currentTheme textColorOn: MDColorTheme currentTheme surfaceColor
