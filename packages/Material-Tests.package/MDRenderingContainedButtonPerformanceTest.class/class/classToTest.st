@@ -1,4 +1,0 @@
-class name
-classToTest
-
-	^ MDContainedButton
