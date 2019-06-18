@@ -1,1 +1,0 @@
-I test the performance of rendering MDWidgets. I have a threshhold and expect the rendering to be faster than this threshhold.
