@@ -1,9 +1,9 @@
 event handling
-mouseMove: anEvent
+mouseMove: evt
 
 	| item mouseEvent evtCopy |
-	item := self globalPositionToIndex: anEvent position.
-	evtCopy := anEvent copy.
+	item := self globalPositionToIndex: evt position.
+	evtCopy := evt copy.
 	mouseEvent := evtCopy position: 0 @ 0.
 	
 	self filteredListItems ifNotEmpty: [
