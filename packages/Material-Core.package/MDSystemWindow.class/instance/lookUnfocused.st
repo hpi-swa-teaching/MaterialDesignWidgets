@@ -5,9 +5,9 @@ lookUnfocused
 	self isLookingFocused ifFalse: [^ self].
 	self isLookingFocused: false.
 
-	label ifNotNil: [ label color: ((MDColorTheme currentTheme textColorOn: MDColorTheme currentTheme primaryColor) darker darker darker) ].
+	label ifNotNil: [label color: Color gray].
 	self dimWindowButtons.
-	self paneColorToUseWhenNotActive in: [ : col |
+	self paneColorToUseWhenNotActive in: [: col |
 		self
 			 setStripeColorsFrom: col ;
-			 adoptPaneColor: col ]
+			 adoptPaneColor: col]

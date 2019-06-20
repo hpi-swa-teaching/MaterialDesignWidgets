@@ -5,12 +5,12 @@ lookFocused
 	self isLookingFocused ifTrue: [^ self].
 	self isLookingFocused: true.
 
-	label ifNotNil: [ label color: (MDColorTheme currentTheme textColorOn: MDColorTheme currentTheme primaryColor) ].
+	label ifNotNil: [label color: (MDColorTheme currentTheme textColorOn: MDColorTheme currentTheme primaryColor)].
 	
 	(self isKeyWindow or: [self class windowTitleActiveOnFirstClick])
 		ifTrue: [self undimWindowButtons].
 		
-	self paneColorToUse in: [ : col |
+	self paneColorToUse in: [: col |
 		self
 			 setStripeColorsFrom: col ;
 			 adoptPaneColor: col].
