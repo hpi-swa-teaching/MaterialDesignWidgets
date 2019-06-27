@@ -1,0 +1,14 @@
+as yet unclassified
+textFrame
+
+	| bottomOffset |
+	
+	bottomOffset := self wantsOptionalButtons
+		ifTrue: [self buttonHeight negated - self buttonPadding]
+		ifFalse: [0].
+		
+	^ LayoutFrame new
+		leftFraction: 0 offset: 0;
+		topFraction: 0 offset: 0;
+		rightFraction: 1 offset: 0;
+		bottomFraction: 1 offset: bottomOffset
