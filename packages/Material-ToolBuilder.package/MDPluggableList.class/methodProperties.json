@@ -5,6 +5,7 @@
 		"on:list:selected:changeSelected:menu:keystroke:" : "LS 7/12/2018 13:30",
 		"toolIconsToMaterialIcons" : "Max 7/25/2018 13:57" },
 	"instance" : {
+		"addListItem:" : "AN 6/29/2019 11:37",
 		"autoDeselect" : "CG 7/11/2018 17:39",
 		"autoDeselect:" : "CG 7/11/2018 17:39",
 		"basicKeyPressed:" : "CG 7/25/2018 20:51",
