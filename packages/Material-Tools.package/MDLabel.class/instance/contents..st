@@ -22,4 +22,5 @@ contents: anObject
 						ifTrue: [^ self].
 					"no substantive change"
 					newContents].
-	self fitContents
+	self fitContents.
+	self fullContents: newContents
