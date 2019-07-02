@@ -17,6 +17,7 @@
 		"icon:" : "JW 6/19/2018 10:20",
 		"iconRight:" : "JW 6/19/2018 10:20",
 		"minWidth" : "JW 5/17/2018 13:01",
+		"minimumPadding" : "RW 7/1/2019 14:17",
 		"textDisabledAlpha" : "CG 7/25/2018 20:36" },
 	"instance" : {
 		"addIcon:" : "CG 7/1/2018 11:10",
@@ -54,6 +55,7 @@
 		"labelPositionIconNotPresent" : "LS 6/12/2018 20:14",
 		"labelPositionIconPresent" : "LS 6/28/2018 21:29",
 		"labelPositionOnlyIconRightPresent" : "mats 6/21/2018 11:47",
+		"labelShrinkThreshold" : "RW 7/1/2019 15:09",
 		"minHeight" : "LS 6/28/2018 21:25",
 		"removeIcon" : "LS 6/12/2018 16:27",
 		"removeIconRight" : "JW 6/19/2018 11:38",
@@ -67,9 +69,10 @@
 		"toggleOn" : "mats 7/3/2018 13:09",
 		"toggled:" : "JW 6/15/2018 12:34",
 		"updateBounds" : "mats 7/10/2018 12:45",
-		"updateContents:" : "CG 7/1/2018 11:36",
+		"updateContents:" : "RW 7/1/2019 14:21",
 		"updateIcon" : "LS 6/10/2018 17:42",
 		"updateIconColor:" : "LS 6/10/2018 15:33",
 		"updateIconRight" : "LS 6/10/2018 17:43",
 		"updateIcons" : "CG 7/1/2018 11:37",
+		"updateLabelExtent" : "lp 7/2/2019 21:20",
 		"updateLabelPosition" : "LS 6/28/2018 21:29" } }

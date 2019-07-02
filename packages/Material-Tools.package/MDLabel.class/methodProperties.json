@@ -10,5 +10,10 @@
 	"instance" : {
 		"alwaysUppercase" : "CG 7/11/2018 17:31",
 		"alwaysUppercase:" : "CG 7/11/2018 17:31",
-		"contents:" : "wb 6/13/2019 14:43",
-		"findString:startingAt:caseSensitive:" : "LS 6/26/2018 17:17" } }
+		"contents:" : "RW 7/1/2019 14:10",
+		"expand" : "RW 7/1/2019 15:14",
+		"findString:startingAt:caseSensitive:" : "LS 6/26/2018 17:17",
+		"fullContents" : "RW 7/1/2019 14:30",
+		"fullContents:" : "RW 7/1/2019 14:10",
+		"fullWidth" : "RW 7/1/2019 14:18",
+		"shrink" : "RW 7/1/2019 15:14" } }
