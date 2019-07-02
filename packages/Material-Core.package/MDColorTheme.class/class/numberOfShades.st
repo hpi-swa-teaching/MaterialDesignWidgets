@@ -1,0 +1,4 @@
+defaults
+numberOfShades
+
+	^ 2

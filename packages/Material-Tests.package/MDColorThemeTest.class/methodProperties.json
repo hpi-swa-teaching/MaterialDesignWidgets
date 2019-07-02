@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "lp 6/10/2019 12:45",
+		"testTextColorCalculationNotNil" : "lp 6/23/2019 14:30",
+		"testTextColorCalculationOnBlackAndWhite" : "lp 6/23/2019 14:30",
+		"testTextColorCalculationOnVibrantColors" : "lp 6/23/2019 14:31" } }

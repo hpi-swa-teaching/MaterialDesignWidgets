@@ -1,4 +1,4 @@
 as yet unclassified
 defaultBackgroundColor
 
-	^ Color white
+	^ MDColorTheme currentTheme surfaceColor

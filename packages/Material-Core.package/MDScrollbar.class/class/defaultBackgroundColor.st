@@ -1,4 +1,4 @@
 as yet unclassified
 defaultBackgroundColor 
 
-	^ Color black alpha: 0.52
+	^ (MDColorTheme currentTheme textColorOn: MDColorTheme currentTheme surfaceColor) alpha: 0.52
