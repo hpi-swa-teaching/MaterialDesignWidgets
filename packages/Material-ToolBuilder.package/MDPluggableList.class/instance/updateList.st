@@ -8,7 +8,7 @@ updateList
 		self getIconSelector 
 			ifNotNil: [icon := self getMaterialIconFrom: (self model perform: self getIconSelector with: num)].
 		
-		listItem := (MDListItem newOnList: self)
+		listItem := (MDPluggableListItem newOnList: self)
 				text: printableObject;
 				denseLayout: self hasDenseLayout;
 				target: [
