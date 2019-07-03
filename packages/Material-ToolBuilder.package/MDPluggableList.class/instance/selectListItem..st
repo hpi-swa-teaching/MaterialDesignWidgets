@@ -1,14 +1,14 @@
 event handling
 selectListItem: anEvent
 
-	| index mouseEvent mouseEvtPos |		
+	| index mouseEvent mouseEventPosition |		
 			
 	self filteredListItems ifEmpty: [^ self].
 			
 	index := self globalPositionToIndex: anEvent position.
 	
-	mouseEvtPos :=  self globalPositionToPositionInListItem: anEvent position.
-	mouseEvent :=  anEvent copy position: mouseEvtPos.
+	mouseEventPosition :=  self globalPositionToPositionInListItem: anEvent position.
+	mouseEvent :=  anEvent copy position: mouseEventPosition.
 			
 	self ifInBounds: index do: [:listItem |
 		self modelSelect: listItem modelIndex.
