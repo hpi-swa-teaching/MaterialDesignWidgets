@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildDefaultBrowserWith: builder
 	"assemble the spec for a full system browser, build it and return the built but not opened morph"
 	"this build-but-don't-open phase is factored out to support the prototypicalToolWindow facility"
