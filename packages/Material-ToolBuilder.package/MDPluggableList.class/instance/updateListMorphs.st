@@ -6,7 +6,7 @@ updateListMorphs
 		| text |
 		text := self listCollection at: num.
 		self addListItem: (
-			(MDListItem newOnList: self)
+			(MDPluggableListItem newOnList: self)
 				text: text;
 				target: [
 					((self model perform: self selected) = 0)
