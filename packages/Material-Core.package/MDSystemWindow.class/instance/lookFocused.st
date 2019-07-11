@@ -12,5 +12,5 @@ lookFocused
 		
 	self paneColorToUse in: [:col |
 		self
-			 setStripeColorsFrom: col ;
-			 adoptPaneColor: col].
+			 setStripeColorsFrom: col;
+			 adoptPaneColor: col]
