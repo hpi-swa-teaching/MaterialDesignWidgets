@@ -1,4 +1,4 @@
 as yet unclassified
 defaultBackgroundColor
 
-	 ^ MDColorTheme currentTheme primaryColor
+	 ^ MDColorTheme currentTheme primaryColorDark

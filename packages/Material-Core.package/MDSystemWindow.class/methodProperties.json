@@ -2,10 +2,13 @@
 	"class" : {
 		"roundedWindowCorners" : "RW 6/3/2019 11:32" },
 	"instance" : {
+		"addButtonsAndLabel" : "wb 7/11/2019 12:19",
+		"addCloseBox" : "wb 7/11/2019 12:02",
+		"addCollapseBox" : "wb 7/11/2019 12:02",
 		"addLabelArea" : "lp 6/10/2019 15:07",
 		"defaultColor" : "lp 6/10/2019 14:51",
 		"initialize" : "lp 6/10/2019 16:54",
-		"initializeLabelArea" : "wb 6/13/2019 14:57",
+		"initializeLabelArea" : "wb 7/11/2019 12:20",
 		"lookFocused" : "lp 6/20/2019 12:22",
 		"lookUnfocused" : "lp 6/20/2019 12:22",
 		"setFramesForLabelArea" : "wb 6/13/2019 14:14",
