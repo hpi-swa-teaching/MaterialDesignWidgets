@@ -6,9 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"systemBar",
-		"appBar" ],
-	"name" : "MDTitleBar",
+		 ],
+	"name" : "MDSystemBar",
 	"pools" : [
 		 ],
 	"super" : "MDWidget",
