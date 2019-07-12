@@ -11,6 +11,4 @@ lookFocused
 		ifTrue: [self undimWindowButtons].
 		
 	self paneColorToUse in: [:col |
-		self
-			 setStripeColorsFrom: col;
-			 adoptPaneColor: col]
+		self adoptPaneColor: col]
