@@ -1,4 +1,4 @@
-initialize-release
+components
 setFrameForSystemBar
 	
 	| frame |

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeLabelArea
 	
 	labelString ifNil: [labelString := 'Untitled Window'].

@@ -1,4 +1,4 @@
-initialize-release
+components
 setFrameForAppBar
 
 	| frame |

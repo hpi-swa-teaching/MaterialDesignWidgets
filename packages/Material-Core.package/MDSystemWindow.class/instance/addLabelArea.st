@@ -1,4 +1,4 @@
-initialize-release
+components
 addLabelArea
 
 	systemBar ifNotNil: [systemBar abandon].

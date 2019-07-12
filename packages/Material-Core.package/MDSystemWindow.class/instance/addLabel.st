@@ -1,4 +1,4 @@
-as yet unclassified
+components
 addLabel
 
 	(appBar isNil or: [label isNil]) ifTrue: [^ self].

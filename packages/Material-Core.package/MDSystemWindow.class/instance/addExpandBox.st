@@ -1,4 +1,4 @@
-as yet unclassified
+components
 addExpandBox
 
 	systemBar ifNil: [^ self].

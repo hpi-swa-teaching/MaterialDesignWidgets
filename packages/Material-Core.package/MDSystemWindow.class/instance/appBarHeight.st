@@ -1,4 +1,4 @@
-as yet unclassified
+properties
 appBarHeight
 
 	^ self systemBarHeight * 2

@@ -1,4 +1,4 @@
-initialize-release
+properties
 systemBarHeight
 
 	^ 20

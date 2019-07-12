@@ -1,4 +1,4 @@
-as yet unclassified
+components
 addCloseBox
 
 	systemBar ifNil: [^ self].

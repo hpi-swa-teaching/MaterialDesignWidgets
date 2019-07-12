@@ -1,4 +1,4 @@
-as yet unclassified
+components
 addMenuControl
 	
 	appBar ifNil: [^ self].
