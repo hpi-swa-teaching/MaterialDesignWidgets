@@ -6,7 +6,7 @@ setFrameForSystemBar
 	systemBar ifNil: [^ self].	
 	systemBar
 		layoutPolicy: TableLayout new;
-		listDirection: #leftToRight;
+		listDirection: #rightToLeft;
 		hResizing: #spaceFill;
 		layoutInset: self layoutInset.
 	label hResizing: #spaceFill.

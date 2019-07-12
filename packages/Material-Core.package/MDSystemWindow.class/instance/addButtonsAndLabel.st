@@ -4,6 +4,6 @@ addButtonsAndLabel
 	self 
 		addMenuControl;
 		addLabel;
-		addCollapseBox;
+		addCloseBox;
 		addExpandBox;
-		addCloseBox
+		addCollapseBox

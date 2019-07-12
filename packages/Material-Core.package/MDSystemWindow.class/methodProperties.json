@@ -2,7 +2,7 @@
 	"class" : {
 		"roundedWindowCorners" : "RW 6/3/2019 11:32" },
 	"instance" : {
-		"addButtonsAndLabel" : "wb 7/12/2019 15:09",
+		"addButtonsAndLabel" : "wb 7/12/2019 15:23",
 		"addCloseBox" : "wb 7/12/2019 15:11",
 		"addCollapseBox" : "wb 7/12/2019 15:11",
 		"addExpandBox" : "wb 7/12/2019 15:11",
@@ -16,6 +16,6 @@
 		"lookFocused" : "wb 7/11/2019 13:26",
 		"lookUnfocused" : "lp 6/20/2019 12:22",
 		"setFrameForAppBar" : "wb 7/12/2019 15:16",
-		"setFrameForSystemBar" : "wb 7/12/2019 15:16",
+		"setFrameForSystemBar" : "wb 7/12/2019 15:22",
 		"setStripeColorsFrom:" : "wb 6/13/2019 14:25",
 		"systemBarHeight" : "wb 7/12/2019 14:55" } }
