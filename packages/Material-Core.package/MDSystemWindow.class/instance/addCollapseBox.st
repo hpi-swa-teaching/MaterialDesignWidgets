@@ -1,7 +1,7 @@
 as yet unclassified
 addCollapseBox
 	
-	labelArea ifNil: [^ self].
+	systemBar ifNil: [^ self].
 	collapseBox ifNotNil: [collapseBox delete].
 	collapseBox := self createCollapseBox.
-	labelArea addCollapseBox: collapseBox
+	systemBar addCollapseBox: collapseBox

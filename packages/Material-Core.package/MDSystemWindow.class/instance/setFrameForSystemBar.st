@@ -1,9 +1,10 @@
 initialize-release
-setFramesForLabelArea
+setFrameForSystemBar
 	
 	| frame |
-	labelArea ifNil: [^ self].	
-	labelArea
+	
+	systemBar ifNil: [^ self].	
+	systemBar
 		layoutPolicy: TableLayout new;
 		listDirection: #leftToRight;
 		hResizing: #spaceFill;
@@ -11,6 +12,7 @@ setFramesForLabelArea
 	label hResizing: #spaceFill.
 	{closeBox. menuBox. expandBox. collapseBox} do: [:box |
 		box ifNotNil: [box extent: self boxExtent]].
+	
 	frame := LayoutFrame new.
 	frame
 		leftFraction: 0;
@@ -19,6 +21,6 @@ setFramesForLabelArea
 		rightFraction: 1;
 		rightOffset: self layoutInset;
 		bottomFraction: 0;
-		topOffset: (self labelHeight + self layoutInset + labelArea bottomShadow) negated;
-		bottomOffset: labelArea bottomShadow negated.
-	labelArea layoutFrame: frame
+		topOffset: (self appBarHeight + self systemBarHeight + appBar bottomShadow + self layoutInset) negated;
+		bottomOffset: (appBar bottomShadow + self appBarHeight) negated.
+	systemBar layoutFrame: frame

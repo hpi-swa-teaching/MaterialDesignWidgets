@@ -1,8 +1,8 @@
 as yet unclassified
 addLabel
 
-	(labelArea isNil or: [label isNil]) ifTrue: [^ self].
-	labelArea 
+	(appBar isNil or: [label isNil]) ifTrue: [^ self].
+	appBar 
 		addLabel: (Morph new extent: self class borderWidth @ 0);
 		addLabel: label.
 	label on: #startDrag send: #startDragFromLabel: to: self.

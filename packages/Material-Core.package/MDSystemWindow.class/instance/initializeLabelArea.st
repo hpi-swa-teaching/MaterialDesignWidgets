@@ -8,8 +8,9 @@ initializeLabelArea
 		addLabelArea;
 		setLabelWidgetAllowance;
 		addButtonsAndLabel;
-		setFramesForLabelArea.
-	Preferences noviceMode ifTrue: [
+		setFrameForSystemBar;
+		setFrameForAppBar.
+	Preferences  noviceMode ifTrue: [
 		closeBox ifNotNil: [closeBox setBalloonText: 'close window'].
 		menuBox ifNotNil: [menuBox setBalloonText: 'window menu'].
 		collapseBox ifNotNil: [collapseBox setBalloonText: 'collapse/expand window']]

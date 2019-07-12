@@ -1,8 +1,8 @@
 as yet unclassified
 addMenuControl
 	
-	labelArea ifNil: [^ self].
+	appBar ifNil: [^ self].
 	menuBox ifNotNil: [menuBox delete].
 	menuBox := self createMenuBox.
 	menuBox layoutFrame: self class menuBoxFrame.
-	labelArea addMenuControl: menuBox
+	appBar addMenuControl: menuBox
