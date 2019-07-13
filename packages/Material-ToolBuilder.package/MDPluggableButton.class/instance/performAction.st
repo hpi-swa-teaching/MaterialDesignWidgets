@@ -8,8 +8,4 @@ performAction
 	self actionSelector ifNotNil:
 		[self actionSelector numArgs = 0
 			ifTrue:
-				[self model perform: self actionSelector]
-			ifFalse:
-				[self argumentsProvider ifNotNil:
-					[self arguments: (self argumentsProvider perform: self argumentsSelector)].
-					self model perform: self actionSelector withArguments: self arguments]]
+				[self model perform: self actionSelector]]

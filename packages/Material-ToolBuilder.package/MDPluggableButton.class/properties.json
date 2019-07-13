@@ -15,8 +15,6 @@
 		"updateMap",
 		"allButtons",
 		"triggerOnMouseDown",
-		"argumentsProvider",
-		"argumentsSelector",
 		"askBeforeChanging",
 		"action",
 		"menu" ],

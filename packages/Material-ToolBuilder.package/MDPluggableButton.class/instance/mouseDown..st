@@ -4,8 +4,7 @@ mouseDown: evt
 
 	self allButtons: nil.
 	evt yellowButtonPressed ifTrue: [^ self invokeMenu: evt].
-	self triggerOnMouseDown
-		ifTrue: [super mouseDown: evt]
-		ifFalse: [
-			self allButtons: (owner submorphs select: [:m | m class = self class]).
-			super mouseDown: evt]
+	self triggerOnMouseDown ifFalse: [
+		self allButtons: (owner submorphs select: [:m | 
+			m class = self class])].
+	super mouseDown: evt
