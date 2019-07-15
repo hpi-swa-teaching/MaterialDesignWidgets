@@ -11,8 +11,7 @@ basicKeyPressed: aChar
 	self lastKeystrokeTime: milliseconds.
 	slowKeyStroke
 		ifTrue: [self lastKeystrokes: aChar asLowercase asString]
-		ifFalse: [ "append quick keystrokes but don't move selection if it still matches"
-			self lastKeystrokes: self lastKeystrokes , aChar asLowercase asString].
+		ifFalse: [self lastKeystrokes: self lastKeystrokes, aChar asLowercase asString].
 	"No change if model is locked"
 	self model okToChange ifFalse: [^ self].
 	
