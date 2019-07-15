@@ -10,8 +10,6 @@ setFrameForSystemBar
 		hResizing: #spaceFill;
 		layoutInset: self layoutInset.
 	label hResizing: #spaceFill.
-	{closeBox. menuBox. expandBox. collapseBox} do: [:box |
-		box ifNotNil: [box extent: self boxExtent]].
 	
 	frame := LayoutFrame new.
 	frame

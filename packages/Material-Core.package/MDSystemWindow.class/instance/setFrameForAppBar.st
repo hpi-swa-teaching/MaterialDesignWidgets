@@ -7,11 +7,8 @@ setFrameForAppBar
 	appBar
 		layoutPolicy: TableLayout new;
 		listDirection: #leftToRight;
-		hResizing: #spaceFill;
-		layoutInset: self layoutInset.
-	label hResizing: #spaceFill.
-	{closeBox. menuBox. expandBox. collapseBox} do: [:box |
-		box ifNotNil: [box extent: self boxExtent]].
+		hResizing: #spaceFill.
+	label  hResizing: #spaceFill.
 	
 	frame := LayoutFrame new.
 	frame
