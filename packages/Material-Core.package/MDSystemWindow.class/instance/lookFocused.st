@@ -10,5 +10,5 @@ lookFocused
 	(self isKeyWindow or: [self class windowTitleActiveOnFirstClick])
 		ifTrue: [self undimWindowButtons].
 		
-	self paneColorToUse in: [:col |
-		self adoptPaneColor: col]
+	self paneColorToUse in: [:color |
+		self adoptPaneColor: color]
