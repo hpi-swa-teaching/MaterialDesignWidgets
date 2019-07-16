@@ -1,9 +1,11 @@
 drawing
 checkToggled
 
-	(self isEnabled and: [self isToggled]) 
-		ifTrue: [self currentBackgroundColor: self class defaultBackgroundColorToggled.
-			self textColor: self class defaultTextColorToggled]
-		ifFalse: [self currentBackgroundColor: self class defaultBackgroundColor.
-			self textColor: self class defaultTextColor]
-	
+		self isEnabled ifTrue: [
+			(self isToggled) 
+				ifTrue: [
+					self currentBackgroundColor: self backgroundColorToggled.
+					self currentTextColor: self textColorToggled]
+				ifFalse: [
+					self currentBackgroundColor: self backgroundColor.
+					self currentTextColor: self textColor]]

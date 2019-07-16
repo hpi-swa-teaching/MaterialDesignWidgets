@@ -8,7 +8,7 @@ calculateColor
 	self wantsStates 
 		ifTrue: [
 			self isDisabled
-				ifTrue: [color := self backgroundColorDisabled]
+				ifTrue: [	color := self backgroundColorDisabled value]
 				ifFalse: [ 
 					overlay := self class stateToOverlay at: self state ifAbsent: [0].
 					color := color + (self backgroundColor * overlay)]].
