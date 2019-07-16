@@ -2,7 +2,7 @@ components
 addCloseBox
 
 	systemBar ifNil: [^ self].
-	mustNotClose == true ifTrue: [^ self].
+	self mustNotClose ifTrue: [^ self].
 	closeBox ifNotNil: [closeBox delete].
 	closeBox := self createCloseBox.
 	closeBox layoutFrame: self class closeBoxFrame.

@@ -1,4 +1,4 @@
 properties
 appBarHeight
 
-	^ self systemBarHeight * 2
+	^ self labelHeight * 2
