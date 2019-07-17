@@ -1,16 +1,16 @@
 properties
 calculateColor
 	
-	| overlay color |
+	| overlay newColor |
 	
-	color := self backgroundColor.
+	newColor := self backgroundColor.
 	
 	self wantsStates 
 		ifTrue: [
 			self isDisabled
-				ifTrue: [	color := self backgroundColorDisabled value]
+				ifTrue: [newColor := self backgroundColorDisabled]
 				ifFalse: [ 
 					overlay := self class stateToOverlay at: self state ifAbsent: [0].
-					color := color + (self backgroundColor * overlay)]].
+					newColor := newColor + (self backgroundColor * overlay)]].
 		
-	^ self currentBackgroundColor: color
+	^ self currentBackgroundColor: newColor
