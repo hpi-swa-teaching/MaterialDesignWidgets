@@ -13,7 +13,8 @@
 		"negatedShapeCache",
 		"target",
 		"actionSelector",
-		"arguments" ],
+		"arguments",
+		"backgroundColorDisabled" ],
 	"name" : "MDClickable",
 	"pools" : [
 		 ],

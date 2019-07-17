@@ -2,4 +2,6 @@ initialization
 initialize
 
 	super initialize.
-	self beSticky
+	self 
+		backgroundColorDisabled: (self class defaultBackgroundColorDisabled);
+		beSticky
