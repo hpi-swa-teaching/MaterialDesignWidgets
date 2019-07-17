@@ -22,6 +22,8 @@
 	"instance" : {
 		"addIcon:" : "CG 7/1/2018 11:10",
 		"addIconRight:" : "CG 7/1/2018 11:10",
+		"backgroundColorToggled" : "lp 7/17/2019 12:19",
+		"backgroundColorToggled:" : "lp 7/17/2019 12:20",
 		"calculateTextColor" : "CG 7/1/2018 11:14",
 		"calculateWidth" : "JW 5/27/2018 11:47",
 		"calculateWidthByText" : "Max 7/25/2018 10:59",
@@ -66,6 +68,8 @@
 		"textColor" : "CG 7/1/2018 11:35",
 		"textColor:" : "lp 7/16/2019 14:38",
 		"textColorDisabled" : "lp 7/16/2019 13:45",
+		"textColorToggled" : "lp 7/17/2019 12:23",
+		"textColorToggled:" : "lp 7/17/2019 12:23",
 		"textProperty:" : "CG 7/1/2018 11:36",
 		"toggleOff" : "JW 6/15/2018 12:39",
 		"toggleOn" : "mats 7/3/2018 13:09",
