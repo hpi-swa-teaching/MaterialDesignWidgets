@@ -19,4 +19,5 @@ Copy all `*.ttf` files from [this folder](https://github.com/hpi-swa-teaching/Ma
 > To manually force a new import execute `MDWidget fontsImported: false`
 
 # Contributors
-Carolin Goerke, Max Plaga, Jan Westphal, Lasse Steffen, Mats Pörschke
+Carolin Goerke, Max Plaga, Jan Westphal, Lasse Steffen, Mats Pörschke,
+Wanda Baltzer, Antonius Naumann, Luc Prestin, Robin Wersich
