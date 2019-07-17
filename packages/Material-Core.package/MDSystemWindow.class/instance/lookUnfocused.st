@@ -8,6 +8,4 @@ lookUnfocused
 	label ifNotNil: [label color: Color gray].
 	self dimWindowButtons.
 	self paneColorToUseWhenNotActive in: [:col |
-		self
-			 setStripeColorsFrom: col ;
-			 adoptPaneColor: col]
+		self adoptPaneColor: col]

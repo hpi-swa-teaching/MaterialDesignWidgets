@@ -1,29 +1,16 @@
-as yet unclassified
+initialization
 initializeLabelArea
-	"Initialize the label area (titlebar) for the window."
 	
 	labelString ifNil: [labelString := 'Untitled Window'].
 	label := MDLabel new contents: labelString.
-	label color: (MDColorTheme currentTheme textColorOn: MDColorTheme currentTheme primaryColor).
-			"Add collapse box so #labelHeight will work"
-			collapseBox := self createCollapseBox.
-			stripes := Array
-						with: (RectangleMorph newBounds: bounds)
-						with: (RectangleMorph newBounds: bounds).
-			"see extent:"
-			self addLabelArea.
-			self setLabelWidgetAllowance.
-			self addCloseBox.
-			self class moveMenuButtonRight 
-				ifTrue: [self addLabel. self addMenuControl]
-				ifFalse: [self addMenuControl. self addLabel].
-			self addExpandBox.
-			labelArea addMorphBack: collapseBox.
-			self setFramesForLabelArea.
-			Preferences noviceMode
-				ifTrue: [closeBox
-						ifNotNil: [closeBox setBalloonText: 'close window'].
-					menuBox
-						ifNotNil: [menuBox setBalloonText: 'window menu'].
-					collapseBox
-						ifNotNil: [collapseBox setBalloonText: 'collapse/expand window']].
+	label color: (MDColorTheme currentTheme textColorOn: MDColorTheme currentTheme primaryColor).		
+	self 
+		addLabelArea;
+		setLabelWidgetAllowance;
+		addButtonsAndLabel;
+		setFrameForSystemBar;
+		setFrameForAppBar.
+	Preferences  noviceMode ifTrue: [
+		closeBox ifNotNil: [closeBox setBalloonText: 'close window'].
+		menuBox ifNotNil: [menuBox setBalloonText: 'window menu'].
+		collapseBox ifNotNil: [collapseBox setBalloonText: 'collapse/expand window']]

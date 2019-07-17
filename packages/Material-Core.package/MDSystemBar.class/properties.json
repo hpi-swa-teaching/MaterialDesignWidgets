@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "wb 7/13/2019 11:51",
+	"commentStamp" : "",
 	"instvars" : [
-		"appBar",
-		"systemBar" ],
-	"name" : "MDSystemWindow",
+		 ],
+	"name" : "MDSystemBar",
 	"pools" : [
 		 ],
-	"super" : "SystemWindow",
+	"super" : "MDWidget",
 	"type" : "normal" }

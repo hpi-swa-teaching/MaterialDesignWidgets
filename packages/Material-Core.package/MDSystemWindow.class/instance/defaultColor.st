@@ -1,4 +1,4 @@
-initialize-release
+colors
 defaultColor
 
 	^ MDColorTheme currentTheme backgroundColor
