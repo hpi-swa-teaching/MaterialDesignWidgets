@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "lp 7/24/2019 13:48",
+		"testCollapsing" : "lp 7/24/2019 13:48",
+		"testExpanding" : "lp 7/24/2019 13:50",
+		"testFocused" : "lp 7/24/2019 13:52",
+		"testLabelNotNil" : "lp 7/24/2019 13:41" } }
