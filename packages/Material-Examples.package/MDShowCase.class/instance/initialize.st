@@ -14,7 +14,6 @@ initialize
 		initializeHeadline;
 		initializeList;
 		initializeMenu;
-		"initializeContactButtonDelete;"
 		initializeBasicDialog;
 		initializeInfoDialog;
 		initializeCloseButton

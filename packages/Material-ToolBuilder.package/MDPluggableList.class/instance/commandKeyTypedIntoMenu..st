@@ -1,5 +1,4 @@
 keystrokes
-commandKeyTypedIntoMenu: evt
-	"The user typed a command-key into a menu which has me as its command-key handler"
+commandKeyTypedIntoMenu: anEvent
 
-	^ self modifierKeyPressed: evt keyCharacter
+	^ self modifierKeyPressed: anEvent keyCharacter

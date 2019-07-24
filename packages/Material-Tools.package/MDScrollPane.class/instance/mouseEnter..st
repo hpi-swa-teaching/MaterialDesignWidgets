@@ -1,5 +1,5 @@
 event handling
-mouseEnter: evt
+mouseEnter: anEvent
 
-	super mouseEnter: evt.
-	evt hand showTemporaryCursor: Cursor text
+	super mouseEnter: anEvent.
+	anEvent hand showTemporaryCursor: Cursor text

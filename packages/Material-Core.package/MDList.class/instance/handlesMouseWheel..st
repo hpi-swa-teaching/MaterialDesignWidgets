@@ -1,4 +1,4 @@
 event handling
-handlesMouseWheel: evt
+handlesMouseWheel: anEvent
 	
 	^ true
