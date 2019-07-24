@@ -1,4 +1,4 @@
-default properties
+properties
 defaultTextColor
 
 	^  MDColorTheme currentTheme secondaryColor

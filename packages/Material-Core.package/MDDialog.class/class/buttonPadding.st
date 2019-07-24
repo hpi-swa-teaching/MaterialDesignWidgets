@@ -1,4 +1,4 @@
-default properties
+properties
 buttonPadding
 
 	^ 10 @ 10

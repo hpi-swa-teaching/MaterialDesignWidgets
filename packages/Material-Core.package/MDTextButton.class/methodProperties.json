@@ -5,5 +5,4 @@
 		"defaultTextColor" : "lp 6/4/2019 17:59" },
 	"instance" : {
 		"calculateColor" : "CG 7/1/2018 11:40",
-		"findString:startingAt:caseSensitive:" : "LS 6/26/2018 17:25",
-		"highlightSubstring" : "LS 6/26/2018 17:05" } }
+		"findString:startingAt:caseSensitive:" : "LS 6/26/2018 17:25" } }

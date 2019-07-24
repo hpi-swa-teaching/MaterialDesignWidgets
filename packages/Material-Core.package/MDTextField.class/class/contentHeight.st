@@ -1,4 +1,4 @@
-default properties
+properties
 contentHeight
 
 	^ self numberOfLines * self lineHeight

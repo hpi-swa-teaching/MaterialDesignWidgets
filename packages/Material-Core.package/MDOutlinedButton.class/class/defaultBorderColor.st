@@ -1,4 +1,4 @@
-default properties
+properties
 defaultBorderColor
 
 	^ MDColorTheme currentTheme secondaryColor

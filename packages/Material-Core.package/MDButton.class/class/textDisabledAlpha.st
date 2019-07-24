@@ -1,4 +1,4 @@
-default properties
+properties
 textDisabledAlpha
 
 	^ 0.6

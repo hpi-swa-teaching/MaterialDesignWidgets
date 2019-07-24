@@ -1,4 +1,4 @@
-as yet unclassified
+properties
 scrollDelta
 
 	^ 20

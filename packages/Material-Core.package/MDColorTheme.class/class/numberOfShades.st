@@ -1,4 +1,4 @@
-defaults
+properties
 numberOfShades
 
 	^ 2

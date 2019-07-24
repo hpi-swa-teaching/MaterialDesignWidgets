@@ -1,4 +1,4 @@
-defaults
+properties
 defaultDisabledColor
 
 	^ Color gray

@@ -1,4 +1,4 @@
-defaults
+properties
 defaultSurfaceColor
 
 	^ Color fromString: 'ffffff'

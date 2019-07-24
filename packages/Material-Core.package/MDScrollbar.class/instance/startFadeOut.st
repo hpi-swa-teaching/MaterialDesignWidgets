@@ -1,4 +1,4 @@
-as yet unclassified
+animation
 startFadeOut
 
 	self startedFadeOut: true.

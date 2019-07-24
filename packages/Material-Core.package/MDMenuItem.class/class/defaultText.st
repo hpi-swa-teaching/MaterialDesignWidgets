@@ -1,4 +1,4 @@
-default properties
+properties
 defaultText
 
 	^ 'Menu Item 1'

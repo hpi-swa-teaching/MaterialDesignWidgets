@@ -1,4 +1,0 @@
-default properties
-checkToggled 
-
-	

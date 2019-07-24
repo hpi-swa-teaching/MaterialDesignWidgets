@@ -1,4 +1,4 @@
-initialize-release
+initialization
 newWithCenter: aPoint on: aMorph
 
 	^ MDRipple new

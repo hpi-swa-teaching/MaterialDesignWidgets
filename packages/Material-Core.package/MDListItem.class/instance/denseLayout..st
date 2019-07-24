@@ -1,7 +1,8 @@
-as yet unclassified
+layout
 denseLayout: aBoolean
 
 	| value |
+	
 	value := self setProperty: #denseLayout to: aBoolean.
 	self height: self defaultHeight.
 	

@@ -1,4 +1,4 @@
-as yet unclassified
+properties
 scrollPercentage
 
 	^ self scrollOffset / self maxScrollDelta

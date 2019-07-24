@@ -1,7 +1,6 @@
 {
 	"class" : {
 		"alwaysUppercase" : "JW 6/8/2018 16:09",
-		"checkToggled" : "mats 7/3/2018 13:02",
 		"defaultAvatarPadding" : "mats 6/5/2018 09:09",
 		"defaultBackgroundColorSelected" : "lp 6/4/2019 19:10",
 		"defaultBorderRadius" : "LS 6/28/2018 20:47",
@@ -16,10 +15,10 @@
 		"calculateColor" : "lp 6/4/2019 19:11",
 		"calculateWidthByText" : "CG 7/1/2018 11:40",
 		"changed" : "mats 6/1/2018 15:11",
-		"checkToggled" : "mats 7/3/2018 14:44",
+		"checkToggled" : "wb 7/24/2019 13:23",
 		"containsPoint:" : "mats 6/28/2018 00:15",
 		"defaultHeight" : "mats 7/10/2018 12:53",
-		"denseLayout:" : "mats 7/10/2018 12:57",
+		"denseLayout:" : "wb 7/23/2019 12:01",
 		"deselect" : "mats 7/3/2018 14:46",
 		"formCache" : "mats 6/8/2018 15:32",
 		"formCache:" : "mats 6/8/2018 15:32",
@@ -33,5 +32,5 @@
 		"select" : "mats 7/3/2018 14:52",
 		"selected:" : "mats 7/3/2018 14:52",
 		"textColor:" : "mats 6/8/2018 15:33",
-		"updateFormCache" : "wb 6/15/2019 13:17",
+		"updateFormCache" : "wb 7/23/2019 12:01",
 		"updateFormCache:" : "LS 6/28/2018 21:32" } }

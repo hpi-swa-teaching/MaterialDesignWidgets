@@ -1,4 +1,4 @@
-default properties
+properties
 defaultIcon
 	"not being used yet"
 

@@ -1,4 +1,4 @@
-initialize-release
+initialization
 initialize
 
 	self primaryColor: (self class defaultPrimaryColor).

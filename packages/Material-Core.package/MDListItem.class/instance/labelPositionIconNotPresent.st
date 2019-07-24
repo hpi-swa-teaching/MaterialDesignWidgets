@@ -1,4 +1,4 @@
-as yet unclassified
+calculating
 labelPositionIconNotPresent 
 
 	^ (self bounds origin x + self class defaultPadding) @

@@ -1,4 +1,4 @@
-default properties
+properties
 containerTextColor
 
 	^ Color fromString: '#616161'
