@@ -1,6 +1,5 @@
 colors
 lookUnfocused
-	"See #lookFocused, #activate, and #passivate."
 
 	self isLookingFocused ifFalse: [^ self].
 	self isLookingFocused: false.

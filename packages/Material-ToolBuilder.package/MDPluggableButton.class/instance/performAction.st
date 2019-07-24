@@ -1,6 +1,5 @@
 event handling
 performAction
-	"Inform the model that this button has been pressed. Sent by the controller when this button is pressed. If the button's actionSelector takes any arguments, they are obtained dynamically by sending the argumentSelector to the argumentsProvider"
 
 	self enabled ifFalse: [^ self].
 	self action ifNotNil: [^ self action value].

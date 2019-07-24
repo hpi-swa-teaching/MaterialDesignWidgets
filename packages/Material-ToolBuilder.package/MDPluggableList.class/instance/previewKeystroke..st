@@ -1,7 +1,6 @@
 keystrokes
-previewKeystroke: event
-	"Let the model decide if it's going to handle the event for us"
+previewKeystroke: anEvent
 
 	^ self keystrokePreviewSelector 
 		ifNil: [false]
-		ifNotNil: [self model perform: self keystrokePreviewSelector with: event]
+		ifNotNil: [self model perform: self keystrokePreviewSelector with: anEvent]
