@@ -1,4 +1,4 @@
-tests
+testing
 testBorderRadius
 
 	MDWidget subclasses do: [:each |

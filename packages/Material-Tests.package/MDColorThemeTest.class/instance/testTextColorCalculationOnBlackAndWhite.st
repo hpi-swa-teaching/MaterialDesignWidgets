@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testTextColorCalculationOnBlackAndWhite
 
 	theme textColorOptions: {Color black . Color white}.

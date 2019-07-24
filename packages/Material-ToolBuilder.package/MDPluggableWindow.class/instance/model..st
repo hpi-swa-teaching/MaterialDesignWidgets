@@ -1,4 +1,4 @@
-initialize-release
+initialization
 model: anObject
 
 	super model: anObject.

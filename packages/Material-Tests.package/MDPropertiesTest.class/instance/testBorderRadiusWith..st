@@ -1,4 +1,4 @@
-tests
+testing
 testBorderRadiusWith: aMDWidget
 
 	| testValues |

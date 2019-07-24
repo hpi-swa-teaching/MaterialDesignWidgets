@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testExampleCreation
 
 	MDExample subclasses do: [:each | each new openInWorld: world]
