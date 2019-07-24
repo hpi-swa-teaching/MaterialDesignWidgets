@@ -14,9 +14,12 @@ Metacello new
 ```
 
 ### Fonts
-Copy all `*.ttf` files from [this folder](https://github.com/hpi-swa-teaching/MaterialDesignWidgets/tree/master/build-support/fonts) to `/path/to/Squeak-Image/Contents/Resources/Roboto`.
+Copy all `*.ttf` files from [this folder](https://github.com/hpi-swa-teaching/MaterialDesignWidgets/tree/master/build-support/fonts) to `/pathToSqueak-Image/Contents/Resources/Roboto`.
 > The import is only executed multiple times if something went wrong during the import.
 > To manually force a new import execute `MDWidget fontsImported: false`
+
+# Useful Information for Developers
+Please have a look at our [coding standards](https://github.com/hpi-swa-teaching/MaterialDesignWidgets/wiki/Coding-Standards) in the [wiki](https://github.com/hpi-swa-teaching/MaterialDesignWidgets/wiki/Coding-Standards)
 
 # Contributors
 Carolin Goerke, Max Plaga, Jan Westphal, Lasse Steffen, Mats Pörschke,
