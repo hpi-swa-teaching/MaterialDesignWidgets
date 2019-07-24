@@ -19,4 +19,5 @@ initializeCustomDialog
 	self addWidget:  (MDContainedButton new
 		text: 'Open Custom Dialog';
 		target: [(self dialogs at: index) open];
-		actionSelector: #value)
+		actionSelector: #value;
+		yourself)

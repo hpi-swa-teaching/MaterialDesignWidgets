@@ -5,7 +5,8 @@ addLabel
 	appBar 
 		addLabel: (Morph new 
 			extent: self class borderWidth @ self appBarHeight;
-			color: appBar backgroundColor);
+			color: appBar backgroundColor;
+			yourself);
 		addLabel: label.
 	label on: #startDrag send: #startDragFromLabel: to: self.
 	self class clickOnLabelToEdit

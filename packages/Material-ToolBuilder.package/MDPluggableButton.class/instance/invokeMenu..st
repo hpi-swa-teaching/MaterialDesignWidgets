@@ -1,7 +1,7 @@
 private
 invokeMenu: anEvent
 	
-	| menu |
+	| invokedMenu |
 	
-	menu := self getMenu: anEvent shiftPressed.
-	menu ifNotNil: [menu popUpEvent: anEvent in: self world]
+	invokedMenu := self getMenu: anEvent shiftPressed.
+	invokedMenu ifNotNil: [invokedMenu popUpEvent: anEvent in: self world]

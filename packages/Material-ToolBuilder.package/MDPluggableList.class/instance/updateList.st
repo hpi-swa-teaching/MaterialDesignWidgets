@@ -1,13 +1,11 @@
 updating
 updateList
 
+	| printableObject icon listItem |
+
 	self listItems removeAll.
 	1 to: self listCollection size do: [:num | 
-		| printableObject icon listItem |
 		printableObject := self listCollection at: num.
-		self getIconSelector 
-			ifNotNil: [icon := self getMaterialIconFrom: (self model perform: self getIconSelector with: num)].
-		
 		listItem := (MDPluggableListItem newOnList: self)
 				text: printableObject;
 				denseLayout: self hasDenseLayout;
@@ -19,5 +17,7 @@ updateList
 				actionSelector: #value; 
 				yourself.
 		
-		icon ifNotNil: [listItem icon: icon].
+		self getIconSelector ifNotNil: [
+			icon := self getMaterialIconFrom: (self model perform: self getIconSelector with: num).
+			icon ifNotNil: [listItem icon: icon]].
 		self addListItem: listItem]

@@ -1,10 +1,10 @@
 drawing
 fillArea
 	
-	| center size position corner |
-	center := self center.
-	size := self calculateSize.
-	position := center - (0.5 * size).
-	corner := position + size.
+	| calculatedSize position corner |
+	
+	calculatedSize := self calculateSize.
+	position := self center - (0.5 * calculatedSize).
+	corner := position + calculatedSize.
 	
 	^ position corner: corner

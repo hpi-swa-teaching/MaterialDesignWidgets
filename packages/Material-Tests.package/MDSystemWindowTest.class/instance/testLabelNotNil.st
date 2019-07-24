@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testLabelNotNil
 
 	self deny: (unitUnderTest label isNil)

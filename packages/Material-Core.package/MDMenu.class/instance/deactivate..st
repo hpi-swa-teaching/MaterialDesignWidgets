@@ -3,7 +3,7 @@ deactivate: anEvent
 
 	self popUpOwner ifNil: [ 
 		self deleteIfPopUp: anEvent.
-		^ true].
+		^ self].
 	
 	self selectItem: nil event: anEvent.
 	anEvent hand newMouseFocus: self popUpOwner owner.

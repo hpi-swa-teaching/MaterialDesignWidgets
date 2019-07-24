@@ -1,5 +1,5 @@
 event handling
 toggleOn
 	
-	self isDisabled ifTrue: [^ false].
+	self isDisabled ifTrue: [^ self].
 	self toggled: true

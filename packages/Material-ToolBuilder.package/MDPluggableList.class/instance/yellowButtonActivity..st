@@ -1,7 +1,8 @@
 event handling
 yellowButtonActivity: shiftKeyState
 
-	| menu |
-	(menu := self getMenu: shiftKeyState) ifNotNil:
-		[menu setInvokingView: self.
-		menu popUpEvent: self activeHand lastEvent in: self world]
+	| invokedMenu |
+	
+	(invokedMenu := self getMenu: shiftKeyState) ifNotNil:
+		[invokedMenu setInvokingView: self.
+		invokedMenu popUpEvent: self activeHand lastEvent in: self world]

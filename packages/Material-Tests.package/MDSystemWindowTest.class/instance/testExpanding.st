@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testExpanding
 
 	unitUnderTest expand.

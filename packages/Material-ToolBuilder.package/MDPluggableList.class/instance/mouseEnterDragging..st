@@ -1,11 +1,11 @@
 event handling
-mouseEnterDragging: evt
+mouseEnterDragging: anEvent
 	
-	(evt hand hasSubmorphs and:[self dropEnabled]) ifFalse: ["no d&d"
-		^super mouseEnterDragging: evt].
+	(anEvent hand hasSubmorphs and:[self dropEnabled]) ifFalse: [
+		^ super mouseEnterDragging: anEvent].
 	
-	(self wantsDroppedMorph: evt hand firstSubmorph event: evt)
+	(self wantsDroppedMorph: anEvent hand firstSubmorph event: anEvent) 
 		ifTrue: [
-			potentialDropRow := self rowAtLocation: evt position.
-			evt hand newMouseFocus: self.
+			potentialDropRow := self rowAtLocation: anEvent position.
+			anEvent hand newMouseFocus: self.
 			self changed]
