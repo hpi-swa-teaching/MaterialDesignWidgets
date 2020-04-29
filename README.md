@@ -18,9 +18,9 @@ Copy all `*.ttf` files from [this folder](https://github.com/hpi-swa-teaching/Ma
 > The import is only executed multiple times if something went wrong during the import.
 > To manually force a new import execute `MDWidget fontsImported: false`
 
-# Useful Information for Developers
+## Useful Information for Developers
 Please have a look at our [coding standards](https://github.com/hpi-swa-teaching/MaterialDesignWidgets/wiki/Coding-Standards) in the [wiki](https://github.com/hpi-swa-teaching/MaterialDesignWidgets/wiki)
 
-# Contributors
-Carolin Goerke, Max Plaga, Jan Westphal, Lasse Steffen, Mats Pörschke,
-Wanda Baltzer, Antonius Naumann, Luc Prestin, Robin Wersich
+## Contributors
+- Team 1: Carolin Goerke, Max Plaga, Jan Westphal, Lasse Steffen, Mats Pörschke
+- Team 2: Wanda Baltzer, Antonius Naumann, Luc Prestin, Robin Wersich
