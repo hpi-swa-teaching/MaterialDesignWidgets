@@ -22,7 +22,7 @@ buildOptionalButtonsWith: builder
 
 	"What to show"
 	panelSpec children add: builder pluggableSpacerSpec new.
-	self addCodeProvenanceButtonTo: panelSpec using: builder.
+	" addCodeProvenanceButtonTo: panelSpec using: builder."
 
 	panelSpec layout: #horizontal. "buttons"
 	
