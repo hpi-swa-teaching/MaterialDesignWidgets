@@ -1,7 +1,7 @@
 helper methods
 testEquality: aMDWidget with: aFormString
 
-	MDContainedButtonTest updateAllMockObjects.
+	
 	MDDialogTest updateAllMockObjects.
 	MDFloatingActionButtonTest updateAllMockObjects.
 	MDListTest updateAllMockObjects.
