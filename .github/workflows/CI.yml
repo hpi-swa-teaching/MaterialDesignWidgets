@@ -30,4 +30,4 @@ jobs:
           message: 'Update pixel test baseline'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        if: ${{matrix.os=='macos-latest' && matrix.smalltalk==Squeak64-5.3}}
+        if: ${{matrix.os=='macos-latest' && matrix.smalltalk=='Squeak64-5.3'}}
