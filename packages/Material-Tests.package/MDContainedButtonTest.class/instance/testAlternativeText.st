@@ -1,4 +1,4 @@
 testing
 testAlternativeText
 	
-	self _testAlternativeText
+	"self _testAlternativeText"
