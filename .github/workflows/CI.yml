@@ -18,7 +18,16 @@ jobs:
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-version: ${{ matrix.smalltalk }}
-      - run: /Library/Application\ Support/VMware\ Tools/vmware-resolutionSet 1920 1080
-        timeout-minutes: 3
+      #- run: /Library/Application\ Support/VMware\ Tools/vmware-resolutionSet 1920 1080
+       # timeout-minutes: 3
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         timeout-minutes: 15
+
+      - uses: EndBug/add-and-commit@v4 # You can change this to use a specific version
+        with:
+          author_name: IsabellKraus
+          author_email: isabell.kraus@student.hpi.de
+          message: 'Update pixel test baseline'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: ${{matrix.os=='macos-latest' && matrix.smalltalk==Squeak64-5.3}}
