@@ -11,6 +11,7 @@ jobs:
         os: [ ubuntu-latest, macos-latest ]
         # Select compatible Smalltalk image(s)
         smalltalk: [ Squeak64-trunk, Squeak64-5.3, Squeak64-5.2 ]
+      fail-fast: false
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
@@ -18,5 +19,6 @@ jobs:
         with:
           smalltalk-version: ${{ matrix.smalltalk }}
       - run: /Library/Application\ Support/VMware\ Tools/vmware-resolutionSet 1200 900
+        timeout-minutes: 3
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         timeout-minutes: 15
