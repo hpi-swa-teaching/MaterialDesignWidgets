@@ -18,7 +18,7 @@ jobs:
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-version: ${{ matrix.smalltalk }}
-      - run: /Library/Application\ Support/VMware\ Tools/vmware-resolutionSet 1200 900
+      - run: /Library/Application\ Support/VMware\ Tools/vmware-resolutionSet 1920 1080
         timeout-minutes: 3
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         timeout-minutes: 15
