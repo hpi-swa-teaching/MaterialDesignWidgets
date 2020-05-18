@@ -2,4 +2,4 @@ accessing
 secondaryColor: aColor
 
 	secondaryColor := aColor.
-	self calculateSecondaryVariants
+	self updateSecondaryVariants

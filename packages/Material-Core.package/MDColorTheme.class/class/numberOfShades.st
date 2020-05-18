@@ -1,4 +1,0 @@
-properties
-numberOfShades
-
-	^ 2

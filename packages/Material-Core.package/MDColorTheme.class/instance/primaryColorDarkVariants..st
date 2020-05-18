@@ -1,4 +1,0 @@
-accessing
-primaryColorDarkVariants: aColorCollection
-
-	primaryColorDarkVariants := aColorCollection
