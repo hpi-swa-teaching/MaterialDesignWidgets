@@ -1,4 +1,4 @@
-event handling
+as yet unclassified
 mouseEnter: anEvent
 	
 	self isEnabled ifTrue: [self elevate].

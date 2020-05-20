@@ -1,5 +1,5 @@
-initialization
-initialize 
-	
+drawing
+initialize
+
 	super initialize.
 	self hasADropShadow: false.

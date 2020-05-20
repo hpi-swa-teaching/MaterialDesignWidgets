@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "CG 7/22/2018 22:13",
 	"instvars" : [
-		 ],
-	"name" : "MDFloatingActionButton",
+		"transparency" ],
+	"name" : "MDIconButton",
 	"pools" : [
 		 ],
-	"super" : "MDIconButton",
+	"super" : "MDButton",
 	"type" : "normal" }
