@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"activated" : "lp 7/24/2019 13:57",
+		"activated" : "RW 5/22/2020 19:05",
 		"classToTest" : "mats 6/13/2018 10:19",
-		"deactivated" : "lp 7/24/2019 13:57" },
+		"deactivated" : "RW 5/22/2020 19:06" },
 	"instance" : {
 		"testActivate" : "LS 7/19/2018 16:26",
 		"testActivateAndDeactivate" : "LS 7/19/2018 16:27",
