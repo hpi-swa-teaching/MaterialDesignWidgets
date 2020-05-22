@@ -3,17 +3,18 @@ showColors
 
 	| allVariants |
 
-	allVariants := self primaryColorDarkVariants copy.
-	allVariants add: self primaryColor.
-	self primaryColorLightVariants reverseDo: [:each | allVariants add: each].
-	self secondaryColorDarkVariants do: [:each | allVariants add: each].
-	allVariants add: self secondaryColor.
-	self secondaryColorLightVariants reverseDo: [:each | allVariants add: each].
-	allVariants add: errorColor.
-	allVariants add: disabledColor.
-	allVariants add: dividerColor.
-	allVariants add: surfaceColor.
-	allVariants add: backgroundColor.
+	allVariants := {
+		self primaryColorLight.
+		self primaryColor.
+		self primaryColorDark.
+		self secondaryColorLight.
+		self secondaryColor.
+		self secondaryColorDark.
+		self errorColor.
+		self disabledColor.
+		self dividerColor.
+		self surfaceColor.
+		self backgroundColor} asOrderedCollection.
 	self textColorOptions reverseDo: [:each | allVariants add: each].
 
 	Color showColors: allVariants

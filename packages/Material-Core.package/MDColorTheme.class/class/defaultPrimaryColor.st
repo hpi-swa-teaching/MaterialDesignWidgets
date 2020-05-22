@@ -1,4 +1,4 @@
 properties
 defaultPrimaryColor
 
-	^ Color fromString: '6200ee'
+	^ MDColor indigo

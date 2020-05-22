@@ -1,4 +1,4 @@
 accessing
 primaryColorLight
 
-	^ self primaryColorLightVariants last
+	^ primaryColorLight

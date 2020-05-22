@@ -1,4 +1,4 @@
 properties
 defaultSecondaryColor
 
-	^ Color fromString: '03dac5'
+	^ MDColor pink
