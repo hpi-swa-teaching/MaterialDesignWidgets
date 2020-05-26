@@ -1,0 +1,23 @@
+{
+	"category" : "Material-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "RW 5/18/2020 19:17",
+	"instvars" : [
+		"shade50",
+		"shade100",
+		"shade200",
+		"shade300",
+		"shade400",
+		"shade500",
+		"shade600",
+		"shade700",
+		"shade800",
+		"shade900" ],
+	"name" : "MDColor",
+	"pools" : [
+		 ],
+	"super" : "Color",
+	"type" : "normal" }

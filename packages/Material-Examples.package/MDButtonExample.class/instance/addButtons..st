@@ -6,7 +6,8 @@ addButtons: aMDButtonClass
 	button := aMDButtonClass new.
 	button
 		text: 'Secondary';
-		textColor: '#018786';
+		"textColor: '#018786';"
+		textColor: '#000000';
 		backgroundColor: '#018786'.
 	
 	buttonIcon := aMDButtonClass icon: #ic_shopping_cart.

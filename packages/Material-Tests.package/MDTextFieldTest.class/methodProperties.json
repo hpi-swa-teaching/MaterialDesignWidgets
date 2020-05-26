@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"activated" : "RW 5/7/2020 14:42",
+		"activated" : "RW 5/22/2020 19:06",
 		"classToTest" : "JW 6/16/2018 14:04",
-		"deactivated" : "RW 5/7/2020 14:42",
+		"deactivated" : "RW 5/22/2020 19:06",
 		"updateActivatedMockObject" : "mats 7/25/2018 14:16",
 		"updateAllMockObjects" : "JW 6/16/2018 14:04",
 		"updateDeactivatedMockObject" : "mats 7/25/2018 14:16" },
