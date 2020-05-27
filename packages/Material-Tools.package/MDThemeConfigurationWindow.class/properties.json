@@ -1,0 +1,15 @@
+{
+	"category" : "Material-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"alwaysUppercase",
+		"fullContents" ],
+	"name" : "MDThemeConfigurationWindow",
+	"pools" : [
+		 ],
+	"super" : "MDSystemWindow",
+	"type" : "normal" }
