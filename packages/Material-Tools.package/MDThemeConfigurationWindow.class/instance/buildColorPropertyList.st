@@ -1,12 +1,12 @@
 initialization
-buildColorPicker
+buildColorPropertyList
 
 	| list |
 	list := MDList new
 		onSelectionChanged: [:item |
-			self onColorSelected: (item valueOfProperty: #value)];
+			self selectedColorProperty: (item valueOfProperty: #value)];
 		yourself.
-	MDColor allColors do: [ :each |
+	self class colorProperties do: [ :each |
 		| item |
 		item := (MDListItem newOnList: list)
 			text: each key;
