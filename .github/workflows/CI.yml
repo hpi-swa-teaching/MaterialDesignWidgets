@@ -8,18 +8,30 @@ jobs:
     strategy:
       matrix:
         # Select platform(s)
-        os: [ ubuntu-latest, macos-latest ]
+        os: [ubuntu-latest, macos-latest]
         # Select compatible Smalltalk image(s)
-        smalltalk: [ Squeak64-trunk, Squeak64-5.3, Squeak64-5.2 ]
+        smalltalk: [Squeak64-trunk, Squeak64-5.3, Squeak64-5.2]
       fail-fast: false
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
+
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-version: ${{ matrix.smalltalk }}
       #- run: /Library/Application\ Support/VMware\ Tools/vmware-resolutionSet 1920 1080
-       # timeout-minutes: 3
+      # timeout-minutes: 3
+
+      - run: |
+          chmod -R 777 copyfonts.sh
+          ls /home/runner/
+          ls /home/runner/.smalltalkCI
+          ls /home/runner/smalltalkCI-master
+          ./copyfonts.sh
+        working-directory: ./build-support
+        env:
+          ACTIONS_OS: ${{ matrix.os }}
+
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         timeout-minutes: 15
 
@@ -27,7 +39,7 @@ jobs:
         with:
           author_name: IsabellKraus
           author_email: isabell.kraus@student.hpi.de
-          message: 'Update pixel test baseline'
+          message: "Update pixel test baseline"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         if: ${{matrix.os=='macos-latest' && matrix.smalltalk=='Squeak64-5.3'}}
