@@ -24,12 +24,6 @@ jobs:
 
       - run: |
           chmod -R 777 copyfonts.sh
-          echo "home:"
-          ls /home/runner/
-          echo ".smalltalkCI:"
-          ls /home/runner/.smalltalkCI
-          echo "smalltalkCI-master:"
-          ls /home/runner/smalltalkCI-master
           ./copyfonts.sh
         working-directory: ./build-support
         env:
