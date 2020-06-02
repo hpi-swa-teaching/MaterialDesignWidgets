@@ -1,4 +1,4 @@
-initialization
+accessing
 transparency: aFloat
 
 	transparency := aFloat

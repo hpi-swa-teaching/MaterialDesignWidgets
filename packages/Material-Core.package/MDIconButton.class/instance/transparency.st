@@ -1,4 +1,4 @@
-initialization
+accessing
 transparency
 
 	^ transparency

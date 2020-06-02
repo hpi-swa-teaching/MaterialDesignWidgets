@@ -1,6 +1,6 @@
 event handling
 mouseEnter: anEvent
 	
-	self isEnabled ifTrue: [self transparency: 0.6].
+	self isEnabled ifTrue: [self transparency: self class hoveredTransparency].
 	super mouseEnter: anEvent
 	
