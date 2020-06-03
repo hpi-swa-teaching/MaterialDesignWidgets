@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"defaultBackgroundColor" : "mats 5/18/2018 10:06",
+		"defaultBackgroundColor" : "RW 6/1/2020 11:13",
 		"defaultText" : "mats 5/22/2018 13:19",
 		"defaultTextColor" : "lp 6/4/2019 17:59" },
 	"instance" : {
-		"calculateColor" : "CG 7/1/2018 11:40",
+		"calculateColor" : "RW 5/31/2020 23:37",
 		"findString:startingAt:caseSensitive:" : "LS 6/26/2018 17:25" } }

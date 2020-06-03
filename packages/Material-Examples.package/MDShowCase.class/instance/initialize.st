@@ -6,7 +6,7 @@ initialize
 		width: 450;
 		height: 400;
 		position: 100 @ 100;
-		backgroundColor: '#e0e0e0';
+		backgroundColor: MDColorTheme currentTheme backgroundColor;
 		beSticky;
 		foreNameFirst: true.
 	
