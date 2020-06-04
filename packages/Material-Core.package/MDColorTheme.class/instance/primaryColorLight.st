@@ -1,4 +1,4 @@
 accessing
 primaryColorLight
 
-	^ primaryColorLight
+	^ self primaryColor lighter

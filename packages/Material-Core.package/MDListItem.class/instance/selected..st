@@ -1,6 +1,6 @@
 accessing
-selected: anObject
+selected: aBool
 
-	selected := anObject.
+	selected := aBool.
 	self changed.
-	^ anObject
+	^ aBool
