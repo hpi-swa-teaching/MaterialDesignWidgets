@@ -6,4 +6,4 @@ initialize
 	
 	self
 		addMorph: self buildContentMorph
-		fullFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1))
+		fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1))

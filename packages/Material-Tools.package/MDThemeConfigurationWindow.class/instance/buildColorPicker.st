@@ -13,7 +13,7 @@ buildColorPicker
 			text: each key;
 			setProperty: #value toValue: each value;
 			backgroundColor: (each value
-				alphaMixed: 0.3
+				alphaMixed: self class colorPalettePreviewOpacity
 				with: MDColorTheme currentTheme surfaceColor);
 			yourself.
 		list addListItem: item].
