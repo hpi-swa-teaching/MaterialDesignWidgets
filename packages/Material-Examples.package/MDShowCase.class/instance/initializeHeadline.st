@@ -3,7 +3,9 @@ initializeHeadline
 
 	| label |
 	label := MDLabel contents: 'Contacts' fontTag: #H4.
-	label x: self width / 2.
-	label y: 20.
-	label position: label position + self position. 
+	label
+		x: self width / 2;
+		y: 20;
+		position: label position + self position;
+		color: (MDColorTheme textColorOnBackground).
 	self addMorph: label
