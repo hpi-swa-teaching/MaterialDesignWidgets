@@ -1,5 +1,5 @@
 initialization
-initialize 
-	
+initialize
+
 	super initialize.
-	self hasADropShadow: false.
+	self hasADropShadow: true.

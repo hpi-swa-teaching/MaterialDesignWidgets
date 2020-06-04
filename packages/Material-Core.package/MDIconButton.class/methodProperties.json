@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"defaultBorderRadius" : "lp 6/4/2019 17:52",
+		"defaultHeight" : "Max 5/23/2018 12:17",
+		"defaultText" : "LS 5/29/2018 08:57",
+		"hoveredTransparency" : "ct 6/2/2020 11:10",
+		"notHoveredTransparency" : "ct 6/2/2020 11:10" },
+	"instance" : {
+		"backgroundColor" : "ct 5/20/2020 21:23",
+		"basicBackgroundColor" : "ct 5/20/2020 21:14",
+		"borderRadius" : "CG 7/1/2018 11:38",
+		"bounds" : "CG 7/1/2018 11:39",
+		"disable" : "CG 7/1/2018 11:39",
+		"drawOn:" : "ct 5/20/2020 21:18",
+		"enable" : "CG 7/1/2018 11:39",
+		"iconPosition" : "CG 7/1/2018 11:39",
+		"initialize" : "ct 5/20/2020 21:23",
+		"mouseEnter:" : "ct 6/2/2020 11:10",
+		"mouseLeave:" : "ct 6/2/2020 11:11",
+		"transparency" : "ct 5/20/2020 21:22",
+		"transparency:" : "ct 5/20/2020 21:22",
+		"updateBounds" : "mats 7/10/2018 12:45" } }
