@@ -15,9 +15,9 @@ setFrameForAppBar
 		leftFraction: 0;
 		leftOffset: self layoutInset negated;
 		topFraction: 0;
+		topOffset: (self class appBarHeight + self layoutInset) negated;
 		rightFraction: 1;
 		rightOffset: self layoutInset;
 		bottomFraction: 0;
-		topOffset: (appBar bottomShadow + self appBarHeight) negated;
-		bottomOffset: appBar bottomShadow negated.
+		bottomOffset: self layoutInset negated.
 	appBar layoutFrame: frame

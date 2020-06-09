@@ -16,9 +16,9 @@ setFrameForSystemBar
 		leftFraction: 0;
 		leftOffset: self layoutInset negated;
 		topFraction: 0;
+		topOffset: (self layoutInset + self labelHeight) negated;
 		rightFraction: 1;
 		rightOffset: self layoutInset;
 		bottomFraction: 0;
-		topOffset: (self appBarHeight + self systemBarHeight + appBar bottomShadow + self layoutInset) negated;
-		bottomOffset: (appBar bottomShadow + self appBarHeight) negated.
+		bottomOffset: (self class appBarHeight + self layoutInset) negated.
 	systemBar layoutFrame: frame
