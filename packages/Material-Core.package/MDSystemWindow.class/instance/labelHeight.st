@@ -1,4 +1,4 @@
 components
 labelHeight
 
-	^ self class systemBarHeight + self class appBarHeight
+	^ self systemBar class defaultHeight + self appBar class denseHeight

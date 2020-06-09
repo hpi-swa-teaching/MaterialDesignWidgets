@@ -3,8 +3,8 @@ setFrameForSystemBar
 	
 	| frame |
 	
-	systemBar ifNil: [^ self].	
-	systemBar
+	self systemBar ifNil: [^ self].	
+	self systemBar
 		layoutPolicy: TableLayout new;
 		listDirection: #rightToLeft;
 		hResizing: #spaceFill;
@@ -20,5 +20,5 @@ setFrameForSystemBar
 		rightFraction: 1;
 		rightOffset: self layoutInset;
 		bottomFraction: 0;
-		bottomOffset: (self class appBarHeight + self layoutInset) negated.
-	systemBar layoutFrame: frame
+		bottomOffset: (self appBar class denseHeight + self layoutInset) negated.
+	self systemBar layoutFrame: frame

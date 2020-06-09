@@ -1,4 +1,4 @@
 properties
-appBarHeight
+denseHeight
 
 	^ 48

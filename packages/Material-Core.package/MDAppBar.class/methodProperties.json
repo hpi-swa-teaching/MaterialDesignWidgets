@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"defaultBackgroundColor" : "wb 7/11/2019 14:03" },
+		"defaultBackgroundColor" : "wb 7/11/2019 14:03",
+		"defaultHeight" : "Sepp 6/9/2020 10:15",
+		"denseHeight" : "Sepp 6/9/2020 10:14" },
 	"instance" : {
 		"addLabel:" : "wb 7/11/2019 14:49",
 		"addMenuControl:" : "wb 7/11/2019 14:47",
