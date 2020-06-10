@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"borderRadius" : "mats 5/23/2018 14:09",
 		"buttonPadding" : "CG 7/1/2018 12:25",
 		"containerPadding" : "CG 7/1/2018 12:25",
 		"containerTextColor" : "mats 5/22/2018 18:10",
 		"containerTextSize" : "mats 5/22/2018 18:06",
 		"defaultBackgroundColor" : "lp 6/4/2019 18:09",
+		"defaultBorderRadius" : "ct 6/10/2020 16:16",
 		"defaultNegativeText" : "mats 5/23/2018 14:07",
 		"defaultOverlayColor" : "lp 6/4/2019 18:13",
 		"defaultPositiveText" : "mats 5/23/2018 14:07",
@@ -31,7 +31,7 @@
 		"dismissOnBackgroundClick" : "CG 7/1/2018 11:48",
 		"dismissOnBackgroundClick:" : "mats 5/23/2018 11:58",
 		"drawOn:" : "mats 5/22/2018 20:56",
-		"initialize" : "lp 6/4/2019 18:08",
+		"initialize" : "ct 6/10/2020 16:17",
 		"initializeBackground" : "lp 6/4/2019 18:12",
 		"initializeButtonNegative" : "lp 7/24/2019 15:21",
 		"initializeButtonPositive" : "lp 7/24/2019 15:21",

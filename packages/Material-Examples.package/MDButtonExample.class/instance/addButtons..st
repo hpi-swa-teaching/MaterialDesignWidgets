@@ -8,6 +8,7 @@ addButtons: aMDButtonClass
 		text: 'Secondary';
 		textColor: '#000000';
 		backgroundColor: '#018786'.
+	button borderRadius: (MDBorderRadius left: 2 right: 8).
 	
 	buttonIcon := aMDButtonClass icon: #ic_shopping_cart.
 	buttonIcon text: 'Add to cart'.

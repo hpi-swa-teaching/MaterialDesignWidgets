@@ -1,4 +1,4 @@
 properties
 defaultBorderRadius
 
-	^ 2
+	^ MDBorderRadius all: 2
