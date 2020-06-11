@@ -7,4 +7,4 @@ initialize
 		width: 900;
 		height: 150.
 		
-	self addTextArea
+	self addTextAreas
