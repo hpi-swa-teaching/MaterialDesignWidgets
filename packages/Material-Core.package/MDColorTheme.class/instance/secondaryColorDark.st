@@ -1,4 +1,4 @@
 accessing
 secondaryColorDark
 
-	^ secondaryColorDark
+	^ self secondaryColor darker

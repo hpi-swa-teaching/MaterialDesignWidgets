@@ -1,4 +1,4 @@
 accessing
 secondaryColorLight
 
-	^ secondaryColorLight
+	^ self secondaryColor lighter

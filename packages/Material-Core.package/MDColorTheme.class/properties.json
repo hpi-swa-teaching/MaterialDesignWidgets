@@ -8,10 +8,6 @@
 	"instvars" : [
 		"primaryColor",
 		"secondaryColor",
-		"primaryColorDark",
-		"primaryColorLight",
-		"secondaryColorDark",
-		"secondaryColorLight",
 		"backgroundColor",
 		"surfaceColor",
 		"errorColor",
