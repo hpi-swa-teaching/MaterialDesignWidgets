@@ -2,7 +2,7 @@
 	"class" : {
 		"alwaysUppercase" : "JW 6/8/2018 16:09",
 		"defaultAvatarPadding" : "mats 6/5/2018 09:09",
-		"defaultBackgroundColor" : "JW 6/1/2020 11:55",
+		"defaultBackgroundColor" : "RW 6/1/2020 11:13",
 		"defaultBackgroundColorSelected" : "lp 6/4/2019 19:10",
 		"defaultBorderRadius" : "ct 6/10/2020 16:10",
 		"defaultHeight" : "mats 6/4/2018 17:03",
@@ -24,7 +24,7 @@
 		"formCache" : "mats 6/8/2018 15:32",
 		"formCache:" : "mats 6/8/2018 15:32",
 		"hasDenseLayout" : "mats 7/10/2018 12:47",
-		"initialize" : "mats 7/9/2018 22:45",
+		"initialize" : "RW 5/31/2020 19:00",
 		"isSelected" : "wb 6/27/2019 16:20",
 		"labelBounds" : "LS 6/28/2018 15:25",
 		"labelPositionIconNotPresent" : "mats 6/19/2018 12:30",
@@ -33,5 +33,4 @@
 		"select" : "mats 7/3/2018 14:52",
 		"selected:" : "JW 5/27/2020 18:12",
 		"textColor:" : "mats 6/8/2018 15:33",
-		"updateFormCache" : "JW 6/1/2020 11:54",
-		"updateFormCache:" : "LS 6/28/2018 21:32" } }
+		"updateFormCache" : "RW 5/31/2020 19:40" } }

@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"closeBoxImage" : "ct 6/11/2020 10:36",
+		"closeBoxImage" : "RW 6/11/2020 16:02",
 		"collapseBoxImage" : "ct 6/11/2020 10:32",
 		"expandBoxImage" : "ct 6/11/2020 10:28",
 		"menuBoxImage" : "ct 6/11/2020 10:37",
@@ -10,15 +10,16 @@
 		"addCloseBox" : "wb 7/16/2019 13:37",
 		"addCollapseBox" : "wb 7/12/2019 15:11",
 		"addExpandBox" : "wb 7/12/2019 15:11",
-		"addLabel" : "lp 7/24/2019 15:23",
+		"addLabel" : "RW 6/11/2020 16:23",
 		"addLabelArea" : "wb 7/12/2019 15:13",
 		"addMenuControl" : "wb 7/12/2019 15:10",
 		"appBarHeight" : "wb 7/16/2019 13:39",
 		"defaultColor" : "lp 6/10/2019 14:51",
-		"initialize" : "ct 6/10/2020 13:52",
-		"initializeLabelArea" : "wb 7/12/2019 15:14",
+		"initialize" : "RW 6/11/2020 16:24",
+		"initializeLabelArea" : "RW 6/11/2020 16:07",
 		"lookFocused" : "lp 7/24/2019 15:41",
 		"lookUnfocused" : "wb 7/24/2019 16:17",
+		"setDefaultParameters" : "RW 6/11/2020 16:22",
 		"setFrameForAppBar" : "wb 7/15/2019 15:25",
 		"setFrameForSystemBar" : "wb 7/15/2019 15:25",
 		"systemBarHeight" : "wb 7/12/2019 14:55" } }

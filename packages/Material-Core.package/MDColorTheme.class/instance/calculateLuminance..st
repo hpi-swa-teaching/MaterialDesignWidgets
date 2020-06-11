@@ -5,8 +5,8 @@ calculateLuminance: aColor
 
 	| redWeight greenWeight blueWeight |
 	
-	redWeight := self calculateChannelWeightFor: aColor red.
-	greenWeight := self calculateChannelWeightFor: aColor green.
-	blueWeight := self calculateChannelWeightFor: aColor blue.
+	redWeight := self calculateChannelWeightFor: (aColor red).
+	greenWeight := self calculateChannelWeightFor: (aColor green).
+	blueWeight := self calculateChannelWeightFor: (aColor blue).
 	
 	^ (redWeight * 0.2126) + (greenWeight * 0.7152) + (blueWeight * 0.0722)
