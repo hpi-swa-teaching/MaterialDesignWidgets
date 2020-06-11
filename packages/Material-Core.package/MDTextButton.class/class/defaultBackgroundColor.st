@@ -1,4 +1,4 @@
 properties
 defaultBackgroundColor
 
-	^  Color transparent
+	^ Color transparent
