@@ -1,4 +1,4 @@
 properties
 defaultBackgroundColor 
 
-	^ (MDColorTheme currentTheme textColorOn: MDColorTheme currentTheme surfaceColor) alpha: 0.12
+	^ (self currentTheme textColorOn: self currentTheme surfaceColor) alpha: (self defaultOpacity)
