@@ -1,5 +1,9 @@
 {
 	"class" : {
+		"closeBoxImage" : "ct 6/11/2020 10:36",
+		"collapseBoxImage" : "ct 6/11/2020 10:32",
+		"expandBoxImage" : "ct 6/11/2020 10:28",
+		"menuBoxImage" : "ct 6/11/2020 10:37",
 		"roundedWindowCorners" : "ct 6/10/2020 13:35" },
 	"instance" : {
 		"addButtonsAndLabel" : "wb 7/12/2019 15:23",
