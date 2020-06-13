@@ -6,5 +6,5 @@ canDeselect: aBool
 		| item |
 		item := self filteredListItems first.
 		item ifNil: [^ self].
-		self newSelectedItem: item.
+		self newSelectedItem: item executeSelectionChangeBlock: false.
 		item calculateColor]

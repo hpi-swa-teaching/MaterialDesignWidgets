@@ -192,6 +192,7 @@
 		"ic_cloud_queue" : "LS 6/11/2018 10:42",
 		"ic_cloud_upload" : "LS 6/11/2018 10:42",
 		"ic_code" : "LS 6/11/2018 10:42",
+		"ic_collapse" : "RW 6/11/2020 20:39",
 		"ic_collections" : "LS 6/11/2018 10:42",
 		"ic_color_lens" : "LS 6/11/2018 10:42",
 		"ic_colorize" : "LS 6/11/2018 10:42",
@@ -377,7 +378,7 @@
 		"ic_forward_30" : "LS 6/11/2018 10:42",
 		"ic_forward_5" : "LS 6/11/2018 10:42",
 		"ic_free_breakfast" : "LS 6/11/2018 10:42",
-		"ic_fullscreen" : "LS 6/11/2018 10:42",
+		"ic_fullscreen" : "RW 6/11/2020 20:48",
 		"ic_fullscreen_exit" : "LS 6/11/2018 10:42",
 		"ic_functions" : "LS 6/11/2018 10:42",
 		"ic_g_translate" : "LS 6/11/2018 10:42",
@@ -940,7 +941,7 @@
 		"ic_youtube_searched_for" : "LS 6/11/2018 10:42",
 		"ic_zoom_out_map" : "LS 6/11/2018 10:42",
 		"importFrom:" : "LS 6/11/2018 10:40",
-		"supersamplingFactor" : "JW 5/27/2018 01:42" },
+		"supersamplingFactor" : "RW 6/13/2020 17:13" },
 	"instance" : {
 		"cachedForm" : "CG 7/1/2018 11:53",
 		"cachedForm:" : "CG 7/1/2018 11:53",
@@ -954,4 +955,4 @@
 		"svg" : "CG 7/1/2018 11:54",
 		"svg:" : "CG 7/1/2018 11:54",
 		"svgColor" : "JW 5/27/2018 02:57",
-		"svgColor:" : "RW 6/11/2020 16:01" } }
+		"svgColor:" : "RW 6/11/2020 21:13" } }
