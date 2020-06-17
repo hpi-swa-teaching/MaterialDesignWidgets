@@ -1,75 +1,75 @@
 drawing
-roundRectShapeBounds: aRectangle radius: aRadius borderWidth: width
+roundRectShapeBounds: aRectangle radius: anMDBorderRadius borderWidth: width
 
 	| circle points radius |
 
-	radius := self keepBorderRadius: aRadius inRectangle: aRectangle.
+	radius := self keepBorderRadius: anMDBorderRadius inRectangle: aRectangle.
 
 	circle := radius scaleBy: 0.42."0.552228474."
 	points := OrderedCollection new.
 
 	width top > 0 ifTrue: [
 		" top left corner "
-		radius top > 0 ifTrue: [
+		radius topLeft > 0 ifTrue: [
 			points
-				add: 0 @ radius top;
-				add: 0 @ circle top;
-				add: circle top @ 0;
-				add: radius top @ 0].
+				add: 0 @ radius topLeft;
+				add: 0 @ circle topLeft;
+				add: circle topLeft @ 0;
+				add: radius topLeft @ 0].
 
 		" top line "
 		points
-			add: radius top @ 0;
-			add: radius top @ 0;
-			add: radius top @ 0;
-			add: aRectangle width - radius right @ 0].
+			add: radius topLeft @ 0;
+			add: radius topLeft @ 0;
+			add: radius topLeft @ 0;
+			add: aRectangle width - radius topRight @ 0].
 
 	width right > 0 ifTrue: [
 		" top right corner "
-		radius right > 0 ifTrue: [
+		radius topRight > 0 ifTrue: [
 			points
-				add: aRectangle width - radius right @ 0;
-				add: aRectangle width - circle right @ 0;
-				add: aRectangle width @ circle right;
-				add: aRectangle width @ radius right].
+				add: aRectangle width - radius topRight @ 0;
+				add: aRectangle width - circle topRight @ 0;
+				add: aRectangle width @ circle topRight;
+				add: aRectangle width @ radius topRight].
 
 		" right line "
 		points
-			add: aRectangle width @ radius right;
-			add: aRectangle width @ radius right;
-			add: aRectangle width @ radius right;
-			add: aRectangle width @ (aRectangle height - radius bottom)].
+			add: aRectangle width @ radius topRight;
+			add: aRectangle width @ radius topRight;
+			add: aRectangle width @ radius topRight;
+			add: aRectangle width @ (aRectangle height - radius bottomRight)].
 
 	width bottom > 0 ifTrue: [
 		" bottom right corner "
-		radius bottom > 0 ifTrue: [
+		radius bottomRight > 0 ifTrue: [
 			points
-				add: aRectangle width @ (aRectangle height - radius bottom);
-				add: aRectangle width @ (aRectangle height - circle bottom);
-				add: aRectangle width - circle bottom @ aRectangle height;
-				add: aRectangle width - radius bottom @ aRectangle height].
+				add: aRectangle width @ (aRectangle height - radius bottomRight);
+				add: aRectangle width @ (aRectangle height - circle bottomRight);
+				add: aRectangle width - circle bottomRight @ aRectangle height;
+				add: aRectangle width - radius bottomRight @ aRectangle height].
 
 		" bottom line "
 		points
-			add: aRectangle width - radius bottom @ aRectangle height;
-			add: aRectangle width - radius bottom @ aRectangle height;
-			add: aRectangle width - radius bottom @ aRectangle height;
-			add: radius left @ aRectangle height].
+			add: aRectangle width - radius bottomRight @ aRectangle height;
+			add: aRectangle width - radius bottomRight @ aRectangle height;
+			add: aRectangle width - radius bottomRight @ aRectangle height;
+			add: radius bottomLeft @ aRectangle height].
 
 	width left > 0 ifTrue: [
 		" bottom left corner "
-		radius left > 0 ifTrue: [
+		radius bottomLeft > 0 ifTrue: [
 			points
-				add: radius left @ aRectangle height;
-				add: circle left @ aRectangle height;
-				add: 0 @ (aRectangle height - circle left);
-				add: 0 @ (aRectangle height - radius left)].
+				add: radius bottomLeft @ aRectangle height;
+				add: circle bottomLeft @ aRectangle height;
+				add: 0 @ (aRectangle height - circle bottomLeft);
+				add: 0 @ (aRectangle height - radius bottomLeft)].
 
 		" left line "
 		points
-			add: 0 @ (aRectangle height - radius left);
-			add: 0 @ (aRectangle height - radius left);
-			add: 0 @ (aRectangle height - radius left);
-			add: 0 @ radius top].
+			add: 0 @ (aRectangle height - radius bottomLeft);
+			add: 0 @ (aRectangle height - radius bottomLeft);
+			add: 0 @ (aRectangle height - radius bottomLeft);
+			add: 0 @ radius topLeft].
 
 	^ points asPointArray

@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"defaultBackgroundColor" : "RW 6/11/2020 12:46",
-		"defaultBorderRadius" : "Max 7/25/2018 11:49",
+		"defaultBorderRadius" : "ct 6/10/2020 16:10",
 		"defaultOpacity" : "RW 6/11/2020 12:46",
 		"defaultWidth" : "Max 7/25/2018 11:48",
 		"durationToWaitUntilFadeOut" : "wb 7/24/2019 16:17",
@@ -10,7 +10,7 @@
 		"newOn:" : "mats 6/5/2018 22:22" },
 	"instance" : {
 		"drawOn:" : "wb 7/24/2019 13:40",
-		"initialize" : "mats 7/25/2018 14:55",
+		"initialize" : "ct 6/10/2020 16:47",
 		"isVisibleTimeDone" : "mats 7/25/2018 11:49",
 		"lastScrollTime" : "CG 7/1/2018 12:10",
 		"lastScrollTime:" : "CG 7/1/2018 12:10",
