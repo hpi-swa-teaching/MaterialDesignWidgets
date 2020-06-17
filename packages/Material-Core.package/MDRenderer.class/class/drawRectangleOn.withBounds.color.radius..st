@@ -1,10 +1,10 @@
 drawing
-drawRectangleOn: aCanvas withBounds: aRectangle color: aColor radius: aCollection
+drawRectangleOn: aCanvas withBounds: aRectangle color: aColor radius: anMDBorderRadius
 	
 	self
 		drawRectangleOn: aCanvas 
 		withBounds: aRectangle
 		color: aColor
-		radius: aCollection
+		radius: anMDBorderRadius
 		borderWidth: 0
 		borderColor: nil

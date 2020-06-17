@@ -1,0 +1,17 @@
+{
+	"category" : "Material-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"topLeft",
+		"topRight",
+		"bottomLeft",
+		"bottomRight" ],
+	"name" : "MDBorderRadius",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

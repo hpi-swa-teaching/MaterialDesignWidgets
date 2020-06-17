@@ -1,0 +1,4 @@
+properties
+denseHeight
+
+	^ 48

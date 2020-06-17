@@ -1,4 +1,4 @@
 properties
 roundedWindowCorners
 
-	^ false
+	^ true
