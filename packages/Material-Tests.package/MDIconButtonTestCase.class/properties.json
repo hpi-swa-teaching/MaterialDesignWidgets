@@ -1,0 +1,14 @@
+{
+	"category" : "Material-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"unitUnderTest" ],
+	"name" : "MDIconButtonTestCase",
+	"pools" : [
+		 ],
+	"super" : "MDTestCase",
+	"type" : "normal" }
