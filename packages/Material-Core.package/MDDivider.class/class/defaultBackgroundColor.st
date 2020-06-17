@@ -1,4 +1,4 @@
 properties
 defaultBackgroundColor
 
-	^ MDColorTheme currentTheme dividerColor
+	^ self currentTheme dividerColor

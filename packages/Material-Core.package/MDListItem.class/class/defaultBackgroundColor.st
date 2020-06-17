@@ -1,4 +1,4 @@
-instance creation
+properties
 defaultBackgroundColor
 
-	^ MDColorTheme currentTheme surfaceColor
+	^ self currentTheme backgroundColor
