@@ -1,5 +1,5 @@
 properties
 defaultBackgroundColor
 
-	^ MDColorTheme currentTheme primaryColorDark
+	^ self currentTheme primaryColorDark
 	
