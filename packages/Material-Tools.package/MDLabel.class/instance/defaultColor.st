@@ -1,4 +1,0 @@
-accessing
-defaultColor
-
-	^ MDColorTheme textColorOnBackground
