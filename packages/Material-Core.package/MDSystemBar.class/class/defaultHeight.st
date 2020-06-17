@@ -2,4 +2,3 @@ properties
 defaultHeight
 
 	^ 20
-	
