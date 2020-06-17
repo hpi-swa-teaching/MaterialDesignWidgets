@@ -16,6 +16,4 @@ testBorderRadius
 	self assert: borderRadius topLeft = 10.
 	self assert: borderRadius topRight = 20.
 	self assert: borderRadius bottomLeft = 30.
-	self assert: borderRadius bottomRight = 0.5.
-
-	
+	self assert: borderRadius bottomRight = 0.5
