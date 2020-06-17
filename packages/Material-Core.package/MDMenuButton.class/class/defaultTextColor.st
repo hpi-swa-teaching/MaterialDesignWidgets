@@ -1,4 +1,4 @@
 properties
 defaultTextColor
 
-	^ MDColorTheme currentTheme textColorOn: MDColorTheme currentTheme primaryColor
+	^ self currentTheme textColorOn: self currentTheme primaryColor

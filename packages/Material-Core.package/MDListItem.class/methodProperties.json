@@ -2,18 +2,18 @@
 	"class" : {
 		"alwaysUppercase" : "JW 6/8/2018 16:09",
 		"defaultAvatarPadding" : "mats 6/5/2018 09:09",
-		"defaultBackgroundColor" : "RW 6/1/2020 11:13",
-		"defaultBackgroundColorSelected" : "lp 6/4/2019 19:10",
+		"defaultBackgroundColor" : "RW 6/11/2020 12:40",
+		"defaultBackgroundColorSelected" : "RW 6/11/2020 12:41",
 		"defaultBorderRadius" : "LS 6/28/2018 20:47",
 		"defaultHeight" : "mats 6/4/2018 17:03",
 		"defaultIconPadding" : "mats 6/5/2018 08:26",
-		"defaultTextColor" : "lp 6/4/2019 18:21",
-		"defaultTextColorSelected" : "lp 6/4/2019 19:11",
+		"defaultTextColor" : "RW 6/11/2020 12:41",
+		"defaultTextColorSelected" : "RW 6/11/2020 12:41",
 		"defaultTextPadding" : "mats 6/5/2018 09:11",
 		"denseHeight" : "mats 7/10/2018 12:43",
 		"newOnList:" : "mats 5/30/2018 11:58" },
 	"instance" : {
-		"calculateColor" : "lp 6/4/2019 19:11",
+		"calculateColor" : "RW 6/17/2020 18:54",
 		"calculateWidthByText" : "CG 7/1/2018 11:40",
 		"changed" : "mats 6/1/2018 15:11",
 		"checkToggled" : "wb 7/24/2019 13:23",
@@ -31,6 +31,6 @@
 		"list" : "mats 6/8/2018 15:32",
 		"list:" : "mats 6/8/2018 15:32",
 		"select" : "mats 7/3/2018 14:52",
-		"selected:" : "mats 7/3/2018 14:52",
+		"selected:" : "JW 5/27/2020 18:12",
 		"textColor:" : "mats 6/8/2018 15:33",
-		"updateFormCache" : "RW 5/31/2020 19:40" } }
+		"updateFormCache" : "JW 6/1/2020 11:54" } }

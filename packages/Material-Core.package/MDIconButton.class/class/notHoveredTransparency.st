@@ -1,0 +1,4 @@
+properties
+notHoveredTransparency
+
+	^ 0
