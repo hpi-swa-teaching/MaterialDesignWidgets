@@ -1,4 +1,4 @@
 properties
 defaultBackgroundColor
 
-	^ MDColorTheme currentTheme secondaryColor
+	^ self currentTheme secondaryColor

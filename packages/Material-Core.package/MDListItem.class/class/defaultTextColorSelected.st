@@ -1,4 +1,4 @@
 properties
 defaultTextColorSelected
 
-	^ MDColorTheme currentTheme textColorOn: self defaultBackgroundColorSelected
+	^ self currentTheme textColorOn: self defaultBackgroundColorSelected

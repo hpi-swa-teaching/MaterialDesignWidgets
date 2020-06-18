@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 top: topNumber bottom: bottomNumber
 
 	^ self new 

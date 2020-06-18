@@ -1,4 +1,4 @@
 constants
 colorPalettePreviewOpacity
 
-	^ 0.5
+	^ 0.3
