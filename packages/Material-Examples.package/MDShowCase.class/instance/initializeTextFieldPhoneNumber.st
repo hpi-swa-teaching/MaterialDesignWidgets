@@ -13,7 +13,7 @@ initializeTextFieldPhoneNumber
 											 self textFieldPhoneNumber helper color: MDTextField inactiveColor]
 										ifFalse:
 											[self textFieldPhoneNumber helper contents: 'Only digits allowed!'.
-											 self textFieldPhoneNumber helper color: Color red]]. 
+											 self textFieldPhoneNumber helper color: MDColorTheme currentTheme errorColor]]. 
 	self textFieldPhoneNumber position: ((self textfield position x) @ (270 + self newContact position y)).
 	self textFieldPhoneNumber width: 200.
 	self newContact addMorphBack: self textFieldPhoneNumber

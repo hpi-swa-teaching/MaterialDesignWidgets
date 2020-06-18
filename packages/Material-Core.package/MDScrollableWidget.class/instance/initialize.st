@@ -3,6 +3,6 @@ initialize
 
 	super initialize.
 	self
-		backgroundColor: MDColorTheme currentTheme backgroundColor;
+		backgroundColor: self class defaultBackgroundColor;
 		scrollbar: (MDScrollbar newOn: self);
 		addMorph: (self scrollbar)

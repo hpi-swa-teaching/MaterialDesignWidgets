@@ -13,7 +13,7 @@ initializeTextField
 											 self textfield helper color: MDTextField inactiveColor]
 										ifFalse:
 											[self textfield helper contents: 'The name is to long!'.
-											 self textfield helper color: Color red]]. 
+											 self textfield helper color: MDColorTheme currentTheme errorColor]]. 
 	self textfield position: (20 @ 70) + self newContact position.
 	self textfield width: 200.
 	self newContact addMorphBack: self textfield
