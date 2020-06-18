@@ -43,7 +43,7 @@ buildColorPickerAndBrightnessButtons
 		addMorphBack: applyColor;
 		addMorphBack: (Morph new
 			width: 0;
-			height: self class brightnessButtonSpacing;
+			height: self class brightnessButtonSpacing * 2;
 			color: Color transparent;
 			yourself);
 		addMorphBack: lightTheme;
