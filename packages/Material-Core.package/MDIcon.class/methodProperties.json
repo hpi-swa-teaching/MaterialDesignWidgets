@@ -2,7 +2,7 @@
 	"class" : {
 		"blankIcon" : "CG 7/1/2018 12:26",
 		"clearCache" : "JW 5/27/2018 11:14",
-		"fromCache:ifAbsentPut:" : "JW 5/27/2018 01:38",
+		"fromCache:ifAbsentPut:" : "RW 6/18/2020 14:08",
 		"ic_3d_rotation" : "LS 6/11/2018 10:42",
 		"ic_ac_unit" : "LS 6/11/2018 10:42",
 		"ic_access_alarm" : "LS 6/11/2018 10:42",
@@ -947,12 +947,13 @@
 		"cachedForm:" : "CG 7/1/2018 11:53",
 		"cachedFormFor:" : "LS 5/29/2018 09:43",
 		"changeIconName:" : "lp 7/24/2019 15:17",
+		"defaultBounds" : "RW 6/18/2020 14:12",
 		"drawOn:" : "wb 7/24/2019 13:42",
 		"iconName" : "CG 7/1/2018 11:53",
 		"iconName:" : "CG 7/1/2018 11:53",
-		"renderForm" : "lp 7/24/2019 15:17",
+		"renderForm" : "RW 6/18/2020 14:12",
 		"size:" : "JW 5/27/2018 03:09",
 		"svg" : "CG 7/1/2018 11:54",
 		"svg:" : "CG 7/1/2018 11:54",
 		"svgColor" : "JW 5/27/2018 02:57",
-		"svgColor:" : "RW 6/11/2020 21:13" } }
+		"svgColor:" : "RW 6/17/2020 20:35" } }
