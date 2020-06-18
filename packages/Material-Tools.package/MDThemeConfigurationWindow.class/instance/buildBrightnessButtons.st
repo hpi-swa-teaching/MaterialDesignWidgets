@@ -1,23 +1,12 @@
 initialization
-buildColorPickerAndBrightnessButtons
+buildBrightnessButtons
 
-	| wrapper colorPicker applyColor lightTheme darkTheme |
+	| wrapper lightTheme darkTheme |
 	wrapper := Morph new
 		color: Color transparent;
 		layoutPolicy: TableLayout new;
 		cellPositioning: #topLeft;
 		listDirection: #topToBottom;
-		yourself.
-		
-	colorPicker := ColorPickerMorph new.
-
-	applyColor := MDOutlinedButton new
-		hResizing: #spaceFill;
-		text: 'Apply Custom Color';
-		addClickedActionBlock: [
-			MDColorTheme currentTheme
-				perform: self selectedColorProperty
-				with: colorPicker selectedColor];
 		yourself.
 
 	lightTheme := MDOutlinedButton new
@@ -33,19 +22,9 @@ buildColorPickerAndBrightnessButtons
 		"MDColorTheme currentTheme switchToDarkTheme"
 		yourself.
 
+	self buildCustomColorPicker do: [:each | wrapper addMorphBack: each].
+
 	^ wrapper
-		addMorphBack: colorPicker;
-		addMorphBack: (Morph new
-			width: 0;
-			height: self class brightnessButtonSpacing;
-			color: Color transparent;
-			yourself);
-		addMorphBack: applyColor;
-		addMorphBack: (Morph new
-			width: 0;
-			height: self class brightnessButtonSpacing * 2;
-			color: Color transparent;
-			yourself);
 		addMorphBack: lightTheme;
 		addMorphBack: (Morph new
 			width: 0;

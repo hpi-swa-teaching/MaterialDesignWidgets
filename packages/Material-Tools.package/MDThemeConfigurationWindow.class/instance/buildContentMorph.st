@@ -13,7 +13,7 @@ buildContentMorph
 		fullFrame: (LayoutFrame
 			fractions: (self class contentPaneWidthFraction@0 corner: self class contentPaneWidthFraction * 2@1)
 			offsets: (self class contentPaneSpacingHorizontal / 2@0 corner: self class contentPaneSpacingHorizontal / 2 negated@0));
-		addMorph: self buildColorPickerAndBrightnessButtons
+		addMorph: self buildBrightnessButtons
 		fullFrame: (LayoutFrame
 			fractions: (self class contentPaneWidthFraction * 2@0 corner: 1@1)
 			offsets: (self class contentPaneSpacingHorizontal / 2@0 corner: 0@0))
