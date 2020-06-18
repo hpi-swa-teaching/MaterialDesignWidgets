@@ -15,7 +15,9 @@ buildColorPickerAndBrightnessButtons
 		hResizing: #spaceFill;
 		text: 'Apply Custom Color';
 		addClickedActionBlock: [
-			MDColorTheme currentTheme perform: self selectedColorProperty with: (colorPicker selectedColor) ];
+			MDColorTheme currentTheme
+				perform: self selectedColorProperty
+				with: colorPicker selectedColor];
 		yourself.
 
 	lightTheme := MDOutlinedButton new
