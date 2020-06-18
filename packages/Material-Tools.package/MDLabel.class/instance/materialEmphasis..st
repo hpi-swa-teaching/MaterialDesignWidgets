@@ -1,4 +1,4 @@
-scaling
+accessing
 materialEmphasis: aSymbol
 
 	materialEmphasis := aSymbol.

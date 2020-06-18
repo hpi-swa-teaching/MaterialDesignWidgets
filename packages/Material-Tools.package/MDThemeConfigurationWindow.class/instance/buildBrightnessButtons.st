@@ -22,6 +22,8 @@ buildBrightnessButtons
 		"MDColorTheme currentTheme switchToDarkTheme"
 		yourself.
 
+	self buildCustomColorPicker do: [:each | wrapper addMorphBack: each].
+
 	^ wrapper
 		addMorphBack: lightTheme;
 		addMorphBack: (Morph new
