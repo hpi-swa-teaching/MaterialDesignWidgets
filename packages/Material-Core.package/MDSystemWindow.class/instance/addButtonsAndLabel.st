@@ -2,8 +2,8 @@ components
 addButtonsAndLabel
 	
 	self 
-		addMenuControl;
 		addLabel;
+		addMenuControl;
 		addCloseBox;
 		addExpandBox;
 		addCollapseBox
