@@ -12,14 +12,12 @@ buildBrightnessButtons
 	lightTheme := MDOutlinedButton new
 		hResizing: #spaceFill;
 		text: 'Light theme';
-		addClickedActionBlock: [Transcript showln: 'light'];
-		"MDColorTheme currentTheme switchToLightTheme"
+		addClickedActionBlock: [MDColorTheme switchToLightTheme];
 		yourself.
 	darkTheme := MDOutlinedButton new
 		hResizing: #spaceFill;
 		text: 'Dark theme';
-		addClickedActionBlock: [Transcript showln: 'dark'];
-		"MDColorTheme currentTheme switchToDarkTheme"
+		addClickedActionBlock: [MDColorTheme switchToDarkTheme];
 		yourself.
 
 	self buildCustomColorPicker do: [:each | wrapper addMorphBack: each].
