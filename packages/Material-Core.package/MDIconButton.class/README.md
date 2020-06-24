@@ -1,1 +1,1 @@
-I am a special button as I follow the material design guidelines of a "Floating Action Button", which means that I have a circular shape.
+I am a button that follows the material design guidelines of an "Icon Button", which means that I have a circular shape and contain an icon.
