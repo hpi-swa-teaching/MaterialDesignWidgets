@@ -1,4 +1,4 @@
 accessing
 uncheckedIcon
 
-	^ MDIcon ic_checkbox
+	^ MDIcon ic_chat

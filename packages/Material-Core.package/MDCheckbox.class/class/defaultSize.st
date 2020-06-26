@@ -1,4 +1,4 @@
 properties
 defaultSize
 
-	^ 48@48
+	^ 16@16
