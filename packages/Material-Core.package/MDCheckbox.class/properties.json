@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "DasSepp 6/26/2020 08:45",
 	"instvars" : [
-		"isChecked" ],
+		"isChecked",
+		"icon" ],
 	"name" : "MDCheckbox",
 	"pools" : [
 		 ],

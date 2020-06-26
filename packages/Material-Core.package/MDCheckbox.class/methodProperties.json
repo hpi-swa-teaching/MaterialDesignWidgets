@@ -1,10 +1,16 @@
 {
 	"class" : {
 		"defaultBorderRadius" : "DasSepp 6/26/2020 08:51",
+		"defaultIconSize" : "DasSepp 6/26/2020 10:06",
 		"defaultSize" : "DasSepp 6/26/2020 08:49" },
 	"instance" : {
+		"addIcon:" : "DasSepp 6/26/2020 10:11",
+		"checkedIcon" : "DasSepp 6/26/2020 10:05",
 		"drawOn:" : "DasSepp 6/26/2020 09:17",
+		"icon" : "DasSepp 6/26/2020 10:06",
+		"icon:" : "DasSepp 6/26/2020 10:06",
 		"initialize" : "DasSepp 6/26/2020 09:16",
 		"isChecked" : "DasSepp 6/26/2020 09:16",
 		"isChecked:" : "DasSepp 6/26/2020 09:07",
-		"toggleChecked" : "DasSepp 6/26/2020 09:04" } }
+		"toggleChecked" : "DasSepp 6/26/2020 09:04",
+		"uncheckedIcon" : "DasSepp 6/26/2020 10:05" } }

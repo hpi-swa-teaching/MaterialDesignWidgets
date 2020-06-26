@@ -1,0 +1,4 @@
+properties
+defaultIconSize
+
+	^ 18
