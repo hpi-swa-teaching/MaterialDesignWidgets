@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"defaultBorderRadius" : "DasSepp 6/26/2020 08:51",
+		"defaultSize" : "DasSepp 6/26/2020 08:49" },
+	"instance" : {
+		"drawOn:" : "DasSepp 6/26/2020 09:17",
+		"initialize" : "DasSepp 6/26/2020 09:16",
+		"isChecked" : "DasSepp 6/26/2020 09:16",
+		"isChecked:" : "DasSepp 6/26/2020 09:07",
+		"toggleChecked" : "DasSepp 6/26/2020 09:04" } }
