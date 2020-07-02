@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"defaultBorderRadius" : "DasSepp 6/26/2020 08:51",
+		"defaultIconSize" : "DasSepp 6/26/2020 10:06",
+		"defaultSize" : "DasSepp 6/26/2020 10:30" },
+	"instance" : {
+		"addIcon:" : "DasSepp 6/26/2020 10:37",
+		"checkedIcon" : "DasSepp 6/26/2020 10:05",
+		"drawOn:" : "JW 7/2/2020 13:56",
+		"icon" : "JW 7/2/2020 13:54",
+		"icon:" : "JW 7/2/2020 13:54",
+		"initialize" : "DasSepp 6/26/2020 09:16",
+		"isChecked" : "JW 7/2/2020 13:55",
+		"isChecked:" : "DasSepp 6/26/2020 09:07",
+		"removeIcon" : "JW 7/2/2020 13:55",
+		"toggleChecked" : "DasSepp 6/26/2020 09:04" } }
