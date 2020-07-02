@@ -7,7 +7,7 @@ buildColorPicker
 		onSelectionChanged: [:item |
 			self onColorSelected: (item valueOfProperty: #value)];
 		yourself.
-	MDColor allColors do: [ :each |
+	MDColor allColorsSortedByHue do: [ :each |
 		| item |
 		item := (MDListItem newOnList: list)
 			text: each key;
