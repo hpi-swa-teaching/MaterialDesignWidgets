@@ -6,12 +6,11 @@
 	"instance" : {
 		"addIcon:" : "DasSepp 6/26/2020 10:37",
 		"checkedIcon" : "DasSepp 6/26/2020 10:05",
-		"drawOn:" : "DasSepp 6/26/2020 10:46",
-		"icon" : "DasSepp 6/26/2020 10:06",
-		"icon:" : "DasSepp 6/26/2020 10:06",
+		"drawOn:" : "JW 7/2/2020 13:56",
+		"icon" : "JW 7/2/2020 13:54",
+		"icon:" : "JW 7/2/2020 13:54",
 		"initialize" : "DasSepp 6/26/2020 09:16",
-		"isChecked" : "DasSepp 6/26/2020 09:16",
+		"isChecked" : "JW 7/2/2020 13:55",
 		"isChecked:" : "DasSepp 6/26/2020 09:07",
-		"removeIcon" : "DasSepp 6/26/2020 10:37",
-		"toggleChecked" : "DasSepp 6/26/2020 09:04",
-		"uncheckedIcon" : "DasSepp 6/26/2020 10:21" } }
+		"removeIcon" : "JW 7/2/2020 13:55",
+		"toggleChecked" : "DasSepp 6/26/2020 09:04" } }

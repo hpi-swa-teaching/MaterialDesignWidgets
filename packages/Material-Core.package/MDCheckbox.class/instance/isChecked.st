@@ -1,5 +1,4 @@
 accessing
 isChecked
 
-	isChecked ifNil: [ isChecked := false ].
-	^ isChecked
+	^ isChecked ifNil: [isChecked := false]

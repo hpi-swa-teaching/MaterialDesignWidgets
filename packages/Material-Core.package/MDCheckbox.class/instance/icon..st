@@ -1,3 +1,4 @@
 accessing
-icon: anObject
-	icon := anObject
+icon: anMDIcon
+
+	icon := anMDIcon
