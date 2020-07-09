@@ -1,0 +1,4 @@
+state
+onErrorChanged
+
+	self changed
