@@ -6,4 +6,5 @@ showCaseList
 		'Button' -> #button.
 		'Text Area' -> #textArea.
 		'Dialog' -> #dialog.
+		'Checkbox' -> #checkboxes.
 	}

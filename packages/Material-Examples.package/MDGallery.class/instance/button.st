@@ -21,12 +21,12 @@ button
 		disable.
 	
 	wrapper
-		addWidget: MDButton new;
-		addWidget: self spacer;
-		addWidget: button;
-		addWidget: self spacer;
-		addWidget: buttonIcon;
-		addWidget: self spacer;
-		addWidget: buttonDisabled.
+		addMorphBack: MDButton new;
+		addMorphBack: self spacer;
+		addMorphBack: button;
+		addMorphBack: self spacer;
+		addMorphBack: buttonIcon;
+		addMorphBack: self spacer;
+		addMorphBack: buttonDisabled.
 	
 	^ wrapper

@@ -10,7 +10,7 @@ dialog
 		yourself.
 	
 	^ self wrapper
-		addWidget: (MDContainedButton new
+		addMorphBack: (MDContainedButton new
 			text: 'Open Basic Dialog';
 			target: [dialog open];
 			actionSelector: #value;

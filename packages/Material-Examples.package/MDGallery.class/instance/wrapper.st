@@ -1,7 +1,7 @@
 as yet unclassified
 wrapper
 
-	^ MDExample new
+	^ MDWidget new
 	        backgroundColor: Color transparent;
 	        layoutPolicy: TableLayout new;
 	        cellPositioning: #topLeft;
