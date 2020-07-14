@@ -1,7 +1,7 @@
-initialization
+as yet unclassified
 initialize
 
-	self labelString: 'Material Design Theme Configuration'.
+	self labelString: 'Material Design Gallery'.
 	super initialize.
 	
 	self

@@ -6,8 +6,8 @@ addButtons: aMDButtonClass
 	button := aMDButtonClass new.
 	button
 		text: 'Secondary';
-		textColor: '#000000';
-		backgroundColor: '#018786'.
+		textColor: (self class currentTheme textColorOn: self class currentTheme secondaryColor);
+		backgroundColor: self class currentTheme secondaryColor.
 	button borderRadius: (MDBorderRadius left: 2 right: 8).
 	
 	buttonIcon := aMDButtonClass icon: #ic_shopping_cart.

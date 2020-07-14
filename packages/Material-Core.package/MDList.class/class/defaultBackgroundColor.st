@@ -1,4 +1,4 @@
 properties
 defaultBackgroundColor
 
-	^ self currentTheme surfaceColor
+	^ self currentTheme backgroundColor
