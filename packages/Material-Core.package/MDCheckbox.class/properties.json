@@ -1,0 +1,15 @@
+{
+	"category" : "Material-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DasSepp 6/26/2020 08:45",
+	"instvars" : [
+		"isChecked",
+		"icon" ],
+	"name" : "MDCheckbox",
+	"pools" : [
+		 ],
+	"super" : "MDClickable",
+	"type" : "normal" }
