@@ -1,4 +1,4 @@
 event handling
 handlesMouseDown: anEvent
 	
-	^ self isEnabled 
+	^ self state isEnabled 

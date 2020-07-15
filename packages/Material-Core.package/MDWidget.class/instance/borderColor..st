@@ -1,4 +1,4 @@
-properties
-borderColor: aValue
+accessing
+borderColor: aColor
 	
-	^ self setProperty: #borderColor to: (self colorFrom: aValue)
+	^ self setProperty: #borderColor to: (self colorFrom: aColor)

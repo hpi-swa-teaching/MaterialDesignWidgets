@@ -1,6 +1,10 @@
 mock object helper methods
 updateActivatedMockObject
 
+	| widget |
+	widget := self new widget.
+	widget state isActivated: true.
+
 	self
-		renderOnFormString: self new widget activate
+		renderOnFormString: widget
 		andStoreWithName: 'activated'

@@ -1,4 +1,4 @@
 drawing
 updateIconColor: aMDIcon
 
-	self isDisabled not ifTrue: [aMDIcon svgColor: self textColor]  
+	self state isEnabled ifTrue: [aMDIcon svgColor: self textColor]  

@@ -2,4 +2,4 @@ event handling
 keyboardFocusChange: weHaveFocus
 
 	super keyboardFocusChange: weHaveFocus.
-	eventReceiver focusChanged: weHaveFocus
+	eventReceiver state isActivated: weHaveFocus

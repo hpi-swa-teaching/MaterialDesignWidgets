@@ -1,4 +1,5 @@
 widgets
 activatedWidget
 
-	^ self widget activate
+	self widget state isActivated: true.
+	^ self widget

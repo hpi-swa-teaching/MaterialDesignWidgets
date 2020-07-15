@@ -1,4 +1,4 @@
 accessing
-wantsRipples: anObject
+wantsRipples: aBoolean
 
-	wantsRipples := anObject
+	wantsRipples := aBoolean

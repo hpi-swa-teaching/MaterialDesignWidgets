@@ -1,4 +1,0 @@
-properties
-defaultBackgroundColorToggled
-
-	^ self currentTheme secondaryColorDark

@@ -4,7 +4,7 @@
 	"instance" : {
 		"basicDialog" : "CG 7/11/2018 17:21",
 		"basicDialog:" : "CG 7/11/2018 17:22",
-		"checkContactBlock" : "CG 7/11/2018 17:22",
+		"checkContactBlock" : "JW 7/13/2020 17:04",
 		"closeButton" : "CG 7/11/2018 17:22",
 		"closeButton:" : "CG 7/11/2018 17:22",
 		"contactButtonAdd" : "CG 7/11/2018 17:22",
@@ -19,7 +19,7 @@
 		"initialize" : "RW 6/1/2020 11:07",
 		"initializeBasicDialog" : "JW 6/21/2018 09:54",
 		"initializeCloseButton" : "CG 7/11/2018 17:25",
-		"initializeContactButtonAdd" : "JW 6/22/2018 00:06",
+		"initializeContactButtonAdd" : "JW 7/9/2020 11:01",
 		"initializeContactButtonDelete" : "JW 6/21/2018 09:34",
 		"initializeHeadline" : "RW 6/17/2020 19:18",
 		"initializeInfoDialog" : "JW 6/21/2018 20:50",

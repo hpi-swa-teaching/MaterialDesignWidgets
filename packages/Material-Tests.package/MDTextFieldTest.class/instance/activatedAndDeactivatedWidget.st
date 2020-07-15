@@ -1,4 +1,8 @@
 widgets
 activatedAndDeactivatedWidget
 
-	^ self widget activate deactivate
+	(self widget state)
+		isActivated: true;
+		isActivated: false.
+
+	^ self widget
