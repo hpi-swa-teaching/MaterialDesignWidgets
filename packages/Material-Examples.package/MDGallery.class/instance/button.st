@@ -1,32 +1,22 @@
 as yet unclassified
 button
 
-	| button buttonDisabled buttonIcon wrapper|
-	
-	wrapper := self wrapper.
-	
-	button := MDButton new.
-	button
-		text: 'Secondary';
-		textColor: (self currentTheme textColorOn: self currentTheme secondaryColor);
-		backgroundColor: self currentTheme secondaryColor.
-	button borderRadius: (MDBorderRadius left: 2 right: 8).
-	
-	buttonIcon := MDButton icon: #ic_shopping_cart.
-	buttonIcon text: 'Add to cart'.
-	
-	buttonDisabled := MDButton new.
-	buttonDisabled
-		text: 'Disabled';
-		disable.
-	
-	wrapper
+	^ self wrapper
 		addMorphBack: MDButton new;
 		addMorphBack: self spacer;
-		addMorphBack: button;
+		addMorphBack: (MDButton new
+			text: 'Secondary';
+			textColor: (self currentTheme textColorOn: self currentTheme secondaryColor);
+			backgroundColor: self currentTheme secondaryColor;
+			borderRadius: (MDBorderRadius left: 2 right: 8);
+			yourself);
 		addMorphBack: self spacer;
-		addMorphBack: buttonIcon;
+		addMorphBack: ((MDButton icon: #ic_shopping_cart)
+			text: 'Add to cart'
+			yourself);
 		addMorphBack: self spacer;
-		addMorphBack: buttonDisabled.
-	
-	^ wrapper
+		addMorphBack: (MDButton new
+			text: 'Disabled';
+			disable;
+			yourself);
+		yourself
