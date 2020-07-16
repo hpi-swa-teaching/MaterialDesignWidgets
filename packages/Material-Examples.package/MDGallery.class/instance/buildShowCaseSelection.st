@@ -21,5 +21,3 @@ buildShowCaseSelection
 	list canDeselect: true.
 
 	^ list
-		
-		

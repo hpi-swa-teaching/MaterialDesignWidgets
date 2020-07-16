@@ -15,5 +15,3 @@ list
 	list canDeselect: false.
 
 	^ list
-		
-		

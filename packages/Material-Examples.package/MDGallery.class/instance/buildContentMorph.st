@@ -13,4 +13,3 @@ buildContentMorph
 		fullFrame: (LayoutFrame
 			fractions: (self class contentPaneWidthFraction@0 corner: self class contentPaneWidthFraction * 3@1)
 			offsets: (self class contentPaneSpacingHorizontal / 2@0 corner: self class contentPaneSpacingHorizontal / 2 negated@0))
-		
