@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 hSpacer
 
 	^ self hSpacerWithSpacing: self class defaultHorizontalSpacing

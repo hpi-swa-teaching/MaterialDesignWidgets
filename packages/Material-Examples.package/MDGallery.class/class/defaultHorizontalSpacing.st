@@ -1,4 +1,4 @@
-as yet unclassified
+properties
 defaultHorizontalSpacing
 
 	^ 8

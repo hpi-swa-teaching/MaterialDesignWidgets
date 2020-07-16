@@ -1,7 +1,7 @@
-as yet unclassified
+initialization
 checkboxes
 
 	^ self wrapper
 		addMorphBack: (self checkboxWithText: 'Option A');
-		addMorphBack: (self checkboxWithText: 'Ich hasse Squeak');
+		addMorphBack: (self checkboxWithText: 'Option B');
 		yourself

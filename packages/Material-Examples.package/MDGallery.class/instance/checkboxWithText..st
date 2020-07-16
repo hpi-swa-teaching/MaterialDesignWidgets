@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 checkboxWithText: aString
 
 	^ self hWrapper

@@ -1,4 +1,4 @@
-as yet unclassified
+properties
 contentPaneWidthFraction
 
 	^ 0.33

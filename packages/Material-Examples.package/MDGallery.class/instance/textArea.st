@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 textArea
 
 	^ self wrapper
@@ -7,6 +7,5 @@ textArea
 		addMorphBack: (MDTextArea
 			label: 'Name'
 			placeholder: 'What do people call you'
-			helper: 'Lastname not firstname';
-			yourself);
+			helper: 'Lastname not firstname');
 		yourself

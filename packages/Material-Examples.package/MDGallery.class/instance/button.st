@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 button
 
 	^ self wrapper
@@ -12,7 +12,7 @@ button
 			yourself);
 		addMorphBack: self spacer;
 		addMorphBack: ((MDButton icon: #ic_shopping_cart)
-			text: 'Add to cart'
+			text: 'Add to cart';
 			yourself);
 		addMorphBack: self spacer;
 		addMorphBack: (MDButton new

@@ -1,4 +1,4 @@
-as yet unclassified
+properties
 contentInset
 
 	^ 32@16
