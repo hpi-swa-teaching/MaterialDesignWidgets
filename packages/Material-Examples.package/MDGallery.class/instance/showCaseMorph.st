@@ -1,7 +1,8 @@
 as yet unclassified
 showCaseMorph
 
-	^ showCaseMorph
-		ifNil: [showCaseMorph := Morph new
+	^ showCaseMorph ifNil: [
+		showCaseMorph := Morph new
 			color:  Color transparent;
-			layoutPolicy: ProportionalLayout new; yourself]
+			layoutPolicy: ProportionalLayout new;
+			yourself]
