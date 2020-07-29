@@ -1,9 +1,7 @@
 accessing
 currentBackgroundColor
 
-	self state isDeselected
-		ifTrue: [^ self backgroundColor]
-		ifFalse: [
-			self state isEnabled
-				ifTrue: [^ self backgroundColorSelected]
-				ifFalse: [^ self backgroundColorDisabled]]
+	self state isDeselected ifTrue: [^ self backgroundColor].
+	self state isEnabled
+		ifTrue: [^ self backgroundColorSelected]
+		ifFalse: [^ self backgroundColorDisabled]
