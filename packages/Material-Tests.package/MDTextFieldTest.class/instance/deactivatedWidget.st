@@ -1,4 +1,6 @@
 widgets
 deactivatedWidget
 
-	^ self widget deactivate
+	self widget state deactivate.
+
+	^ self widget

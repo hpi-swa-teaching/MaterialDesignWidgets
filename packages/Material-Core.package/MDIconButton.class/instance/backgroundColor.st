@@ -1,4 +1,4 @@
 drawing
 backgroundColor
 
-	^ self basicBackgroundColor alphaMixed: self transparency
+	^ self contrastColor alphaMixed: self transparency

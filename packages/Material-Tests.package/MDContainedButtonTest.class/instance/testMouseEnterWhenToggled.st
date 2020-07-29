@@ -1,4 +1,0 @@
-testing
-testMouseEnterWhenToggled
-
-	self _testMouseEnterWhenToggled

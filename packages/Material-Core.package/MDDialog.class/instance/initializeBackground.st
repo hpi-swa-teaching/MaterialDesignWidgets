@@ -1,12 +1,14 @@
 initialization
 initializeBackground
 
-	self background: (MDClickable new
+	| morph |
+	morph := Morph new
 		beSticky;
-		wantsRipples: false;
-		wantsStates: false;
-		backgroundColor: self class defaultOverlayColor;
+		color: self class defaultOverlayColor;
 		bounds: World fullBounds;
-		target: [self dismissOnBackgroundClick ifTrue: [self close]];
-		actionSelector: #value;
-		yourself)
+		yourself.
+
+	self dismissOnBackgroundClick ifTrue: [
+		morph on: #mouseDown send: #close to: self].
+
+	self background: morph

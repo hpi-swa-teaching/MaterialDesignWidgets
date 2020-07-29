@@ -1,4 +1,4 @@
 drawing
 globalPositionOfFirstVisibleItem
 
-	^  self position + self relativePositionOfFirstVisibleItem
+	^ self position + self relativePositionOfFirstVisibleItem

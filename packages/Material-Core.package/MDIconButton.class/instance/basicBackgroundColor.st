@@ -1,4 +1,0 @@
-accessing
-basicBackgroundColor
-
-	^ Color gray

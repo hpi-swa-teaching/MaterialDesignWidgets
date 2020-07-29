@@ -1,4 +1,0 @@
-selecting
-isSelected
-
-	^ isSelected

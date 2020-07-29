@@ -1,5 +1,6 @@
 accessing
 updateBounds 
 
-	self width: self defaultHeight.
-	self height: self defaultHeight 
+	self
+		width: self defaultHeight;
+		height: self defaultHeight 

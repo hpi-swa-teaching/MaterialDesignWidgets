@@ -2,8 +2,6 @@
 	"class" : {
 		"defaultText" : "mats 5/22/2018 19:11" },
 	"instance" : {
-		"disable" : "CG 7/1/2018 11:38",
-		"enable" : "CG 7/1/2018 11:38",
-		"initialize" : "JW 6/17/2020 18:08",
-		"mouseEnter:" : "LS 6/21/2018 20:30",
-		"mouseLeave:" : "LS 5/28/2018 21:59" } }
+		"changed" : "JW 7/13/2020 19:18",
+		"initialize" : "JW 7/13/2020 19:17",
+		"onHoveredChanged" : "JW 7/13/2020 17:54" } }

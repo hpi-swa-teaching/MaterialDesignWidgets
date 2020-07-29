@@ -1,4 +1,8 @@
 widgets
 activatedAndDeactivatedWidget
 
-	^ self widget activate deactivate
+	(self widget state)
+		activate;
+		deactivate.
+
+	^ self widget
