@@ -5,6 +5,6 @@ drawOn: aCanvas
 		drawRectangleOn: aCanvas 
 		withBounds: self bounds 
 		color: self currentBackgroundColor
-		radius: self borderRadius
-		borderWidth: self borderWidth
-		borderColor: self borderColor
+		radius: self currentBorderRadius
+		borderWidth: self currentBorderWidth
+		borderColor: self currentBorderColor
