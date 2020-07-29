@@ -1,4 +1,4 @@
-border
+accessing
 borderRadius: aValue
 
 	| borderRadius |

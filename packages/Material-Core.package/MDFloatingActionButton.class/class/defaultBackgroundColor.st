@@ -1,4 +1,4 @@
-accessing
-backgroundColor
+properties
+defaultBackgroundColor
 
 	^ MDColorTheme currentTheme secondaryColor
