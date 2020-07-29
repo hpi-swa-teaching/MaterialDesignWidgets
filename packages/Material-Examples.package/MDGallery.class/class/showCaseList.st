@@ -1,4 +1,4 @@
-properties
+as yet unclassified
 showCaseList
 
 	^ {
@@ -7,4 +7,5 @@ showCaseList
 		'Text Area' -> #textArea.
 		'Dialog' -> #dialog.
 		'Checkbox' -> #checkboxes.
+		'Menu' -> #menu.
 	}

@@ -1,0 +1,1 @@
+I test if the MDIconButton runs correctly

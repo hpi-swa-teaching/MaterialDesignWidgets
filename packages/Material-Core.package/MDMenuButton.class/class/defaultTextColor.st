@@ -1,4 +1,4 @@
 properties
 defaultTextColor
 
-	^ self currentTheme textColorOn: self currentTheme primaryColor
+	^ self currentTheme textColorOn: self currentTheme backgroundColor
