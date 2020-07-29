@@ -7,9 +7,9 @@
 		"notHoveredTransparency" : "ct 6/2/2020 11:10" },
 	"instance" : {
 		"backgroundColor" : "JW 7/13/2020 17:58",
-		"borderRadius" : "ct 6/10/2020 16:49",
 		"bounds" : "CG 7/1/2018 11:39",
 		"changed" : "JW 7/13/2020 19:18",
+		"currentBorderRadius" : "JW 7/29/2020 14:07",
 		"drawOn:" : "ct 5/20/2020 21:18",
 		"iconPosition" : "CG 7/1/2018 11:39",
 		"initialize" : "JW 7/13/2020 19:18",

@@ -1,4 +1,4 @@
-border
+accessing
 borderWidth: aValue
 
 	self assert: aValue isNumber.

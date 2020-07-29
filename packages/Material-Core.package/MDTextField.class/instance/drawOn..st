@@ -4,8 +4,8 @@ drawOn: aCanvas
 	MDRenderer
 		drawBottomBorderOn: aCanvas 
 		withBounds: self bounds 
-		color: self backgroundColor
-		radius: self borderRadius
+		color: self currentBackgroundColor
+		radius: self currentBorderRadius
 		borderWidth: self currentBorderWidth
 		borderColor: self currentBorderColor.
 	

@@ -1,13 +1,21 @@
 {
 	"class" : {
+		"defaultBackgroundColor" : "JW 7/29/2020 13:57",
+		"defaultBackgroundColorSelected" : "JW 7/29/2020 13:57",
 		"defaultBorderRadius" : "DasSepp 6/26/2020 08:51",
+		"defaultBorderWidth" : "JW 7/29/2020 14:10",
 		"defaultIconSize" : "DasSepp 6/26/2020 10:06",
 		"defaultSize" : "DasSepp 6/26/2020 10:30" },
 	"instance" : {
 		"addIcon:" : "DasSepp 6/26/2020 10:37",
-		"changed" : "JW 7/13/2020 18:17",
+		"backgroundColorSelected" : "JW 7/29/2020 13:55",
+		"backgroundColorSelected:" : "JW 7/29/2020 13:57",
+		"changed" : "JW 7/29/2020 14:11",
 		"checkedIcon" : "DasSepp 6/26/2020 10:05",
+		"currentBackgroundColor" : "JW 7/29/2020 14:00",
+		"currentBorderWidth" : "JW 7/29/2020 14:09",
 		"icon" : "JW 7/2/2020 13:54",
 		"icon:" : "JW 7/2/2020 13:54",
 		"initialize" : "JW 7/13/2020 18:15",
+		"onSelectedChanged" : "JW 7/29/2020 14:11",
 		"removeIcon" : "JW 7/2/2020 13:55" } }

@@ -1,0 +1,4 @@
+accessing
+currentBorderWidth
+
+	^ self borderWidth

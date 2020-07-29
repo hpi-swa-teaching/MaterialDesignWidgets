@@ -1,5 +1,5 @@
 accessing
-borderRadius
+currentBorderRadius
 
 	| radius |
 	radius := (self bounds center - self position) x.
