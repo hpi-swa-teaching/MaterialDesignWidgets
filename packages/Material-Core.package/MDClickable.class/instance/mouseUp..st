@@ -1,6 +1,6 @@
 event handling
 mouseUp: anEvent
-
+	
 	self isMouseDown: false.
 	self updateStateWithAction: #mouseUp.
 	self isEnabled ifTrue: [
