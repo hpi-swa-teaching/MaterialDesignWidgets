@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "DasSepp 7/29/2020 12:42",
 	"instvars" : [
 		"unitUnderTest" ],
 	"name" : "MDIconButtonTestCase",

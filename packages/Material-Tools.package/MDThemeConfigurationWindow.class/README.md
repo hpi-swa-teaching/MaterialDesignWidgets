@@ -1,1 +1,1 @@
-A MDThemeConfigurationWindow is a window for the user to configure all properties of a MDColorTheme.
+I am a MDThemeConfigurationWindow and I can be used by the user to configure properties of a MDColorTheme.

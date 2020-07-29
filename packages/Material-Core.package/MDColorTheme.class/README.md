@@ -1,4 +1,4 @@
-A MDColorTheme provides color according to the Material Design guidelines.
+I am a MDColorTheme and provide color according to the Material Design guidelines.
 
 Instance Variables
 	backgroundColor:		a color
