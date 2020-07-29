@@ -4,7 +4,7 @@ addLabel
 	(appBar isNil or: [label isNil]) ifTrue: [^ self].
 	appBar 
 		addLabel: (Morph new 
-			extent: self class currentBorderWidth @ self appBar class denseHeight;
+			extent: self class borderWidth @ self appBar class denseHeight;
 			color: appBar backgroundColor;
 			yourself);
 		addLabel: label.
