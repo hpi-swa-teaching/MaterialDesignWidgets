@@ -7,9 +7,9 @@
 		"updateAllMockObjects" : "JW 6/16/2018 14:04",
 		"updateDeactivatedMockObject" : "mats 7/25/2018 14:16" },
 	"instance" : {
-		"activatedAndDeactivatedWidget" : "JW 7/13/2020 18:48",
-		"activatedWidget" : "JW 7/13/2020 18:48",
-		"deactivatedWidget" : "JW 7/13/2020 18:50",
+		"activatedAndDeactivatedWidget" : "JW 7/29/2020 11:59",
+		"activatedWidget" : "JW 7/29/2020 11:59",
+		"deactivatedWidget" : "JW 7/29/2020 11:59",
 		"testActivate" : "LS 7/19/2018 16:25",
 		"testActivateAndDeactivate" : "LS 7/19/2018 16:26",
 		"testDeactivated" : "LS 7/19/2018 16:25" } }

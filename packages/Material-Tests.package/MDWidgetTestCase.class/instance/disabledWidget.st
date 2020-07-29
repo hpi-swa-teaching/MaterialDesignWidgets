@@ -1,6 +1,6 @@
 widgets
 disabledWidget
 
-	self widget state isDisabled: true.
+	self widget state disable.
 	
 	^ self widget

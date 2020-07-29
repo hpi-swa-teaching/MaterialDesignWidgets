@@ -1,6 +1,4 @@
 accessing
 backgroundColorDisabled: aColor
 
-	backgroundColorDisabled := aColor.
-	self changed.
-	^ aColor
+	^ self setProperty: #backgroundColorDisabled to: (self colorFrom: aColor)

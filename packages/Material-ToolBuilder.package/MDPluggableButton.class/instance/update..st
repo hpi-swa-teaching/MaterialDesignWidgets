@@ -5,7 +5,7 @@ update: anObject
 		anObject == sel ifTrue: [self labelContents: (model perform: sel)]].
 
 	self getStateSelector ifNotNil: [:sel |
-		anObject == sel ifTrue: [self state isEnabled]].
+		anObject == sel ifTrue: [self state enable]].
 
 	"self getColorSelector ifNotNil: [:sel |
 		anObject == sel ifTrue: [self backgroundColor: (self model perform: sel) ]]."

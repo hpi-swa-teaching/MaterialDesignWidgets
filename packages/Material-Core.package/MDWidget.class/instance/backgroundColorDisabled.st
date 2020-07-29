@@ -1,4 +1,4 @@
 accessing
 backgroundColorDisabled
 
-	^ backgroundColorDisabled ifNil: [self backgroundColorDisabled: self class defaultBackgroundColorDisabled]
+	^ self properties at: #backgroundColorDisabled ifAbsent: [^ self backgroundColorDisabled: self class defaultBackgroundColorDisabled]

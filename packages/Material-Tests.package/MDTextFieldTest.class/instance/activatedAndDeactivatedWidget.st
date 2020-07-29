@@ -2,7 +2,7 @@ widgets
 activatedAndDeactivatedWidget
 
 	(self widget state)
-		isActivated: true;
-		isActivated: false.
+		activate;
+		deactivate.
 
 	^ self widget

@@ -13,7 +13,7 @@ updateList
 						(self listItems at: (self model perform: self selected))
 							state isSelected: false].
 					self model perform: self changeSelected with: num.
-					(self listItems at: num) state isSelected: true];
+					(self listItems at: num) state select];
 				actionSelector: #value; 
 				yourself.
 		

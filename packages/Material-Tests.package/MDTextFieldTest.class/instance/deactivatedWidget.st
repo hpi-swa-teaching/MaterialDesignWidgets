@@ -1,5 +1,6 @@
 widgets
 deactivatedWidget
 
-	self widget state isActivated: false.
+	self widget state deactivate.
+
 	^ self widget

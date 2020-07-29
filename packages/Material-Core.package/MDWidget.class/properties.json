@@ -7,8 +7,7 @@
 	"commentStamp" : "CG 7/22/2018 22:00",
 	"instvars" : [
 		"properties",
-		"state",
-		"backgroundColorDisabled" ],
+		"state" ],
 	"name" : "MDWidget",
 	"pools" : [
 		 ],

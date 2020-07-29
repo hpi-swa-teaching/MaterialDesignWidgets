@@ -1,4 +1,4 @@
 selecting
 deselect: anEvent
 
-	self state isSelected: false
+	self state deselect

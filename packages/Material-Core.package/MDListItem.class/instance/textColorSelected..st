@@ -3,4 +3,4 @@ textColorSelected: aColor
 
 	textColorSelected := aColor.
 	self changed.
-	^aColor
+	^ aColor
