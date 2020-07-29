@@ -2,7 +2,8 @@ initialization
 initialize 
 	
 	super initialize.
-	self hasADropShadow: false.
-	self transparency: 0.
-	self cornerStyle: #rounded.
-	self cornerRadius: self width * 2
+	self
+		removeDropShadow;
+		transparency: 0;
+		cornerStyle: #rounded;
+		cornerRadius: self width * 2

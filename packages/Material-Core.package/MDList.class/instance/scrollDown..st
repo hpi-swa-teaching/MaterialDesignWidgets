@@ -2,7 +2,6 @@ event handling
 scrollDown: aNumber
 
 	| mouseEvent |
-	
 	super scrollDown: aNumber.
 	
 	self scrollOffset = self maxScrollDelta ifFalse: [

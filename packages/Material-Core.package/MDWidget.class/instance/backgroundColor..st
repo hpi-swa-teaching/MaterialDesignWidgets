@@ -1,4 +1,4 @@
-properties
-backgroundColor: aValue
-	
-	^ self setProperty: #backgroundColor to: (self colorFrom: aValue)
+accessing
+backgroundColor: aColor
+
+	^ self setProperty: #backgroundColor to: (self colorFrom: aColor)

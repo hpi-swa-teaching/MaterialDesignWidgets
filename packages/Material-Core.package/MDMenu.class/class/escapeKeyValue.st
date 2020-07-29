@@ -1,0 +1,4 @@
+properties
+escapeKeyValue
+
+	^ 27

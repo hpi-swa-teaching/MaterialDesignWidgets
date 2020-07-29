@@ -1,0 +1,4 @@
+accessing
+isActivated
+
+	^ isActivated

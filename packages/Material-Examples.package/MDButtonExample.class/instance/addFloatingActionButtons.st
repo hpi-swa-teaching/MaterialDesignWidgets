@@ -6,7 +6,7 @@ addFloatingActionButtons
 	fabColor := MDFloatingActionButton icon: #ic_add.
 	fabColor backgroundColor: '#018786'.
 	fabDisabled := MDFloatingActionButton icon: #ic_add.
-	fabDisabled disable.
+	fabDisabled state disable.
 	
 	self
 		addWidget: (MDFloatingActionButton icon: #ic_add); 

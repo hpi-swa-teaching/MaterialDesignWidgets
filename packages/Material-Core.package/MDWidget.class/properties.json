@@ -6,7 +6,8 @@
 		"FontsImported" ],
 	"commentStamp" : "CG 7/22/2018 22:00",
 	"instvars" : [
-		"properties" ],
+		"properties",
+		"state" ],
 	"name" : "MDWidget",
 	"pools" : [
 		 ],

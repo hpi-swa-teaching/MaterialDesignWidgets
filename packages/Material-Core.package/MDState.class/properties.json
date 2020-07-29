@@ -1,0 +1,22 @@
+{
+	"category" : "Material-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JW 7/9/2020 09:34",
+	"instvars" : [
+		"widget",
+		"isHovered",
+		"isFocused",
+		"isPressed",
+		"isDragged",
+		"isSelected",
+		"isActivated",
+		"isDisabled",
+		"isError" ],
+	"name" : "MDState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

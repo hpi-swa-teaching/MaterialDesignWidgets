@@ -2,7 +2,6 @@ event handling
 scrollUp: aNumber
 
 	| mouseEvent |
-	
 	super scrollUp: aNumber.
 	
 	self scrollOffset > 0 ifTrue: [

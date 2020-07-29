@@ -1,5 +1,4 @@
 accessing
 hasItems
 	
-	^ submorphs
-		anySatisfy: [:each | each isKindOf: MDMenuItem] 
+	^ self items isEmpty not

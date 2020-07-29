@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"alternativeBackgroundColor" : "JW 6/22/2020 19:14",
-		"alternativeText" : "JW 6/22/2020 19:14",
+		"alternativeBackgroundColor" : "JW 7/15/2020 10:27",
+		"alternativeText" : "JW 7/15/2020 10:27",
 		"classToTest" : "mats 6/13/2018 10:15",
-		"disabled" : "JW 6/22/2020 19:14",
-		"enabled" : "JW 6/22/2020 19:14",
-		"mouseEnter" : "JW 6/22/2020 19:14",
-		"rippleWithFactor0_25" : "JW 6/22/2020 19:14",
-		"rippleWithFactor0_5" : "JW 6/22/2020 19:14",
-		"rippleWithFactor0_75" : "JW 6/22/2020 19:14",
-		"rippleWithFactor1" : "JW 6/22/2020 19:14",
-		"tests" : "LS 7/19/2018 14:49",
+		"disabled" : "JW 7/15/2020 10:27",
+		"enabled" : "JW 7/15/2020 10:27",
+		"mouseEnter" : "JW 7/15/2020 10:27",
+		"rippleWithFactor0_25" : "JW 7/15/2020 10:27",
+		"rippleWithFactor0_5" : "JW 7/15/2020 10:27",
+		"rippleWithFactor0_75" : "JW 7/15/2020 10:27",
+		"rippleWithFactor1" : "JW 7/15/2020 10:27",
+		"tests" : "JW 7/9/2020 10:20",
 		"toggleOn" : "JW 6/22/2020 19:14" },
 	"instance" : {
 		"testAlternativeBackgroundColor" : "LS 7/19/2018 14:05",
@@ -20,5 +20,4 @@
 		"testEnabled" : "LS 7/19/2018 14:18",
 		"testMouseEnter" : "LS 7/19/2018 14:22",
 		"testMouseEnterAndLeave" : "LS 7/19/2018 14:24",
-		"testMouseEnterWhenToggled" : "LS 7/19/2018 14:25",
 		"testRipples" : "LS 7/19/2018 14:41" } }

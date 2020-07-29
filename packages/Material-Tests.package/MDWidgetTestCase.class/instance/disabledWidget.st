@@ -1,6 +1,6 @@
 widgets
 disabledWidget
 
-	self widget disable.
+	self widget state disable.
 	
 	^ self widget

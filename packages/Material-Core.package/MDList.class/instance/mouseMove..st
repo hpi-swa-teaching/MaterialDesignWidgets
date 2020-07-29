@@ -2,7 +2,6 @@ event handling
 mouseMove: anEvent
 
 	| item mouseEvent eventCopy |
-	
 	item := self globalPositionToIndex: anEvent position.
 	eventCopy := anEvent copy.
 	mouseEvent := eventCopy position: 0 @ 0.

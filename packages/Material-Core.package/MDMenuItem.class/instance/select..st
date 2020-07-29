@@ -1,7 +1,6 @@
 selecting
 select: anEvent
 
-	self isSelected: true.
 	self owner activeSubmenu: self subMenu.
 	self subMenu ifNotNil: [
 		self subMenu delete.
@@ -9,5 +8,5 @@ select: anEvent
 			popUpAdjacentTo: self adjacentTo
 			forHand: anEvent hand
 			from: self.
-		self subMenu selectItem: nil event: anEvent]
-		
+		self subMenu selectItem: nil event: anEvent].
+	self state isSelected: true

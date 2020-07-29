@@ -8,5 +8,4 @@ tests
 		at: #alternativeBackgroundColor 	put: true;
 		at: #mouseEnter 					put: true;
 		at: #ripples 						put: true;
-		at: #toggleOn 						put: true;
 		yourself

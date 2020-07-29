@@ -5,4 +5,3 @@ selectItem: aMDMenuItem event: anEvent
 	self selectedItem: aMDMenuItem.
 	self selectedItem ifNotNil: [self selectedItem select: anEvent]
 	
-	

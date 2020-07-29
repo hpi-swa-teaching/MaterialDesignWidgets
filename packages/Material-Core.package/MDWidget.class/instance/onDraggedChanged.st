@@ -1,0 +1,4 @@
+state
+onDraggedChanged
+
+	self changed

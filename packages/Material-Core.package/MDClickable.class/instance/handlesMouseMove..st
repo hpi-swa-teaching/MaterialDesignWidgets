@@ -1,4 +1,4 @@
 event handling
 handlesMouseMove: anEvent
 	
-	^ self isEnabled
+	^ self state isEnabled
