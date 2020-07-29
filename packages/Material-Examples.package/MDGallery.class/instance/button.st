@@ -1,6 +1,12 @@
 initialization
 button
-
+	|disabledButton|
+	
+	disabledButton := MDButton new
+		text: 'Disabled';
+		yourself.
+	disabledButton state disable.
+	
 	^ self wrapper
 		addMorphBack: MDButton new;
 		addMorphBack: self spacer;
@@ -15,8 +21,5 @@ button
 			text: 'Add to cart';
 			yourself);
 		addMorphBack: self spacer;
-		addMorphBack: (MDButton new
-			text: 'Disabled';
-			disable;
-			yourself);
+		addMorphBack: disabledButton;
 		yourself
