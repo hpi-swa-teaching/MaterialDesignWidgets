@@ -2,6 +2,6 @@ as yet unclassified
 menu
 	|menuButton|
 	
-	menuButton := MDMenuButton menu: MDMenu example.
+	menuButton := MDMenuButton new.
 	menuButton icon: MDIcon ic_menu.
-	^menuButton
+	^ menuButton

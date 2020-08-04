@@ -3,5 +3,5 @@ initializePlaceholder: aString
 	
 	self placeholder: (MDLabel contents: aString fontTag: #Body2). 
 	self placeholder materialEmphasis: #disabled.
-	self placeholder visible: false.
+	self placeholder visible: true.
 	self addMorph: self placeholder
