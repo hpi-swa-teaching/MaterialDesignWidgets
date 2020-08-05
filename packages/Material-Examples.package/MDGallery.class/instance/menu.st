@@ -1,7 +1,6 @@
-as yet unclassified
+initialization
 menu
-	|menuButton|
-	
-	menuButton := MDMenuButton new.
-	menuButton icon: MDIcon ic_menu.
-	^ menuButton
+
+	^ MDMenuButton new
+		icon: MDIcon ic_menu;
+		yourself

@@ -5,5 +5,6 @@ checkboxWithText: aString
 		addMorphBack: MDCheckbox new;
 		addMorphBack: (self hSpacer);
 		addMorphBack: (MDLabel new
-			contents: aString; yourself);
+			contents: aString;
+			yourself);
 		yourself

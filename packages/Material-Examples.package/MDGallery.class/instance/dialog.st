@@ -1,8 +1,7 @@
 initialization
 dialog
 
-	|dialog|
-	
+	| dialog |
 	dialog := MDDialog new
 		title: 'Basic Dialog';
 		content: 'This is just a basic dialog.';

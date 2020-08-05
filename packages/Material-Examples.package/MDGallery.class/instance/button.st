@@ -1,7 +1,7 @@
 initialization
 button
-	|disabledButton|
-	
+
+	| disabledButton |
 	disabledButton := MDButton new
 		text: 'Disabled';
 		yourself.
