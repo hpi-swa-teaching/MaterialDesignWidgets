@@ -1,5 +1,5 @@
 events-processing
 textChanged
-	
-	self placeholder visible: (self textMorph text isEmpty).
+
+	self placeholder visible: self isEmpty.
 	self executeTextChangedActionBlocks

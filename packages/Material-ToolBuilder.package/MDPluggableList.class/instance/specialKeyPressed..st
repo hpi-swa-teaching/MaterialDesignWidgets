@@ -3,15 +3,11 @@ specialKeyPressed: asciiValue
 	"A special key with the given ascii-value was pressed; dispatch it"
 	
 	| oldSelection nextSelection max howManyItemsShowing |
+	
 	(#(8 13) includes: asciiValue) ifTrue:
 		[ "backspace key - clear the filter, restore the list with the selection" 
 		model okToChange ifFalse: [^ self].
 		self removeFilter.
-		priorSelection ifNotNil:
-			[ | prior |
-			prior := self priorSelection.
-			self priorSelection: self getCurrentSelectionIndex.
-			asciiValue = 8 ifTrue: [self changeModelSelection: prior]].
 		^ self updateList].
 	asciiValue = 27 ifTrue: 
 		[" escape key"

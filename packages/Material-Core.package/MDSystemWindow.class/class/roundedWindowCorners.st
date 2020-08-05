@@ -1,0 +1,4 @@
+properties
+roundedWindowCorners
+
+	^ true

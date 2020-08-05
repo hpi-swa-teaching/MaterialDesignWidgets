@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "LS 6/11/2018 10:16",
 	"instvars" : [
-		"alwaysUppercase" ],
+		"alwaysUppercase",
+		"fullContents",
+		"materialEmphasis" ],
 	"name" : "MDLabel",
 	"pools" : [
 		 ],

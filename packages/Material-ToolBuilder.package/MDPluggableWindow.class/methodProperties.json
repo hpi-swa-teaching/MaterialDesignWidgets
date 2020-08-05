@@ -2,4 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"addPaneMorph:" : "lp 6/10/2019 15:37",
+		"closeWindowSelector" : "lp 6/10/2019 15:41",
+		"closeWindowSelector:" : "lp 6/10/2019 15:42",
+		"delete" : "lp 6/10/2019 15:41",
+		"getChildrenSelector" : "lp 6/10/2019 15:39",
+		"getChildrenSelector:" : "lp 6/10/2019 15:42",
+		"getLabelSelector" : "lp 6/10/2019 15:39",
+		"getLabelSelector:" : "lp 6/10/2019 15:42",
+		"label" : "lp 6/10/2019 15:43",
+		"label:" : "lp 6/10/2019 15:43",
+		"model:" : "lp 6/10/2019 16:56",
+		"update:" : "lp 6/10/2019 15:44" } }

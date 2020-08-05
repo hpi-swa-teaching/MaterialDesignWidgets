@@ -1,0 +1,14 @@
+{
+	"category" : "Material-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DasSepp 7/29/2020 12:42",
+	"instvars" : [
+		"unitUnderTest" ],
+	"name" : "MDIconButtonTestCase",
+	"pools" : [
+		 ],
+	"super" : "MDTestCase",
+	"type" : "normal" }

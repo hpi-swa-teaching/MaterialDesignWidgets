@@ -1,0 +1,4 @@
+accessing
+dividerColor
+
+	^ dividerColor

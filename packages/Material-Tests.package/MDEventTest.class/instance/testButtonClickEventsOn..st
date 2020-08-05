@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testButtonClickEventsOn: aMDClickable
 
 	| mouseEvent |

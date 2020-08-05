@@ -1,0 +1,4 @@
+state
+onActivatedChanged
+
+	self changed

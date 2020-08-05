@@ -7,13 +7,12 @@
 	"commentStamp" : "CG 7/22/2018 22:01",
 	"instvars" : [
 		"ripples",
-		"isMouseDown",
 		"wantsRipples",
-		"wantsStates",
 		"negatedShapeCache",
 		"target",
 		"actionSelector",
-		"arguments" ],
+		"arguments",
+		"backgroundColorDisabled" ],
 	"name" : "MDClickable",
 	"pools" : [
 		 ],

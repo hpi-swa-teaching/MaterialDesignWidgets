@@ -2,5 +2,5 @@ accessing
 label: anObject
 
 	anObject isString 
-		ifTrue: [self text: anObject]
+		ifTrue: [self labelContents: anObject]
 		ifFalse: [label := anObject]

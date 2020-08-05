@@ -5,7 +5,8 @@ initializeButtonPositive
 	button := MDTextButton new
 		text: self class defaultPositiveText;
 		target: [self close];
-		actionSelector: #value.
+		actionSelector: #value;
+		yourself.
 
 	self 
 		buttonPositive: button;

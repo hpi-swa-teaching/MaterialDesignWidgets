@@ -1,8 +1,8 @@
-as yet unclassified
+initialization
 initialize
 
 	super initialize.
 	self
-		backgroundColor: Color white;
+		backgroundColor: self class defaultBackgroundColor;
 		scrollbar: (MDScrollbar newOn: self);
-		addMorph: (self scrollbar)
+		addMorph: self scrollbar

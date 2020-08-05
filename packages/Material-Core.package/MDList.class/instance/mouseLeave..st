@@ -1,6 +1,6 @@
 event handling
-mouseLeave: evt
+mouseLeave: anEvent
 
 	| mouseEvent |
-	mouseEvent := evt position: 0 @ 0.
+	mouseEvent := anEvent position: 0 @ 0.
 	self listItems do: [:each | each mouseLeave: mouseEvent]

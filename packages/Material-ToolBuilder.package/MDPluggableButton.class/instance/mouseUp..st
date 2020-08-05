@@ -1,13 +1,10 @@
 event handling
-mouseUp: evt
+mouseUp: anEvent
 
-	super mouseUp: evt.
+	super mouseUp: anEvent.
 	self allButtons ifNil: [^ self].
-	self allButtons do: [:m |
-		(m containsPoint: evt cursorPoint)
-			ifTrue: [m performAction.
-					m getStateSelector 
-						ifNotNil:[m toggleOn]]
-			ifFalse: [m toggleOff]].
+	self allButtons do: [:button |
+		(button containsPoint: anEvent cursorPoint)
+			ifTrue: [button performAction]].
 	self allButtons: nil.
 	self changed

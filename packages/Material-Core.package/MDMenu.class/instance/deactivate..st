@@ -1,11 +1,10 @@
 event handling
-deactivate: evt
+deactivate: anEvent
 
-	"If a stand-alone menu, just delete it"
 	self popUpOwner ifNil: [ 
-		self deleteIfPopUp: evt.
-		^true].
-	"If a sub-menu, then deselect, and return focus to outer menu"
-	self selectItem: nil event: evt.
-	evt hand newMouseFocus: self popUpOwner owner.
-	evt hand newKeyboardFocus: self popUpOwner owner
+		self deleteIfPopUp: anEvent.
+		^ self].
+	
+	self selectItem: nil event: anEvent.
+	anEvent hand newMouseFocus: self popUpOwner owner.
+	anEvent hand newKeyboardFocus: self popUpOwner owner

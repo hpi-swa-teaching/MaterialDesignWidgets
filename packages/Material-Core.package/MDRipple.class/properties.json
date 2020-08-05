@@ -12,7 +12,8 @@
 		"fadeOutDuration",
 		"clickableMorph",
 		"isAnimationRunning",
-		"colorAlpha" ],
+		"colorAlpha",
+		"isFadeOutQueued" ],
 	"name" : "MDRipple",
 	"pools" : [
 		 ],

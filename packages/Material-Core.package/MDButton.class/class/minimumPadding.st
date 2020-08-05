@@ -1,0 +1,4 @@
+properties
+minimumPadding
+
+	^ 5

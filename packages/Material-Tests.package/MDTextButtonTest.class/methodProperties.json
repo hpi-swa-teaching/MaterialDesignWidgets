@@ -1,17 +1,17 @@
 {
 	"class" : {
-		"alternativeBackgroundColor" : "LS 7/19/2018 16:45",
-		"alternativeText" : "LS 7/19/2018 16:45",
+		"alternativeBackgroundColor" : "RW 8/5/2020 12:19",
+		"alternativeText" : "RW 8/5/2020 12:19",
 		"classToTest" : "mats 6/13/2018 10:19",
-		"disabled" : "LS 7/19/2018 16:45",
-		"enabled" : "LS 7/19/2018 16:45",
-		"mouseEnter" : "LS 7/19/2018 16:45",
-		"rippleWithFactor0_25" : "LS 7/19/2018 16:45",
-		"rippleWithFactor0_5" : "LS 7/19/2018 16:45",
-		"rippleWithFactor0_75" : "LS 7/19/2018 16:45",
-		"rippleWithFactor1" : "LS 7/19/2018 16:45",
-		"tests" : "mats 7/11/2018 19:44",
-		"toggleOn" : "LS 7/19/2018 14:51" },
+		"disabled" : "RW 8/5/2020 12:19",
+		"enabled" : "RW 8/5/2020 12:19",
+		"mouseEnter" : "RW 8/5/2020 12:19",
+		"rippleWithFactor0_25" : "RW 8/5/2020 12:19",
+		"rippleWithFactor0_5" : "RW 8/5/2020 12:19",
+		"rippleWithFactor0_75" : "RW 8/5/2020 12:19",
+		"rippleWithFactor1" : "RW 8/5/2020 12:19",
+		"tests" : "JW 7/9/2020 10:21",
+		"toggleOn" : "JW 6/22/2020 19:14" },
 	"instance" : {
 		"testAlternativeText" : "LS 7/19/2018 14:07",
 		"testDisable" : "LS 7/19/2018 14:08",
@@ -19,6 +19,4 @@
 		"testEnabled" : "LS 7/19/2018 14:18",
 		"testMouseEnter" : "LS 7/19/2018 14:22",
 		"testMouseEnterAndLeave" : "LS 7/19/2018 14:24",
-		"testRipples" : "LS 7/19/2018 14:41",
-		"testToggled" : "LS 7/19/2018 14:29",
-		"testToggledOnAndOff" : "LS 7/19/2018 14:30" } }
+		"testRipples" : "LS 7/19/2018 14:41" } }

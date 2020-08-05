@@ -1,4 +1,4 @@
-default properties
+properties
 backgroundDisabledAlpha
 
 	^ 0.14

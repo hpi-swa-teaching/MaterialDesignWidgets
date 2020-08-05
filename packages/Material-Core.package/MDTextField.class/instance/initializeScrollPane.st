@@ -1,9 +1,10 @@
 initialization
 initializeScrollPane
 
-	self scrollPane: MDScrollPane new.
-	self scrollPane eventReceiver: self.
-	self scrollPane color: Color transparent.
-	self scrollPane borderWidth: 0.
-	self scrollPane hScrollBarPolicy: self hScrollBarPolicy.
-	self scrollPane vScrollBarPolicy: self vScrollBarPolicy
+	self scrollPane: (MDScrollPane new
+		eventReceiver: self;
+		color: Color transparent;
+		borderWidth: 0;
+		hScrollBarPolicy: self hScrollBarPolicy;
+		vScrollBarPolicy: self vScrollBarPolicy;
+		yourself)

@@ -1,10 +1,9 @@
 control
 deleteIfPopUp: anEvent
-	"Remove this menu from the screen if stayUp is not true. If it is a submenu, also remove its owning menu."
 
 	self delete.
-	(self popUpOwner) ifNotNil: [
-		self popUpOwner isSelected: false.
+	self popUpOwner ifNotNil: [
+		self popUpOwner state isSelected: false.
 		self popUpOwner deleteIfPopUp: anEvent].
 	anEvent ifNotNil: [
 		anEvent hand releaseMouseFocus: self.

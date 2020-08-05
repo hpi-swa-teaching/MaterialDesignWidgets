@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 on: anObject getState: aSymbol action: anAction label: aLabel 
 	
 	^ self new

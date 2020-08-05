@@ -1,8 +1,8 @@
 drawing
 globalPositionToPositionInListItem: aPoint
 
-	| position mouseEvtPos |
+	| position mouseEventPosition |
 	position := aPoint - self position + self scrollOffset.
-	mouseEvtPos := (aPoint - self position) x @ (position y \\ self listItemHeightWithPadding).
+	mouseEventPosition := (aPoint - self position) x @ (position y \\ self listItemHeightWithPadding).
 	
-	^ mouseEvtPos
+	^ mouseEventPosition

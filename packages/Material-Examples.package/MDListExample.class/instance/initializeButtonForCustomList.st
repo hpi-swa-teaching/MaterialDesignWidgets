@@ -9,4 +9,5 @@ initializeButtonForCustomList
 	self addWidget:  (MDContainedButton new
 		text: 'Open Custom List';
 		target: [(self lists at: index) openInWorld];
-		actionSelector: #value)
+		actionSelector: #value;
+		yourself)

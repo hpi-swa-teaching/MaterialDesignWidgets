@@ -7,5 +7,6 @@ add: aString target: aTarget selector: aSymbol arguments: aArgList
 		target: aTarget;
 		actionSelector: aSymbol;
 		arguments: aArgList;
-		bounds: self newItemBounds.
+		bounds: self newItemBounds;
+		yourself.
 	self addMorphBack: item

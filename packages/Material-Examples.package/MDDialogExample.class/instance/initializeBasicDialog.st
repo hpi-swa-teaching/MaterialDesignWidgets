@@ -13,4 +13,5 @@ initializeBasicDialog
 	self addWidget:  (MDContainedButton new
 		text: 'Open Basic Dialog';
 		target: [(self dialogs at: index) open];
-		actionSelector: #value)
+		actionSelector: #value;
+		yourself)

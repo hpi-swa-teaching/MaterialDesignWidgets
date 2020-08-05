@@ -1,4 +1,4 @@
-default properties
+properties
 defaultTextColor
 
-	^ Color black alpha: 0.87
+	^ self currentTheme textColorOn: self currentTheme surfaceColor

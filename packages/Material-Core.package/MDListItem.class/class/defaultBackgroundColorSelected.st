@@ -1,0 +1,4 @@
+properties
+defaultBackgroundColorSelected
+
+	^ self currentTheme secondaryColorDark

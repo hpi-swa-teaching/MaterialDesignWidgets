@@ -1,4 +1,4 @@
-default properties
+properties
 defaultTextColor
 
-	^  '#673AB7'
+	^  self currentTheme secondaryColor

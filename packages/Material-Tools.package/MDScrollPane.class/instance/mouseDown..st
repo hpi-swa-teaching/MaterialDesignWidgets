@@ -1,5 +1,5 @@
 event handling
-mouseDown: evt
+mouseDown: anEvent
 
-	eventReceiver mouseDown: evt.
-	super mouseDown: evt	
+	eventReceiver mouseDown: anEvent.
+	super mouseDown: anEvent	

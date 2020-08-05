@@ -1,6 +1,4 @@
 updating
-whenChanged: notification update: target
-	"On receipt of a notification, such as #contents notification from a CodeHolder,
-	invoke an update as if target had been the original notification."
+whenChanged: aNotification update: aTarget
 
-	self updateMap at: notification put: target
+	self updateMap at: aNotification put: aTarget

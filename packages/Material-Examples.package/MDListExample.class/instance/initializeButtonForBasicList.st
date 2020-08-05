@@ -9,4 +9,5 @@ initializeButtonForBasicList
 	self addWidget:  (MDContainedButton new
 		text: 'Open Basic List';
 		target: [(self lists at: index) openInWorld];
-		actionSelector: #value)
+		actionSelector: #value;
+		yourself)

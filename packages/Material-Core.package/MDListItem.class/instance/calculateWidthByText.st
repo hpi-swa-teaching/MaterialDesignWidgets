@@ -1,4 +1,4 @@
-as yet unclassified
+calculating
 calculateWidthByText
 
 	self list ifNotNil: [^ self list width].

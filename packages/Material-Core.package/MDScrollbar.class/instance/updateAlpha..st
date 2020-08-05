@@ -1,8 +1,6 @@
-as yet unclassified
+updating
 updateAlpha: aValue
 
 	self isVisibleTimeDone 
 		ifTrue: [
-			self
-				backgroundColor: (self class defaultBackgroundColor alpha: aValue);
-				changed]
+			self backgroundColor: (self class defaultBackgroundColor alpha: aValue)]

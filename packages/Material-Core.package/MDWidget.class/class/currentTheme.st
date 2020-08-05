@@ -1,0 +1,4 @@
+properties
+currentTheme
+
+	^ MDColorTheme currentTheme

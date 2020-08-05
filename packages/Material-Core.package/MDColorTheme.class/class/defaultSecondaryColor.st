@@ -1,0 +1,4 @@
+properties
+defaultSecondaryColor
+
+	^ MDColor pink

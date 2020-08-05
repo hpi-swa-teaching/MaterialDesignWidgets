@@ -1,11 +1,12 @@
 {
 	"class" : {
 		"alwaysUppercase" : "JW 6/8/2018 16:08",
-		"defaultIcon" : "Max 6/3/2018 21:05",
+		"defaultBackgroundColor" : "RW 7/29/2020 14:43",
+		"defaultIcon" : "wb 7/24/2019 16:12",
 		"defaultText" : "Max 6/3/2018 21:04",
-		"defaultTextColor" : "LS 6/5/2018 16:26",
+		"defaultTextColor" : "RW 7/29/2020 14:43",
 		"menu:" : "CG 7/1/2018 12:25" },
 	"instance" : {
 		"defaultTarget" : "LS 6/7/2018 16:53",
-		"initialize" : "CG 7/1/2018 11:41",
+		"initialize" : "RW 8/4/2020 13:55",
 		"mouseUp:" : "CG 7/1/2018 11:41" } }

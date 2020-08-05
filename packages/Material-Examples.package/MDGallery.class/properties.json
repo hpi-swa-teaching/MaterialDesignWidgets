@@ -1,0 +1,14 @@
+{
+	"category" : "Material-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"showCaseMorph" ],
+	"name" : "MDGallery",
+	"pools" : [
+		 ],
+	"super" : "MDSystemWindow",
+	"type" : "normal" }

@@ -1,0 +1,21 @@
+{
+	"category" : "Material-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CurrentTheme" ],
+	"commentStamp" : "DasSepp 7/29/2020 12:26",
+	"instvars" : [
+		"primaryColor",
+		"secondaryColor",
+		"backgroundColor",
+		"surfaceColor",
+		"errorColor",
+		"textColorOptions",
+		"disabledColor",
+		"dividerColor" ],
+	"name" : "MDColorTheme",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

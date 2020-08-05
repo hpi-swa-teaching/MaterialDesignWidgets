@@ -1,4 +1,4 @@
 event handling
-handlesMouseUp: evt
+handlesMouseUp: anEvent
 
 	^ true

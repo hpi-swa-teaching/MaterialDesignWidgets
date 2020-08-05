@@ -1,0 +1,4 @@
+state
+onSelectedChanged
+
+	self changed

@@ -1,4 +1,4 @@
-default properties
+properties
 disabledOpacity
 
 	^ 0.38

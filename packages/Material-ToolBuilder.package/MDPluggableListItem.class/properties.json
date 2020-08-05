@@ -1,0 +1,14 @@
+{
+	"category" : "Material-ToolBuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DasSepp 7/29/2020 12:38",
+	"instvars" : [
+		"modelIndex" ],
+	"name" : "MDPluggableListItem",
+	"pools" : [
+		 ],
+	"super" : "MDListItem",
+	"type" : "normal" }

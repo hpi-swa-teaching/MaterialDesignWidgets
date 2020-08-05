@@ -1,8 +1,4 @@
-properties
+accessing
 textColor: aValue
 
-	| value |
-	value := super textColor: aValue.
-	self calculateColor.
-	
-	^ value
+	^ self setProperty: #textColor to: (self colorFrom: aValue)

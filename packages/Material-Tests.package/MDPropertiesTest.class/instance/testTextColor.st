@@ -1,4 +1,4 @@
-tests
+testing
 testTextColor
 
 	self testTextColorOn: MDOutlinedButton new.

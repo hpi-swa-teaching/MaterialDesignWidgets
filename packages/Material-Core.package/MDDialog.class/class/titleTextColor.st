@@ -1,4 +1,4 @@
-default properties
+properties
 titleTextColor
 
-	^ Color black
+	^ self currentTheme textColorOn: self currentTheme surfaceColor

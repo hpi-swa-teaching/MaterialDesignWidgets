@@ -1,15 +1,9 @@
 event handling
-mouseUp: evt
+mouseUp: anEvent
 	
+	| index |
 	self filteredListItems ifNotEmpty: [
-		| index |
-		index := self globalPositionToIndex: evt position.
+		index := self globalPositionToIndex: anEvent position.
 		self ifInBounds: index do: [:item |
-			item mouseUp: evt.
-			item mouseEnter: evt].
-		
-		"self forVisibleRowIndicesDo: [:each |
-			item := self listItems at: each.
-			item mouseUp: evt.
-			each = index 
-				ifTrue: [item mouseEnter: evt]]"]
+			item mouseUp: anEvent.
+			item mouseEnter: anEvent]]

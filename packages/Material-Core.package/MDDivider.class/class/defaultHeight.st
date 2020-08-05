@@ -1,4 +1,4 @@
-as yet unclassified
+properties
 defaultHeight
 
 	^ 1

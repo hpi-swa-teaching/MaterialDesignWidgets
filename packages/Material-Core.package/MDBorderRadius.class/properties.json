@@ -1,0 +1,17 @@
+{
+	"category" : "Material-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DasSepp 7/29/2020 12:25",
+	"instvars" : [
+		"topLeft",
+		"topRight",
+		"bottomLeft",
+		"bottomRight" ],
+	"name" : "MDBorderRadius",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

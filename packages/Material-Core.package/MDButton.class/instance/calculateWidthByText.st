@@ -1,11 +1,11 @@
 drawing
 calculateWidthByText
 
-	(self icon isNil and: self iconRight isNil)
+	| width |
+
+	(self icon isNil and: [self iconRight isNil])
 		ifTrue: [^ self label width + (2 * self class defaultPadding)]
-		ifFalse: [
-			| width |
-			
+		ifFalse: [			
 			self icon
 				ifNil: [width := self class defaultPadding]
 				ifNotNil: [width := self class defaultIconPadding + self class defaultIconSize + self class defaultIconTextPadding].

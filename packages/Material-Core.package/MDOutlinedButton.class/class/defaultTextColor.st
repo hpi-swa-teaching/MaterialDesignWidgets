@@ -1,4 +1,4 @@
-default properties
+properties
 defaultTextColor 
 
-	^ '#6200EE'
+	^ self defaultBorderColor

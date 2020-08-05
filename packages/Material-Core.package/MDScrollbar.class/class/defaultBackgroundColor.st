@@ -1,4 +1,4 @@
-as yet unclassified
+properties
 defaultBackgroundColor 
 
-	^ Color black alpha: 0.52
+	^ (self currentTheme textColorOn: self currentTheme surfaceColor) alpha: (self defaultOpacity)

@@ -1,4 +1,4 @@
 accessing
 vScrollBarPolicy
 
-	#whenNeeded
+	^ #whenNeeded

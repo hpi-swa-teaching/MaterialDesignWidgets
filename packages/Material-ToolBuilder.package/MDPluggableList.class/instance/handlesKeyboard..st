@@ -1,4 +1,4 @@
 keystrokes
-handlesKeyboard: evt
+handlesKeyboard: anEvent
 
 	^ true

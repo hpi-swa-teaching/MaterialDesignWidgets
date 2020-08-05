@@ -1,0 +1,4 @@
+properties
+defaultBorderColor
+
+	^ MDColorTheme textColorOnBackground

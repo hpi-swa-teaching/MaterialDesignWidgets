@@ -1,5 +1,5 @@
-as yet unclassified
-mouseWheel: evt
+event handling
+mouseWheel: anEvent
 	
-	evt isWheelUp ifTrue: [self scrollUp: self class scrollDelta].
-	evt isWheelDown ifTrue: [self scrollDown: self class scrollDelta]
+	anEvent isWheelUp ifTrue: [self scrollUp: self class scrollDelta].
+	anEvent isWheelDown ifTrue: [self scrollDown: self class scrollDelta]

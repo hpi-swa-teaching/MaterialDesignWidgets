@@ -1,0 +1,14 @@
+{
+	"category" : "Material-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DasSepp 7/29/2020 12:29",
+	"instvars" : [
+		 ],
+	"name" : "MDSystemBar",
+	"pools" : [
+		 ],
+	"super" : "MDWidget",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
-default properties
+properties
 defaultBorderWidth
 
 	^ 1

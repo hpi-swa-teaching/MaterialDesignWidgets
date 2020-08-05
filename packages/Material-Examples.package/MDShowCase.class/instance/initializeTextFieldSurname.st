@@ -13,7 +13,7 @@ initializeTextFieldSurname
 											 self textFieldSurname helper color: MDTextField inactiveColor]
 										ifFalse:
 											[self textFieldSurname helper contents: 'The name is to long!'.
-											 self textFieldSurname helper color: Color red]].
+											 self textFieldSurname helper color: MDColorTheme currentTheme errorColor]].
 	self textFieldSurname position: ((self textfield position x) @ (170 + self newContact position y)).
 	self textFieldSurname width: 200.
 	self newContact addMorphBack: self textFieldSurname

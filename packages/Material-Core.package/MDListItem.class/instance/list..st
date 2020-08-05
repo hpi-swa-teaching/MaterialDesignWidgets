@@ -1,4 +1,4 @@
 accessing
-list: anObject
+list: anMDList
 
-	list := anObject
+	list := anMDList

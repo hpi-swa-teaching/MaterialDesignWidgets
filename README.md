@@ -6,17 +6,28 @@
 2. Load [Metacello](https://github.com/metacello/metacello)
 3. Finally, load the package with the following command:
 
-```Smalltalk
+```smalltalk
 Metacello new
   baseline: 'Material';
   repository: 'github://hpi-swa-teaching/MaterialDesignWidgets/packages';
   load.
 ```
 
+
 ### Fonts
-Copy all `*.ttf` files from [this folder](https://github.com/hpi-swa-teaching/MaterialDesignWidgets/tree/master/build-support/fonts) to `/path/to/Squeak-Image/Contents/Resources/Roboto`.
+
+Copy all `*.ttf` files from [this folder](https://github.com/hpi-swa-teaching/MaterialDesignWidgets/tree/master/build-support/fonts) to `/pathToSqueak-Image/Contents/Resources/Roboto`.
 > The import is only executed multiple times if something went wrong during the import.
 > To manually force a new import execute `MDWidget fontsImported: false`
 
-# Contributors
-Carolin Goerke, Max Plaga, Jan Westphal, Lasse Steffen, Mats Pörschke
+
+## Useful Information for Developers
+
+Please have a look at our [coding standards](https://github.com/hpi-swa-teaching/MaterialDesignWidgets/wiki/Coding-Standards) in the [wiki](https://github.com/hpi-swa-teaching/MaterialDesignWidgets/wiki).
+
+
+## Contributors
+
+- Team 1: Carolin Goerke, Max Plaga, Jan Westphal, Lasse Steffen, Mats Pörschke
+- Team 2: Wanda Baltzer, Antonius Naumann, Luc Prestin, Robin Wersich
+- Team 3: Sebastian Angrick, Isabell Kraus, Clemens Tiedt, Ronja Wagner, Jonas Wanke

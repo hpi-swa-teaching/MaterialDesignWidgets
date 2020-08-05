@@ -1,4 +1,4 @@
-default properties
+properties
 defaultShadowScaler
 
 	^ 1.2

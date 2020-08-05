@@ -8,7 +8,7 @@ initializeNewContact
 		height: 420;
 		borderWidth: 5;
 		borderColor: Color black;
-		backgroundColor: '#e0e0e0';
+		backgroundColor: MDColorTheme currentTheme backgroundColor;
 		beSticky.
 	label := MDLabel contents: 'New Contact' fontTag: #H5.
 	self newContact position: (self bounds corner x + 50) @ 100.

@@ -1,5 +1,5 @@
 drag and drop
-acceptDroppingMorph: aTransferMorph event: evt
+acceptDroppingMorph: aTransferMorph event: anEvent
 	
 	dropItemSelector ifNil: [^ self].
 	potentialDropRow ifNil: [^ self].
@@ -13,5 +13,5 @@ acceptDroppingMorph: aTransferMorph event: evt
 			aTransferMorph}.
 			
 	self resetPotentialDropRow.
-	evt hand releaseMouseFocus: self.
+	anEvent hand releaseMouseFocus: self.
 	Cursor normal show

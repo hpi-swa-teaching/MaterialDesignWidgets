@@ -1,4 +1,4 @@
-tests
+testing
 testTextColorOn: aMDWidget
 	
 	aMDWidget textColor: '#02E3A4'.

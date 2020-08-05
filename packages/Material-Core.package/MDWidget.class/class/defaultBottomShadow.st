@@ -1,4 +1,4 @@
-default properties
+properties
 defaultBottomShadow
 
 	^ 10

@@ -1,4 +1,4 @@
-as yet unclassified
+properties
 defaultBackgroundColor
 
-	^ '#e0e0e0'
+	^ self currentTheme dividerColor

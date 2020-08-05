@@ -1,4 +1,4 @@
-tests
+testing
 testBackgroundColor
 
 	MDWidget subclasses do: [:each |

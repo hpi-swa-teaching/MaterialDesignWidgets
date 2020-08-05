@@ -1,0 +1,15 @@
+{
+	"category" : "Material-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "wb 7/13/2019 11:51",
+	"instvars" : [
+		"appBar",
+		"systemBar" ],
+	"name" : "MDSystemWindow",
+	"pools" : [
+		 ],
+	"super" : "SystemWindow",
+	"type" : "normal" }

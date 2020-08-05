@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"closeBoxImage" : "RW 6/11/2020 20:40",
+		"collapseBoxImage" : "RW 6/11/2020 20:16",
+		"expandBoxImage" : "RW 6/11/2020 20:44",
+		"generateImageForIcon:" : "RW 6/11/2020 21:16",
+		"menuBoxImage" : "ct 6/21/2020 14:31",
+		"roundedWindowCorners" : "ct 6/10/2020 13:35" },
+	"instance" : {
+		"addButtonsAndLabel" : "ct 6/21/2020 14:39",
+		"addCloseBox" : "wb 7/16/2019 13:37",
+		"addCollapseBox" : "wb 7/12/2019 15:11",
+		"addExpandBox" : "wb 7/12/2019 15:11",
+		"addLabel" : "JW 7/29/2020 14:43",
+		"addLabelArea" : "wb 7/12/2019 15:13",
+		"addMenuControl" : "ct 6/21/2020 14:37",
+		"appBar" : "Sepp 6/9/2020 10:17",
+		"defaultColor" : "lp 6/10/2019 14:51",
+		"initialize" : "JW 6/17/2020 18:37",
+		"initializeLabelArea" : "RW 7/2/2020 10:27",
+		"labelHeight" : "Sepp 6/9/2020 10:20",
+		"labelString" : "RW 7/2/2020 10:16",
+		"labelString:" : "RW 7/2/2020 10:13",
+		"lookFocused" : "lp 7/24/2019 15:41",
+		"lookUnfocused" : "RW 6/11/2020 16:35",
+		"setFrameForAppBar" : "Sepp 6/9/2020 10:32",
+		"setFrameForSystemBar" : "Sepp 6/9/2020 10:33",
+		"systemBar" : "Sepp 6/9/2020 10:19" } }

@@ -1,12 +1,13 @@
-as yet unclassified
+initialization
 initialize 
 
+	| item |
+	
 	super initialize.
 	
 	1 to: 20 do: [:each |
-	| item |
-	item := MDListItem newOnList: self.
-	self addListItem: (
+		item := MDListItem newOnList: self.
+		self addListItem: (
 			item
 			text: 'ListItem ', each;
 			yourself)]

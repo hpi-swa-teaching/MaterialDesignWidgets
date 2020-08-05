@@ -1,0 +1,4 @@
+constants
+contentPaneSpacingHorizontal
+
+	^ 32

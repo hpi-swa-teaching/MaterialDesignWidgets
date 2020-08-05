@@ -1,0 +1,4 @@
+state
+onFocusedChanged
+
+	self changed

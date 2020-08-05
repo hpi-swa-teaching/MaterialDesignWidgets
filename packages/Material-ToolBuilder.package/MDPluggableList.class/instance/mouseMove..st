@@ -1,7 +1,7 @@
 event handling
-mouseMove: evt
+mouseMove: anEvent
 	
-	super mouseMove: evt.
+	super mouseMove: anEvent.
 	
-	self mouseLeaveDragging: evt.
-	self mouseEnterDragging: evt
+	self mouseLeaveDragging: anEvent.
+	self mouseEnterDragging: anEvent

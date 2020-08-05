@@ -1,0 +1,14 @@
+{
+	"category" : "Material-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DasSepp 7/29/2020 12:39",
+	"instvars" : [
+		"theme" ],
+	"name" : "MDColorThemeTest",
+	"pools" : [
+		 ],
+	"super" : "MDTestCase",
+	"type" : "normal" }

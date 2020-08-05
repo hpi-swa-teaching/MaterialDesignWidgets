@@ -1,6 +1,4 @@
 accessing
 hasItems
-	"Answer if the receiver has menu items"
 	
-	^ submorphs
-		anySatisfy: [:each | each isKindOf: MDMenuItem] 
+	^ self items isEmpty not

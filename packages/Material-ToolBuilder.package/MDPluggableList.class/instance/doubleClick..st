@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 doubleClick: event
 	| index |
 	doubleClickSelector ifNil: [^super doubleClick: event].

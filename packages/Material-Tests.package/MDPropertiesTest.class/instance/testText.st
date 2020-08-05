@@ -1,4 +1,4 @@
-tests
+testing
 testText
 
 	MDButton subclasses do: [:each |

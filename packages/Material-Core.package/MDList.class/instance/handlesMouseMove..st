@@ -1,4 +1,4 @@
 event handling
-handlesMouseMove: evt
+handlesMouseMove: anEvent
 
 	^ true

@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"contentInset" : "RW 7/2/2020 10:34",
+		"contentPaneSpacingHorizontal" : "RW 7/2/2020 10:33",
+		"contentPaneWidthFraction" : "RW 7/2/2020 10:33",
+		"defaultHorizontalSpacing" : "RW 7/14/2020 16:29",
+		"defaultVerticalSpacing" : "RW 7/14/2020 15:53",
+		"showCaseList" : "RW 7/29/2020 14:32" },
+	"instance" : {
+		"buildContentMorph" : "ct 7/16/2020 13:41",
+		"buildShowCaseSelection" : "ct 7/16/2020 13:41",
+		"button" : "JW 8/5/2020 11:38",
+		"checkboxWithText:" : "JW 8/5/2020 11:39",
+		"checkboxes" : "ct 7/16/2020 13:38",
+		"currentTheme" : "RW 7/14/2020 15:47",
+		"dialog" : "JW 8/5/2020 11:51",
+		"hSpacer" : "RW 7/14/2020 16:29",
+		"hSpacerWithSpacing:" : "RW 7/14/2020 16:28",
+		"hWrapper" : "RW 7/14/2020 16:37",
+		"initialize" : "RW 7/2/2020 10:29",
+		"list" : "JW 8/5/2020 11:40",
+		"menu" : "JW 8/5/2020 11:37",
+		"showCaseMorph" : "RW 7/2/2020 13:50",
+		"showCaseMorph:" : "RW 7/2/2020 10:40",
+		"spacer" : "RW 7/14/2020 15:53",
+		"spacerWithSpacing:" : "RW 7/14/2020 15:52",
+		"textArea" : "RW 8/5/2020 12:12",
+		"wrapper" : "ct 7/16/2020 13:23" } }

@@ -2,6 +2,6 @@ initialization
 initializePlaceholder: aString
 	
 	self placeholder: (MDLabel contents: aString fontTag: #Body2). 
-	self placeholder color: (self colorFrom: self class inactiveColor).
-	self placeholder visible: false.
+	self placeholder materialEmphasis: #disabled.
+	self placeholder visible: true.
 	self addMorph: self placeholder

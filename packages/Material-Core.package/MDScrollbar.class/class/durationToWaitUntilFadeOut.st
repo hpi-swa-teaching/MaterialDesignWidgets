@@ -1,5 +1,4 @@
-as yet unclassified
+properties
 durationToWaitUntilFadeOut
-	"in seconds"
 	
 	^ 1

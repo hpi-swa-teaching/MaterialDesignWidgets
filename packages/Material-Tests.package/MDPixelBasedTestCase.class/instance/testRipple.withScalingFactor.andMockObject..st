@@ -1,6 +1,6 @@
 testing
 testRipple: aMDWidget withScalingFactor: aNumber andMockObject: aMockObject
 
-	aMDWidget removeAllRipples.
+	aMDWidget removeRipples.
 	self performRippleSimulationOn: aMDWidget withScaleFactor: aNumber.
 	self testEquality: aMDWidget with: aMockObject

@@ -1,0 +1,4 @@
+accessing
+currentBorderRadius
+
+	^ self borderRadius

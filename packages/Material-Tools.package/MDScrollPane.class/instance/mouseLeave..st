@@ -1,5 +1,5 @@
 event handling
-mouseLeave: evt
+mouseLeave: anEvent
 
-	super mouseLeave: evt.
-	evt hand showTemporaryCursor: nil
+	super mouseLeave: anEvent.
+	anEvent hand showTemporaryCursor: nil

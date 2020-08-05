@@ -1,4 +1,4 @@
-tests
+testing
 testBackgroundColorWith: aMDWidget
 	
 	aMDWidget backgroundColor: '#02E3A4'.

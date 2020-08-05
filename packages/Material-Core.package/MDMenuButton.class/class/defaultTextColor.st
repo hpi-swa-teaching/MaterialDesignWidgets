@@ -1,4 +1,4 @@
-default properties
+properties
 defaultTextColor
 
-	^ Color black
+	^ self currentTheme textColorOn: self currentTheme backgroundColor

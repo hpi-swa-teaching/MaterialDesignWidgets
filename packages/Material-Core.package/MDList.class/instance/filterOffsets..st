@@ -1,8 +1,8 @@
 filtering
 filterOffsets: aMDMenuItem
-	"Calculate matching character indexes for the current filter term."
 	
-	| label filter offsets currentIndex sub font |
+	| label filter offsets currentIndex sub font left width |
+	
 	filter := self filterTerm.
 	filter ifEmpty: [^ Array empty].
 
@@ -14,7 +14,7 @@ filterOffsets: aMDMenuItem
 	currentIndex := 1.
 	[currentIndex > 0] whileTrue: [
 		currentIndex := label findString: filter startingAt: currentIndex caseSensitive: false.
-		currentIndex > 0 ifTrue: [| left width |
+		currentIndex > 0 ifTrue: [
 			left := font widthOfString: label from: 1 to: currentIndex - 1.
 			sub := label copyFrom: currentIndex to: currentIndex + filter size - 1.
 			width := font widthOfString: sub.

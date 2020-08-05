@@ -1,0 +1,4 @@
+properties
+defaultPrimaryColor
+
+	^ MDColor indigo

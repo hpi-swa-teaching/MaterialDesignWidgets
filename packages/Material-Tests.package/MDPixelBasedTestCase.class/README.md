@@ -1,0 +1,1 @@
+I am the base class for all pixel-based tests (do widgets look the way they should?)
