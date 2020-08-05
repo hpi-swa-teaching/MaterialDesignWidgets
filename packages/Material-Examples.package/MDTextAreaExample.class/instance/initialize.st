@@ -3,8 +3,8 @@ initialize
 
 	super initialize.
 	self 
-		backgroundColor: Color white;
-		width: 650;
+		backgroundColor: MDColorTheme currentTheme backgroundColor;
+		width: 900;
 		height: 150.
 		
-	self addTextArea
+	self addTextAreas
