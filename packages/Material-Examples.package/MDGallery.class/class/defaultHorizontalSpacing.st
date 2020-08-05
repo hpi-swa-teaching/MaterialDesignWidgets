@@ -1,0 +1,4 @@
+properties
+defaultHorizontalSpacing
+
+	^ 8
