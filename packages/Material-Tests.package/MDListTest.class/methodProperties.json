@@ -1,10 +1,10 @@
 {
 	"class" : {
 		"classToTest" : "LS 6/18/2018 10:31",
-		"enabled" : "JW 8/5/2020 12:04",
-		"filtered" : "JW 8/5/2020 12:04",
-		"listScrolledDownToBottom" : "JW 8/5/2020 12:04",
-		"listWithScrollbarScrolledDownToBottom" : "JW 8/5/2020 12:04",
+		"enabled" : "RW 8/5/2020 12:19",
+		"filtered" : "RW 8/5/2020 12:19",
+		"listScrolledDownToBottom" : "RW 8/5/2020 12:19",
+		"listWithScrollbarScrolledDownToBottom" : "RW 8/5/2020 12:19",
 		"updateAllMockObjects" : "LS 6/28/2018 22:04",
 		"updateEnabledMockObject" : "mats 7/25/2018 14:15",
 		"updateFilteredMockObject" : "mats 7/25/2018 14:15",
