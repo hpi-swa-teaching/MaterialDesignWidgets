@@ -1,0 +1,4 @@
+state
+onDisabledChanged
+
+	self changed

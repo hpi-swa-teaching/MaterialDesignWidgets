@@ -1,4 +1,4 @@
 properties
 defaultBackgroundColorSelected
 
-	^ MDColorTheme currentTheme secondaryColorDark
+	^ self currentTheme secondaryColorDark

@@ -1,4 +1,0 @@
-properties
-defaultBackgroundColorDisabled
-
-	^ MDColorTheme currentTheme disabledColor

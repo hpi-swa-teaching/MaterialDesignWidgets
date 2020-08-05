@@ -1,4 +1,0 @@
-properties
-defaultTextColorToggled
-
-	^ MDColorTheme currentTheme textColorOn: self defaultBackgroundColorToggled

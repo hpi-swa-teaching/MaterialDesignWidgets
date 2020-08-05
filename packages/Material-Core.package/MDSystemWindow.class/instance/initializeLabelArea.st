@@ -1,9 +1,8 @@
 initialization
 initializeLabelArea
 	
-	labelString ifNil: [labelString := 'Untitled Window'].
-	label := MDLabel new contents: labelString.
-	label color: (MDColorTheme currentTheme textColorOn: MDColorTheme currentTheme primaryColor).		
+	label := MDLabel new contents: self labelString.
+	label color: (MDColorTheme currentTheme textColorOn: MDColorTheme currentTheme primaryColor).
 	self 
 		addLabelArea;
 		setLabelWidgetAllowance;

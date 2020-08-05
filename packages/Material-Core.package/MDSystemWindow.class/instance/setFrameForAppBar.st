@@ -3,8 +3,8 @@ setFrameForAppBar
 
 	| frame |
 	
-	appBar ifNil: [^ self].	
-	appBar
+	self appBar ifNil: [^ self].	
+	self appBar
 		layoutPolicy: TableLayout new;
 		listDirection: #leftToRight;
 		hResizing: #spaceFill.
@@ -15,9 +15,9 @@ setFrameForAppBar
 		leftFraction: 0;
 		leftOffset: self layoutInset negated;
 		topFraction: 0;
+		topOffset: (self appBar class denseHeight + self layoutInset) negated;
 		rightFraction: 1;
 		rightOffset: self layoutInset;
 		bottomFraction: 0;
-		topOffset: (appBar bottomShadow + self appBarHeight) negated;
-		bottomOffset: appBar bottomShadow negated.
-	appBar layoutFrame: frame
+		bottomOffset: self layoutInset negated.
+	self appBar layoutFrame: frame

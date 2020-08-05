@@ -2,4 +2,6 @@ initialization
 initialize 
 	
 	super initialize.
-	self hasADropShadow: true
+	self
+		addDropShadow;
+		cornerStyle: #rounded

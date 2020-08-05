@@ -1,0 +1,4 @@
+accessing
+currentBorderColor
+
+	^ self borderColor

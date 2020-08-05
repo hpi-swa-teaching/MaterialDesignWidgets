@@ -1,4 +1,4 @@
 accessing
 selectedItem: aListItem
-	
-	^ self setProperty: #selectedItem to: aListItem
+
+	^ self selectedItem: aListItem executeSelectionChangeBlock: false

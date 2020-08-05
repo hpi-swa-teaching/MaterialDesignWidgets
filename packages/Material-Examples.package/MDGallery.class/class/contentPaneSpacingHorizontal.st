@@ -1,0 +1,4 @@
+properties
+contentPaneSpacingHorizontal
+
+	^ 32

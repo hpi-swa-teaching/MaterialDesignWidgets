@@ -1,4 +1,0 @@
-properties
-defaultBackgroundColorToggled
-
-	^ MDColorTheme currentTheme secondaryColorDark

@@ -1,0 +1,1 @@
+I test calculations by the ColorTheme

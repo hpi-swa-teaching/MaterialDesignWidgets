@@ -1,6 +1,5 @@
-as yet unclassified
+default appearance
 setDefaultParameters
 	"change the receiver's appareance parameters"
 
-	self
-		color: MDColorTheme currentTheme backgroundColor
+	self color: MDColorTheme currentTheme backgroundColor

@@ -2,7 +2,6 @@ event handling
 mouseDown: anEvent
 
 	| index mouseEvent mouseEventPosition |
-	
 	self filteredListItems ifNotEmpty: [		
 		index := self globalPositionToIndex: anEvent position.
 		mouseEventPosition :=  self globalPositionToPositionInListItem: anEvent position.

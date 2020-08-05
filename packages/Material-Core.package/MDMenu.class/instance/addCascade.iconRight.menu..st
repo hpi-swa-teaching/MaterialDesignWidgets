@@ -2,7 +2,6 @@ construction
 addCascade: aString iconRight: anIconSymbol menu: aMDMenu
 
 	| item |
-	
 	item := (MDMenuItem iconRight: anIconSymbol)
 		subMenu: aMDMenu;
 		text: aString;

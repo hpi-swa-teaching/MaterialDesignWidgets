@@ -1,4 +1,4 @@
 properties
 defaultBackgroundColor
 
-	^ MDColorTheme currentTheme backgroundColor
+	^ self currentTheme backgroundColor

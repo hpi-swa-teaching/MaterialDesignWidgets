@@ -1,0 +1,14 @@
+{
+	"category" : "Material-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DasSepp 7/29/2020 12:34",
+	"instvars" : [
+		"selectedColorProperty" ],
+	"name" : "MDThemeConfigurationWindow",
+	"pools" : [
+		 ],
+	"super" : "MDSystemWindow",
+	"type" : "normal" }

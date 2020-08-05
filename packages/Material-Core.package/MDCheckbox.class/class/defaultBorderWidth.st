@@ -1,0 +1,4 @@
+properties
+defaultBorderWidth
+
+	^ 2

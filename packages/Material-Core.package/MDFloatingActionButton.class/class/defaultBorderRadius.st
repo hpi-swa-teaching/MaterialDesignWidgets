@@ -1,4 +1,0 @@
-properties
-defaultBorderRadius
-
-	^ 0

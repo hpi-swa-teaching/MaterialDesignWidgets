@@ -1,16 +1,8 @@
 {
 	"class" : {
-		"defaultBorderRadius" : "lp 6/4/2019 17:52",
-		"defaultHeight" : "Max 5/23/2018 12:17",
-		"defaultText" : "LS 5/29/2018 08:57" },
+		"defaultBackgroundColor" : "JW 7/29/2020 14:07" },
 	"instance" : {
-		"borderRadius" : "CG 7/1/2018 11:38",
-		"bounds" : "CG 7/1/2018 11:39",
-		"disable" : "CG 7/1/2018 11:39",
-		"drawOn:" : "CG 7/1/2018 11:39",
-		"enable" : "CG 7/1/2018 11:39",
-		"iconPosition" : "CG 7/1/2018 11:39",
-		"initialize" : "CG 7/25/2018 20:35",
-		"mouseEnter:" : "LS 5/28/2018 22:00",
-		"mouseLeave:" : "LS 5/28/2018 22:00",
-		"updateBounds" : "mats 7/10/2018 12:45" } }
+		"backgroundColor" : "JW 7/29/2020 14:15",
+		"drawOn:" : "ct 5/20/2020 19:44",
+		"initialize" : "JW 7/13/2020 19:17",
+		"onHoveredChanged" : "JW 7/13/2020 17:59" } }

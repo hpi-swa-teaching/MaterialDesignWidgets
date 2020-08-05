@@ -5,4 +5,5 @@ svgColor: aColor
 		svgColor := aColor.
 		self 
 			cachedForm: nil;
+			renderForm;
 			changed]

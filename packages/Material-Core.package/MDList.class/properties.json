@@ -9,7 +9,9 @@
 		"listItems",
 		"divider",
 		"lastKeystrokes",
-		"filteredListItems" ],
+		"filteredListItems",
+		"onSelectionChanged",
+		"canDeselect" ],
 	"name" : "MDList",
 	"pools" : [
 		 ],

@@ -1,8 +1,10 @@
 {
 	"class" : {
-		"defaultBackgroundColor" : "wb 7/11/2019 14:01" },
+		"defaultBackgroundColor" : "RW 6/11/2020 12:46",
+		"defaultBorderRadius" : "JW 7/13/2020 18:38",
+		"defaultHeight" : "Sepp 6/9/2020 10:15" },
 	"instance" : {
 		"addCloseBox:" : "wb 7/12/2019 14:42",
 		"addCollapseBox:" : "wb 7/12/2019 14:08",
 		"addExpandBox:" : "wb 7/12/2019 15:22",
-		"initialize" : "wb 7/12/2019 15:18" } }
+		"initialize" : "JW 7/13/2020 18:39" } }

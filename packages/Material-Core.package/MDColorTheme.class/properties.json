@@ -4,14 +4,10 @@
 		 ],
 	"classvars" : [
 		"CurrentTheme" ],
-	"commentStamp" : "lp 6/11/2019 23:30",
+	"commentStamp" : "DasSepp 7/29/2020 12:26",
 	"instvars" : [
 		"primaryColor",
 		"secondaryColor",
-		"primaryColorDark",
-		"primaryColorLight",
-		"secondaryColorDark",
-		"secondaryColorLight",
 		"backgroundColor",
 		"surfaceColor",
 		"errorColor",

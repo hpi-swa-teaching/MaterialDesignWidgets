@@ -1,4 +1,0 @@
-properties
-systemBarHeight
-
-	^ 20
